@@ -1,0 +1,156 @@
+# Revolut Crypto — Positioning & Messaging Framework
+
+**Independent Product Marketing portfolio case study**  
+**Research date:** 23 October 2026  
+**Primary market:** United Kingdom  
+**Focus:** Crypto integrated into an everyday financial application — not advanced exchange trading.
+
+> This project is not affiliated with Revolut. Competitor messaging is an analytical paraphrase of public materials, not validated consumer perception. Geography, eligibility and regulatory status matter; product features and pricing may change.
+
+## 1. Strategic question
+
+**How might Revolut help eligible, crypto-curious existing customers discover and understand crypto within the financial app they already use, while communicating risks and costs responsibly?**
+
+### Customer hypothesis
+
+The **Crypto-Curious Existing Customer** uses Revolut for everyday finances, has never purchased crypto (or has not purchased it in Revolut), and has demonstrated genuine interest in learning about crypto. They may value familiarity and simplicity, but must be able to understand volatility, costs and the possibility of losing their entire investment.
+
+**Not yet validated:** how many Revolut customers fit this definition, their relative motivations, the effectiveness of current onboarding or the messages that drive understanding.
+
+## 2. Competitive set — selected by customer need, not by crypto trading volume
+
+| Platform | Group / geography | Why it is relevant | Positioning territory to investigate | Important qualification |
+|---|---|---|---|---|
+| **Revolut Crypto** | Focus product / UK | Buy and sell crypto inside the existing Revolut financial app | Familiar financial experience; accessible crypto discovery | Crypto remains risky; eligibility, fees and disclosures apply |
+| **PayPal Crypto** | Primary **UK experience benchmark** | Crypto integrated into a familiar payments account | Familiarity, approachable entry point, consumer choice | **UK crypto purchases paused since 25 June 2026**; holding and selling remain available per PayPal. Not an equivalent active acquisition competitor at this date |
+| **bunq Crypto** | Primary **European product benchmark** | Banking app with built-in crypto, powered by Kraken | In-app convenience and beginner-friendly access | Confirm local country eligibility before comparing acquisition or regulatory messaging |
+| **N26 Crypto** | Primary **European product benchmark** | Crypto in the banking app's Investments experience, powered by Bitpanda | Integrated savings/investment discovery and familiar interface | Not available in the UK; available only to eligible customers in supported European countries |
+| **Coinbase** | Secondary / specialised alternative | Offers a consumer crypto buying experience, not just advanced trading | Specialisation and dedicated crypto experience | Useful as a substitute consumers may consider, not our central integrated-finance benchmark |
+| **Crypto.com / Binance / Kraken** | Secondary / crypto-native context | Explain exchange-specific expectations, breadth and trading features | Crypto-specific functionality and expertise | Avoid comparing advanced trading functions to beginner-oriented Revolut Crypto as though they solve the same need |
+| **Revolut X** | Related **Revolut product**, not external competitor | Separate advanced trading experience in the Revolut ecosystem | Advanced tools and potentially different trader needs | Mention to demonstrate product-portfolio awareness; not the main focus |
+| **Wise / Monzo** | Adjacent fintech context | Illustrate alternatives in daily finance where buying crypto directly in-app is not the core offering | Financial simplicity, trust and product prioritisation | Wise expressly does not support crypto trading via Wise accounts; **do not label it a direct crypto competitor** |
+
+### Important classification
+
+A **product benchmark** need not be an **active UK acquisition competitor**. PayPal is a strong integrated-finance benchmark but its UK buy functionality is paused as of the research date. bunq and N26 are European experience benchmarks rather than direct UK conversion substitutes. UK customers may also consider crypto-native platforms; keep those in the secondary landscape to avoid ignoring real options.
+
+## 3. Comparative positioning audit
+
+| Dimension | Revolut Crypto | PayPal Crypto | bunq Crypto | N26 Crypto |
+|---|---|---|---|---|
+| Primary context | Everyday finance app | Payments account | Banking app | Banking and investments app |
+| Job to be done (hypothesis) | Explore crypto without leaving a familiar financial environment | Explore crypto in an existing payments relationship | Access crypto inside an existing bank account | Add crypto to an existing investment experience |
+| Discovered positioning cues | Integration with existing app and accessible trade flow | 'Buy, sell, hold', small starting amounts, pace of choice | 'Skip new platforms', beginner-friendly, integrated app | Crypto presented within Investments |
+| Discovery question | Do customers notice the feature? | Do customers still perceive crypto as available given the UK buy pause? | How does a banking customer discover the crypto tab? | How do investments customers interpret crypto among other assets? |
+| Education and trust questions | Do explanations and risk warnings improve comprehension? | How does a familiar payment brand explain investment risk? | How transparent are risk explanations and total costs? | How does N26 explain asset risk, custody and charges? |
+| Country constraint | Check UK eligibility | UK buying paused | Confirm supported geography | Not available in UK |
+
+**Note:** The cells above are research hypotheses and observable product descriptions, not a scored ranking or evidence that customers perceive brands this way.
+
+## 4. Proposed positioning for Revolut Crypto — hypothesis, not approved copy
+
+**Audience:** Eligible existing Revolut customers demonstrating curiosity about crypto and limited experience.
+
+**Need:** Understand how crypto works, what it costs, and what the risks are before deciding whether to participate.
+
+**Proposed value proposition:**
+
+> Explore crypto, its costs and its risks in the financial app you already know — and decide whether it's right for you.
+
+**Potential differentiators to validate:**
+1. Existing customer familiarity and a familiar navigation model.
+2. Discoverability alongside everyday finances.
+3. Clear explanation of costs, volatility and potential total loss.
+4. Appropriate educational experiences without pressure to transact.
+
+**Avoid claiming:** guaranteed safety; lower investment risk because it is offered by a financial app; cheapest pricing without matched market comparisons; superior trust without user research; guaranteed returns; eligibility for every consumer.
+
+## 5. Segment-based messaging propositions to test
+
+### A. Crypto-Curious (priority)
+
+**Message hypothesis:** “Curious about crypto? Understand the basics, costs and risks before deciding.”
+
+**Recommended next action:** Opt-in educational exploration, not an automatic purchase prompt.
+
+**Evidence needed:** Comprehension test, message clarity interviews, accessibility review, risk-warning understanding, compliant testing.
+
+### B. Casual Crypto Holder
+
+**Message hypothesis:** “Make sense of your crypto holdings and the costs and risks of managing them.”
+
+**Recommended next action:** Portfolio literacy and transparent information; avoid nudges toward higher trading frequency.
+
+**Evidence needed:** User interviews, usage-event quality, opt-outs and complaints, longitudinal research.
+
+### C. Experienced Investor (secondary)
+
+**Message hypothesis:** “Explore whether Revolut X's advanced tools and fee structure fit your trading needs.”
+
+**Recommended next action:** Neutral information comparing the two Revolut experiences, only for eligible users.
+
+**Evidence needed:** Clear differentiation between in-app Crypto and Revolut X, eligibility, applicable fees.
+
+## 6. Messaging experiment — proposed, not executed
+
+**Research objective:** Test whether an education-first discovery experience improves **understanding and informed choice** among eligible, crypto-curious customers.
+
+**Candidate variants:**
+- **A — Familiarity:** “Explore crypto in your Revolut app. Learn the costs and risks before deciding.”
+- **B — Education:** “New to crypto? Start with how it works, what it costs and what could go wrong.”
+
+Both variants would need local compliance/legal approval before live use. They must not suggest crypto is safe, appropriate for everyone, or protected like bank deposits.
+
+**Primary measure:** Improvement in comprehension of costs and principal risks (pre/post or controlled research, defined before launch).
+
+**Secondary measures:** Voluntary content completion; helpfulness ratings; informed onboarding completion where relevant; complaints; opt-outs; user-reported confidence in understanding (not investment confidence).
+
+**Guardrails:** No increase in harmful misunderstanding or misleading inferences; no pressure to trade; compliance-approved eligibility and financial-promotion controls; only relevant and permitted data use.
+
+**Do not present** hypothetical improvements or model-generated recommendations as measured results.
+
+## 7. PMM recommendations & implications
+
+1. **Validate customer needs first.** Interview a mix of curious non-buyers, existing holders and eligible users who explored but chose not to proceed.
+2. **Audit actual product discovery.** Document UK journeys and approved risk statements using observed screenshots/flows, with dates.
+3. **Separate benchmark types.** Use PayPal/bunq/N26 for integrated financial-app experience; Coinbase for specialised alternatives; Revolut X for portfolio context.
+4. **Develop a message hierarchy.** Customer need → factual product capability → cost and risk clarity → optional education → informed decision.
+5. **Measure understanding before conversion.** Retain commercial outcomes as secondary metrics and monitor customer-protection guardrails.
+
+## 8. How the future AI PMM agent should use this research
+
+**Inputs:** Official product pages, dated help articles, user-research notes (if legitimately available), local-market eligibility, product-change logs.
+
+**Processing:** Classify each source as a factual feature, brand claim, regulatory limitation, customer evidence or working hypothesis; deduplicate updates; flag stale information and geographic mismatch.
+
+**Outputs:**
+- Dated comparison of integrated-finance competitors.
+- Evidence ledger with clickable sources and quotes kept brief.
+- Segment-specific messaging opportunities.
+- Unanswered research questions and confidence levels.
+- Suggested PMM experiments with risk/compliance guardrails.
+
+**Human-in-the-loop:** Every agent recommendation requires PMM review and, where applicable, legal/compliance approval. A static GitHub Pages website cannot securely host a private API key or a server-side autonomous research agent; any live agent will need an appropriate external backend or service.
+
+## 9. Research limitations
+
+- No access to Revolut first-party analytics, CRM data, interviews or commercial performance.
+- No claim about the actual distribution of buyer personas.
+- Public messaging is not the same as customer perception.
+- Geographic/eligibility distinctions make direct price, funnel and acquisition comparisons potentially misleading.
+- Features, crypto regulations, fee schedules and temporary restrictions may change after 23 October 2026.
+
+## 10. Official sources (accessed 23 October 2026)
+
+1. Revolut UK — Buy and sell crypto: https://help.revolut.com/help/wealth/cryptocurrencies/understanding-revolut-cryptocurrency/are-there-any-limits-on-crypto-exchanges/
+2. Revolut X — Product differences: https://www.revolut.com/en-GB/revolut-x/
+3. PayPal UK — Crypto buy pause from 25 June 2026: https://www.paypal.com/uk/cshelp/article/why-is-my-cryptocurrency-sale-on-hold%E2%80%AF-help886
+4. PayPal UK — Buying crypto, help overview: https://www.paypal.com/uk/cshelp/article/how-do-i-buy-cryptocurrency-on-paypal-help567
+5. bunq — Crypto FAQ: https://help.bunq.com/articles/crypto-faq
+6. N26 — Crypto overview and availability: https://n26.com/en-es/crypto
+7. N26 — How N26 Crypto works: https://support.n26.com/en-eu/app-and-features/app/how-n26-crypto-works
+8. Wise — Position on cryptocurrency: https://wise.com/uk/help/articles/2v3OMcg97Z7gObSifJbjsu/understanding-wises-position-on-cryptocurrency
+
+---
+
+*Independent analytical work for a portfolio. Not investment advice, an official Revolut strategy, or a live marketing campaign.*
