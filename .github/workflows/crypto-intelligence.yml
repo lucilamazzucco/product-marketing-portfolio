@@ -30,6 +30,9 @@ jobs:
           python crypto-agent-starter/agent/collect_competitors.py
           python crypto-agent-starter/agent/ensure_revolut_sources.py
 
+      - name: Discover indexed Revolut announcements (unverified)
+        run: python crypto-agent-starter/agent/discover_revolut_news.py
+
       - name: Monitor content and generate brief
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
