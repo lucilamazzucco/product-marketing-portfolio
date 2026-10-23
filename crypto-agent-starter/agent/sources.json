@@ -1,6 +1,211 @@
 [
- {"name":"Revolut Crypto","market":"United Kingdom","role":"Focus product","url":"https://help.revolut.com/help/wealth/cryptocurrencies/understanding-revolut-cryptocurrency/are-there-any-limits-on-crypto-exchanges/"},
- {"name":"PayPal Crypto","market":"United Kingdom; check current purchase restrictions","role":"Integrated finance benchmark","url":"https://www.paypal.com/uk/cshelp/article/why-is-my-cryptocurrency-sale-on-hold%E2%80%AF-help886"},
- {"name":"bunq Crypto","market":"Eligible EU/EEA markets; not UK","role":"Integrated finance benchmark","url":"https://help.bunq.com/articles/bunq-crypto"},
- {"name":"N26 Crypto","market":"Eligible European markets; not UK","role":"Integrated finance benchmark","url":"https://support.n26.com/en-eu/app-and-features/app/how-n26-crypto-works"}
+  {
+    "name": "Revolut Crypto",
+    "market": "United Kingdom",
+    "role": "Focus product",
+    "url": "https://help.revolut.com/help/wealth/cryptocurrencies/understanding-revolut-cryptocurrency/are-there-any-limits-on-crypto-exchanges/"
+  },
+  {
+    "name": "PayPal | Positioning",
+    "market": "United Kingdom — verify buying restrictions",
+    "role": "Integrated-finance benchmark (UK)",
+    "theme": "features-and-education",
+    "url": "https://www.paypal.com/uk/digital-wallet/manage-money/crypto"
+  },
+  {
+    "name": "PayPal | Onboarding",
+    "market": "United Kingdom — verify buying restrictions",
+    "role": "Integrated-finance benchmark (UK)",
+    "theme": "onboarding",
+    "url": "https://www.paypal.com/uk/cshelp/article/how-do-i-buy-cryptocurrency-on-paypal-help567"
+  },
+  {
+    "name": "PayPal | Capabilities",
+    "market": "United Kingdom — verify buying restrictions",
+    "role": "Integrated-finance benchmark (UK)",
+    "theme": "features-and-education",
+    "url": "https://www.paypal.com/uk/cshelp/article/what-can-i-do-with-crypto-on-paypal-help893"
+  },
+  {
+    "name": "PayPal | Fees",
+    "market": "United Kingdom — verify buying restrictions",
+    "role": "Integrated-finance benchmark (UK)",
+    "theme": "fees",
+    "url": "https://www.paypal.com/uk/webapps/mpp/digital-wallet/paypal-consumer-fees"
+  },
+  {
+    "name": "PayPal | Availability",
+    "market": "United Kingdom — verify buying restrictions",
+    "role": "Integrated-finance benchmark (UK)",
+    "theme": "availability",
+    "url": "https://www.paypal.com/uk/cshelp/article/why-is-my-cryptocurrency-sale-on-hold%E2%80%AF-help886"
+  },
+  {
+    "name": "PayPal | Risks",
+    "market": "United Kingdom — verify buying restrictions",
+    "role": "Integrated-finance benchmark (UK)",
+    "theme": "onboarding",
+    "url": "https://www.paypal.com/uk/cshelp/article/what-to-know-before-buying-crypto-help1292"
+  },
+  {
+    "name": "PayPal | Education",
+    "market": "United Kingdom — verify buying restrictions",
+    "role": "Integrated-finance benchmark (UK)",
+    "theme": "features-and-education",
+    "url": "https://www.paypal.com/uk/cshelp/article/paypals-guide-to-cryptocurrency-in-the-uk-help1293"
+  },
+  {
+    "name": "PayPal | Terms",
+    "market": "United Kingdom — verify buying restrictions",
+    "role": "Integrated-finance benchmark (UK)",
+    "theme": "terms",
+    "url": "https://www.paypal.com/uk/legalhub/paypal/cryptocurrencies-tnc"
+  },
+  {
+    "name": "PayPal | Price & protection",
+    "market": "United Kingdom — verify buying restrictions",
+    "role": "Integrated-finance benchmark (UK)",
+    "theme": "fees",
+    "url": "https://www.paypal.com/uk/cshelp/article/crypto-on-paypal-buying-and-purchase-protection-faqs-help573"
+  },
+  {
+    "name": "PayPal | purchase crypto including PYUSD in the PayPal app",
+    "market": "United Kingdom — verify buying restrictions",
+    "role": "Integrated-finance benchmark (UK)",
+    "theme": "onboarding",
+    "url": "https://www.paypal.com/uk/digital-wallet"
+  },
+  {
+    "name": "PayPal | Legal",
+    "market": "United Kingdom — verify buying restrictions",
+    "role": "Integrated-finance benchmark (UK)",
+    "theme": "terms",
+    "url": "https://www.paypal.com/uk/webapps/mpp/ua/cryptocurrencies-tnc"
+  },
+  {
+    "name": "PayPal | United Kingdom",
+    "market": "United Kingdom — verify buying restrictions",
+    "role": "Integrated-finance benchmark (UK)",
+    "theme": "onboarding",
+    "url": "https://www.paypal.com/uk/cshelp/article/crypto-on-paypal-purchase-and-paypal-buyer-protection-faqs-help573"
+  },
+  {
+    "name": "bunq | Overview",
+    "market": "Eligible European markets — not UK direct alternative",
+    "role": "Integrated-banking benchmark (EU)",
+    "theme": "features-and-education",
+    "url": "https://help.bunq.com/articles/bunq-crypto"
+  },
+  {
+    "name": "bunq | Features",
+    "market": "Eligible European markets — not UK direct alternative",
+    "role": "Integrated-banking benchmark (EU)",
+    "theme": "features-and-education",
+    "url": "https://help.bunq.com/articles/crypto-faq"
+  },
+  {
+    "name": "bunq | Fees",
+    "market": "Eligible European markets — not UK direct alternative",
+    "role": "Integrated-banking benchmark (EU)",
+    "theme": "fees",
+    "url": "https://help.bunq.com/articles/how-do-the-fees-and-spread-work-in-bunq-crypto"
+  },
+  {
+    "name": "bunq | Staking",
+    "market": "Eligible European markets — not UK direct alternative",
+    "role": "Integrated-banking benchmark (EU)",
+    "theme": "staking",
+    "url": "https://help.bunq.com/articles/crypto-staking"
+  },
+  {
+    "name": "bunq | Lifecycle",
+    "market": "Eligible European markets — not UK direct alternative",
+    "role": "Integrated-banking benchmark (EU)",
+    "theme": "features-and-education",
+    "url": "https://help.bunq.com/articles/never-miss-your-crypto-move"
+  },
+  {
+    "name": "bunq | Crypto",
+    "market": "Eligible European markets — not UK direct alternative",
+    "role": "Integrated-banking benchmark (EU)",
+    "theme": "features-and-education",
+    "url": "https://www.bunq.com/personal/features/crypto"
+  },
+  {
+    "name": "bunq | Crypto",
+    "market": "Eligible European markets — not UK direct alternative",
+    "role": "Integrated-banking benchmark (EU)",
+    "theme": "features-and-education",
+    "url": "https://help.bunq.com/topics/crypto"
+  },
+  {
+    "name": "bunq | Do I have to pay taxes on crypto? (opens in new tab)",
+    "market": "Eligible European markets — not UK direct alternative",
+    "role": "Integrated-banking benchmark (EU)",
+    "theme": "features-and-education",
+    "url": "https://help.bunq.com/articles/do-i-have-to-pay-taxes-on-crypto"
+  },
+  {
+    "name": "bunq | What risks are involved in investing in crypto? (opens in new tab)",
+    "market": "Eligible European markets — not UK direct alternative",
+    "role": "Integrated-banking benchmark (EU)",
+    "theme": "risks",
+    "url": "https://help.bunq.com/articles/what-risks-are-involved-in-investing-in-crypto"
+  },
+  {
+    "name": "bunq | See Crypto Terms and Conditions",
+    "market": "Eligible European markets — not UK direct alternative",
+    "role": "Integrated-banking benchmark (EU)",
+    "theme": "terms",
+    "url": "https://www.bunq.com/documents/personal-account-terms-conditions"
+  },
+  {
+    "name": "bunq | Learn more",
+    "market": "Eligible European markets — not UK direct alternative",
+    "role": "Integrated-banking benchmark (EU)",
+    "theme": "risks",
+    "url": "https://help.bunq.com/articles/extra-protection-for-your-crypto-with-safety-shield"
+  },
+  {
+    "name": "bunq | Investing 2 minute read Why Ethereum Matters Beyond Crypto for Finance Ethereum is not only a cryptocurrency, it powers apps and contracts. ",
+    "market": "Eligible European markets — not UK direct alternative",
+    "role": "Integrated-banking benchmark (EU)",
+    "theme": "features-and-education",
+    "url": "https://www.bunq.com/blog/not-just-crypto-why-ethereum-could-power-the-future-of-finance"
+  },
+  {
+    "name": "bunq | Investing 3 minute read How do I star t investing in crypto? Thinking about crypto? See how buying Bitcoin and Ethereum works in the bunq ap",
+    "market": "Eligible European markets — not UK direct alternative",
+    "role": "Integrated-banking benchmark (EU)",
+    "theme": "onboarding",
+    "url": "https://www.bunq.com/blog/how-do-i-start-investing-in-crypto"
+  },
+  {
+    "name": "bunq | Delisted Crypto (opens in new tab)",
+    "market": "Eligible European markets — not UK direct alternative",
+    "role": "Integrated-banking benchmark (EU)",
+    "theme": "features-and-education",
+    "url": "https://help.bunq.com/articles/delisted-crypto"
+  },
+  {
+    "name": "bunq | What is a rate guarantee when I buy Crypto? (opens in new tab)",
+    "market": "Eligible European markets — not UK direct alternative",
+    "role": "Integrated-banking benchmark (EU)",
+    "theme": "onboarding",
+    "url": "https://help.bunq.com/articles/what-is-a-rate-guarantee-when-i-buy-crypto"
+  },
+  {
+    "name": "bunq | Business account activities related to Cryptocurrency (opens in new tab)",
+    "market": "Eligible European markets — not UK direct alternative",
+    "role": "Integrated-banking benchmark (EU)",
+    "theme": "features-and-education",
+    "url": "https://help.bunq.com/articles/business-account-activities-related-to-cryptocurrency"
+  },
+  {
+    "name": "N26 | Features / onboarding",
+    "market": "Eligible European markets — not UK direct alternative",
+    "role": "Integrated-banking benchmark (EU)",
+    "theme": "features-and-education",
+    "url": "https://support.n26.com/en-eu/app-and-features/app/how-n26-crypto-works"
+  }
 ]

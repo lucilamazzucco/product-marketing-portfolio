@@ -1,0 +1,50 @@
+{
+  "failed_indexes": [
+    {
+      "section": "Home / Crypto",
+      "url": "https://help.revolut.com/help/crypto/",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "section": "Crypto staking",
+      "url": "https://help.revolut.com/help/wealth/cryptocurrencies/crypto-staking/",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "section": "Crypto deposits",
+      "url": "https://help.revolut.com/help/wealth/cryptocurrencies/transferring-cryptocurrencies/depositing-cryptocurrencies/",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "section": "Crypto withdrawals",
+      "url": "https://help.revolut.com/help/wealth/cryptocurrencies/crypto-withdraw-deposit/",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "section": "Crypto trading",
+      "url": "https://help.revolut.com/help/wealth/cryptocurrencies/crypto-overview/",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "section": "Revolut X",
+      "url": "https://help.revolut.com/help/wealth/cryptocurrencies/crypto-exchange/",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "section": "Crypto safety",
+      "url": "https://help.revolut.com/help/wealth/cryptocurrencies/understanding-revolut-cryptocurrency/crypto-safety/",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "section": "Revolut Ramp",
+      "url": "https://help.revolut.com/help/wealth/revolut-ramp/",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "section": "More crypto features",
+      "url": "https://help.revolut.com/help/wealth/cryptocurrencies/more-about-cryptocurrencies/",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    }
+  ],
+  "discovered": 0
+}

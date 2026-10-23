@@ -1,0 +1,207 @@
+{
+  "collected_at": "2026-10-23T21:17:36.106636+00:00",
+  "method": "curated official pages + scoped link discovery; discovery is not proof of accessible pages",
+  "companies": {
+    "PayPal": {
+      "market": "United Kingdom — verify buying restrictions",
+      "pages": [
+        {
+          "title": "Positioning",
+          "url": "https://www.paypal.com/uk/digital-wallet/manage-money/crypto",
+          "origin": "curated official seed",
+          "theme": "features-and-education"
+        },
+        {
+          "title": "Onboarding",
+          "url": "https://www.paypal.com/uk/cshelp/article/how-do-i-buy-cryptocurrency-on-paypal-help567",
+          "origin": "curated official seed",
+          "theme": "onboarding"
+        },
+        {
+          "title": "Capabilities",
+          "url": "https://www.paypal.com/uk/cshelp/article/what-can-i-do-with-crypto-on-paypal-help893",
+          "origin": "curated official seed",
+          "theme": "features-and-education"
+        },
+        {
+          "title": "Fees",
+          "url": "https://www.paypal.com/uk/webapps/mpp/digital-wallet/paypal-consumer-fees",
+          "origin": "curated official seed",
+          "theme": "fees"
+        },
+        {
+          "title": "Availability",
+          "url": "https://www.paypal.com/uk/cshelp/article/why-is-my-cryptocurrency-sale-on-hold%E2%80%AF-help886",
+          "origin": "curated official seed",
+          "theme": "availability"
+        },
+        {
+          "title": "Risks",
+          "url": "https://www.paypal.com/uk/cshelp/article/what-to-know-before-buying-crypto-help1292",
+          "origin": "curated official seed",
+          "theme": "onboarding"
+        },
+        {
+          "title": "Education",
+          "url": "https://www.paypal.com/uk/cshelp/article/paypals-guide-to-cryptocurrency-in-the-uk-help1293",
+          "origin": "curated official seed",
+          "theme": "features-and-education"
+        },
+        {
+          "title": "Terms",
+          "url": "https://www.paypal.com/uk/legalhub/paypal/cryptocurrencies-tnc",
+          "origin": "curated official seed",
+          "theme": "terms"
+        },
+        {
+          "title": "Price & protection",
+          "url": "https://www.paypal.com/uk/cshelp/article/crypto-on-paypal-buying-and-purchase-protection-faqs-help573",
+          "origin": "curated official seed",
+          "theme": "fees"
+        },
+        {
+          "title": "purchase crypto including PYUSD in the PayPal app",
+          "url": "https://www.paypal.com/uk/digital-wallet",
+          "origin": "discovered link — verify relevance",
+          "theme": "onboarding"
+        },
+        {
+          "title": "Legal",
+          "url": "https://www.paypal.com/uk/webapps/mpp/ua/cryptocurrencies-tnc",
+          "origin": "discovered link — verify relevance",
+          "theme": "terms"
+        },
+        {
+          "title": "United Kingdom",
+          "url": "https://www.paypal.com/uk/cshelp/article/crypto-on-paypal-purchase-and-paypal-buyer-protection-faqs-help573",
+          "origin": "discovered link — verify relevance",
+          "theme": "onboarding"
+        }
+      ],
+      "failed_discovery_fetches": [
+        {
+          "url": "https://www.paypal.com/uk/legalhub/paypal/cryptocurrencies-tnc",
+          "error": "ValueError: Page larger than 1MB"
+        },
+        {
+          "url": "https://www.paypal.com/uk/webapps/mpp/ua/cryptocurrencies-tnc",
+          "error": "ValueError: Page larger than 1MB"
+        }
+      ]
+    },
+    "bunq": {
+      "market": "Eligible European markets — not UK direct alternative",
+      "pages": [
+        {
+          "title": "Overview",
+          "url": "https://help.bunq.com/articles/bunq-crypto",
+          "origin": "curated official seed",
+          "theme": "features-and-education"
+        },
+        {
+          "title": "Features",
+          "url": "https://help.bunq.com/articles/crypto-faq",
+          "origin": "curated official seed",
+          "theme": "features-and-education"
+        },
+        {
+          "title": "Fees",
+          "url": "https://help.bunq.com/articles/how-do-the-fees-and-spread-work-in-bunq-crypto",
+          "origin": "curated official seed",
+          "theme": "fees"
+        },
+        {
+          "title": "Staking",
+          "url": "https://help.bunq.com/articles/crypto-staking",
+          "origin": "curated official seed",
+          "theme": "staking"
+        },
+        {
+          "title": "Lifecycle",
+          "url": "https://help.bunq.com/articles/never-miss-your-crypto-move",
+          "origin": "curated official seed",
+          "theme": "features-and-education"
+        },
+        {
+          "title": "Crypto",
+          "url": "https://www.bunq.com/personal/features/crypto",
+          "origin": "discovered link — verify relevance",
+          "theme": "features-and-education"
+        },
+        {
+          "title": "Crypto",
+          "url": "https://help.bunq.com/topics/crypto",
+          "origin": "discovered link — verify relevance",
+          "theme": "features-and-education"
+        },
+        {
+          "title": "Do I have to pay taxes on crypto? (opens in new tab)",
+          "url": "https://help.bunq.com/articles/do-i-have-to-pay-taxes-on-crypto",
+          "origin": "discovered link — verify relevance",
+          "theme": "features-and-education"
+        },
+        {
+          "title": "What risks are involved in investing in crypto? (opens in new tab)",
+          "url": "https://help.bunq.com/articles/what-risks-are-involved-in-investing-in-crypto",
+          "origin": "discovered link — verify relevance",
+          "theme": "risks"
+        },
+        {
+          "title": "See Crypto Terms and Conditions",
+          "url": "https://www.bunq.com/documents/personal-account-terms-conditions",
+          "origin": "discovered link — verify relevance",
+          "theme": "terms"
+        },
+        {
+          "title": "Learn more",
+          "url": "https://help.bunq.com/articles/extra-protection-for-your-crypto-with-safety-shield",
+          "origin": "discovered link — verify relevance",
+          "theme": "risks"
+        },
+        {
+          "title": "Investing 2 minute read Why Ethereum Matters Beyond Crypto for Finance Ethereum is not only a cryptocurrency, it powers apps and contracts. ",
+          "url": "https://www.bunq.com/blog/not-just-crypto-why-ethereum-could-power-the-future-of-finance",
+          "origin": "discovered link — verify relevance",
+          "theme": "features-and-education"
+        },
+        {
+          "title": "Investing 3 minute read How do I star t investing in crypto? Thinking about crypto? See how buying Bitcoin and Ethereum works in the bunq ap",
+          "url": "https://www.bunq.com/blog/how-do-i-start-investing-in-crypto",
+          "origin": "discovered link — verify relevance",
+          "theme": "onboarding"
+        },
+        {
+          "title": "Delisted Crypto (opens in new tab)",
+          "url": "https://help.bunq.com/articles/delisted-crypto",
+          "origin": "discovered link — verify relevance",
+          "theme": "features-and-education"
+        },
+        {
+          "title": "What is a rate guarantee when I buy Crypto? (opens in new tab)",
+          "url": "https://help.bunq.com/articles/what-is-a-rate-guarantee-when-i-buy-crypto",
+          "origin": "discovered link — verify relevance",
+          "theme": "onboarding"
+        },
+        {
+          "title": "Business account activities related to Cryptocurrency (opens in new tab)",
+          "url": "https://help.bunq.com/articles/business-account-activities-related-to-cryptocurrency",
+          "origin": "discovered link — verify relevance",
+          "theme": "features-and-education"
+        }
+      ],
+      "failed_discovery_fetches": []
+    },
+    "N26": {
+      "market": "Eligible European markets — not UK direct alternative",
+      "pages": [
+        {
+          "title": "Features / onboarding",
+          "url": "https://support.n26.com/en-eu/app-and-features/app/how-n26-crypto-works",
+          "origin": "curated official seed",
+          "theme": "features-and-education"
+        }
+      ],
+      "failed_discovery_fetches": []
+    }
+  }
+}
