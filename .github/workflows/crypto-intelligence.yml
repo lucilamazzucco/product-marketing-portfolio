@@ -1,32 +1,47 @@
+
 name: Crypto Competitive Intelligence
+
 on:
   workflow_dispatch:
   schedule:
     - cron: '17 9 * * 1'
+
 permissions:
   contents: write
+
 concurrency:
   group: crypto-intelligence
   cancel-in-progress: false
+
 jobs:
   research:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Check official sources and write research brief
+
+      - name: Collect and analyse official sources
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: gpt-4.1-mini
-        run: python crypto-agent-starter/agent/run.py
+        run: |
+          python crypto-agent-starter/agent/collect_revolut.py
+          python crypto-agent-starter/agent/collect_competitors.py
+          python crypto-agent-starter/agent/run.py
+
       - name: Commit results if changed
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add crypto-agent-starter/reports/
+          git add crypto-agent-starter/agent/sources.json crypto-agent-starter/reports/
           if ! git diff --cached --quiet; then
             git commit -m 'Update crypto competitive intelligence brief'
             git push
           fi
+
