@@ -1,0 +1,129 @@
+{
+  "generated_at": "2026-10-23T21:28:59.578886+00:00",
+  "monitor_run_at": "2026-10-23 21:28 UTC",
+  "scope": "Revolut Crypto main app, UK; Revolut X is separate-product context",
+  "discovery": {
+    "revolut_failed_indexes": 9,
+    "revolut_newly_discovered": 0,
+    "competitor_catalog_generated": true
+  },
+  "companies": {
+    "Revolut": {
+      "candidate_urls": 13,
+      "attempted": 13,
+      "read_successfully": 0,
+      "failed": 13,
+      "not_attempted": 0,
+      "changed": 0,
+      "failed_examples": [
+        {
+          "name": "Revolut Crypto",
+          "url": "https://help.revolut.com/help/wealth/cryptocurrencies/understanding-revolut-cryptocurrency/are-there-any-limits-on-crypto-exchanges/",
+          "status": "fetch failed: HTTPError"
+        },
+        {
+          "name": "Revolut | Help centre: crypto home",
+          "url": "https://help.revolut.com/help/crypto/",
+          "status": "fetch failed: HTTPError"
+        },
+        {
+          "name": "Revolut | Crypto product overview",
+          "url": "https://www.revolut.com/crypto/",
+          "status": "fetch failed: HTTPError"
+        },
+        {
+          "name": "Revolut | Buy crypto overview",
+          "url": "https://www.revolut.com/crypto/buy-crypto/",
+          "status": "fetch failed: HTTPError"
+        },
+        {
+          "name": "Revolut | Crypto: getting started and trading",
+          "url": "https://help.revolut.com/help/wealth/cryptocurrencies/crypto-overview/",
+          "status": "fetch failed: HTTPError"
+        },
+        {
+          "name": "Revolut | Crypto features",
+          "url": "https://help.revolut.com/help/wealth/cryptocurrencies/more-about-cryptocurrencies/",
+          "status": "fetch failed: HTTPError"
+        },
+        {
+          "name": "Revolut | Crypto trading fees",
+          "url": "https://help.revolut.com/help/wealth/cryptocurrencies/getting-cryptocurrency-exposure/how-much-does-it-cost-to-buy-or-sell-cryptocurrency/",
+          "status": "fetch failed: HTTPError"
+        },
+        {
+          "name": "Revolut | Crypto safety",
+          "url": "https://help.revolut.com/help/wealth/cryptocurrencies/understanding-revolut-cryptocurrency/crypto-safety/",
+          "status": "fetch failed: HTTPError"
+        },
+        {
+          "name": "Revolut | Crypto deposits",
+          "url": "https://help.revolut.com/help/wealth/cryptocurrencies/transferring-cryptocurrencies/depositing-cryptocurrencies/",
+          "status": "fetch failed: HTTPError"
+        },
+        {
+          "name": "Revolut | Crypto withdrawals",
+          "url": "https://help.revolut.com/help/wealth/cryptocurrencies/crypto-withdraw-deposit/",
+          "status": "fetch failed: HTTPError"
+        },
+        {
+          "name": "Revolut | Crypto staking",
+          "url": "https://help.revolut.com/help/wealth/cryptocurrencies/crypto-staking/",
+          "status": "fetch failed: HTTPError"
+        },
+        {
+          "name": "Revolut | Crypto legal terms",
+          "url": "https://www.revolut.com/legal/cryptocurrency-terms/",
+          "status": "fetch failed: HTTPError"
+        }
+      ]
+    },
+    "PayPal": {
+      "candidate_urls": 12,
+      "attempted": 12,
+      "read_successfully": 10,
+      "failed": 2,
+      "not_attempted": 0,
+      "changed": 1,
+      "failed_examples": [
+        {
+          "name": "PayPal | Terms",
+          "url": "https://www.paypal.com/uk/legalhub/paypal/cryptocurrencies-tnc",
+          "status": "fetch failed: ValueError"
+        },
+        {
+          "name": "PayPal | Legal",
+          "url": "https://www.paypal.com/uk/webapps/mpp/ua/cryptocurrencies-tnc",
+          "status": "fetch failed: ValueError"
+        }
+      ]
+    },
+    "bunq": {
+      "candidate_urls": 16,
+      "attempted": 16,
+      "read_successfully": 16,
+      "failed": 0,
+      "not_attempted": 0,
+      "changed": 0,
+      "failed_examples": []
+    },
+    "N26": {
+      "candidate_urls": 1,
+      "attempted": 1,
+      "read_successfully": 1,
+      "failed": 0,
+      "not_attempted": 0,
+      "changed": 0,
+      "failed_examples": []
+    },
+    "Other": {
+      "candidate_urls": 0,
+      "attempted": 0,
+      "read_successfully": 0,
+      "failed": 0,
+      "not_attempted": 0,
+      "changed": 0,
+      "failed_examples": []
+    }
+  }
+}
