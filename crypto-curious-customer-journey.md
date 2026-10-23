@@ -3,7 +3,8 @@
 **Independent Product Marketing portfolio case study**  
 **Market:** United Kingdom  
 **Status:** Hypothesis-driven framework — not based on Revolut internal customer data  
-**Prepared:** October 2026
+**Prepared:** October 2026  
+**Updated:** 23 October 2026 — observed in-app disclosure at discovery
 
 ## Strategic question
 
@@ -23,7 +24,7 @@ How might Revolut help eligible existing customers who show interest in crypto u
 
 | Stage | Customer question / job | Illustrative observable events (proposed tracking) | Potential friction | PMM opportunity | Measurement |
 |---|---|---|---|---|---|
-| 1. Discover | “What is crypto, and can I explore it here?” | `crypto_hub_viewed`, `crypto_info_opened` | Unclear value proposition or low discoverability | Plain-language explanation of what the feature does, including risks | Eligible crypto hub discovery rate |
+| 1. Discover | “What is crypto, and can I explore it here?” | `crypto_hub_viewed`, `crypto_info_opened`, `crypto_execution_notice_shown` (proposed) | **Observed in one account on 23 October 2026:** a lengthy notice comparing Revolut app and Revolut X appeared immediately on entering Crypto, before any trade was attempted. Impact on users remains untested. | Evaluate plain-language explanations and information hierarchy while preserving all mandatory disclosures | Correct comprehension of execution, fees and risks; qualitative clarity |
 | 2. Explore | “What would I be buying, and what does it cost?” | `crypto_asset_detail_viewed`, `crypto_fee_info_viewed`, `crypto_risk_info_viewed` | Confusing jargon, unclear fees, perceived complexity | Clear asset and pricing explanations; non-promotional learning paths | Fee/risk information engagement and comprehension |
 | 3. Learn | “Do I understand the risks well enough to decide?” | `crypto_learning_started`, `crypto_learning_completed`, `knowledge_check_completed` | Educational gaps, fear of losses | Balanced education; clarify that losses are possible and protection may differ | **Primary experimental KPI:** risk-and-fee comprehension uplift vs. control |
 | 4. Decide | “Is crypto appropriate for me?” | `crypto_eligibility_flow_started`, `crypto_onboarding_completed`, `crypto_onboarding_abandoned` | Lack of confidence or regulatory requirements misunderstood | Explain required steps without coaching users to pass assessments | Understanding of onboarding requirements; complaints and support contacts |
@@ -31,6 +32,22 @@ How might Revolut help eligible existing customers who show interest in crypto u
 | 6. Ongoing relationship | “Where can I review my holdings and learn more?” | `crypto_portfolio_viewed`, `crypto_price_alert_set`, `crypto_learning_revisited` | Low ongoing clarity, avoidable support requests | Neutral portfolio education and self-service support | Customer understanding, support contacts and satisfaction |
 
 **Note:** Event names and tracking availability are hypothetical. They are not assertions about Revolut's internal systems.
+
+## Observed product evidence — execution-model notice (23 October 2026)
+
+**Evidence type:** First-hand screenshots and participant-reported sequence from one Revolut app session, supplied voluntarily by the portfolio author. **Observed trigger:** the notice appeared immediately upon opening the Crypto section, before selecting an asset or attempting a transaction. Exact geography/account eligibility, display frequency, device/app version, and whether the notice is legally mandatory at this point are not independently verified.
+
+**Visible information:** the notice distinguishes Revolut app over-the-counter execution (Revolut as counterparty, proprietary quoted prices, retail fee structure) from Revolut X order-book execution (Revolut as facilitator, maker/taker fee structure, partial fills and slippage possible); it also describes limitations and risks.
+
+**Research interpretation, not an established defect:** detailed and technical comparison at the discovery stage *may* make it harder for crypto-curious visitors to identify which details matter to them. Equally, the notice may improve transparency and informed decisions. Both outcomes should be tested, not assumed.
+
+**Working research question:** Can a balanced plain-language orientation and clearer information hierarchy improve comprehension of both execution models, total costs and risk—without obscuring, replacing, delaying, or reducing required disclosures?
+
+**Recommended validation:** 5–8 exploratory usability interviews across different familiarity levels, followed by a powered randomised comprehension experiment only if permitted by Legal/Compliance. Compare the current disclosure to an alternative with an explanatory overview *plus complete existing disclosure*. Include accessibility review. Do not optimise solely for dismissals, time-to-buy, or purchase conversion.
+
+**Primary outcome:** percentage correctly answering pre-specified execution / fees / risk questions. **Guardrails:** no deterioration in understanding of losses, price uncertainty, or protections; complaint and support-contact trends. **Evidence limitation:** one observed screen is not evidence of prevalence or performance.
+
+For the fuller analysis and draft alternative, see [`crypto-disclosure-ux-audit.md`](crypto-disclosure-ux-audit.md).
 
 ## Instrumentation proposal
 
