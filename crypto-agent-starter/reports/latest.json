@@ -1,0 +1,37 @@
+{
+  "checked_at": "2026-10-23 20:51 UTC",
+  "sources": [
+    {
+      "name": "Revolut Crypto",
+      "market": "United Kingdom",
+      "role": "Focus product",
+      "url": "https://help.revolut.com/help/wealth/cryptocurrencies/understanding-revolut-cryptocurrency/are-there-any-limits-on-crypto-exchanges/",
+      "status": "fetch failed: HTTPError",
+      "changed": false
+    },
+    {
+      "name": "PayPal Crypto",
+      "market": "United Kingdom; check current purchase restrictions",
+      "role": "Integrated finance benchmark",
+      "url": "https://www.paypal.com/uk/cshelp/article/why-is-my-cryptocurrency-sale-on-hold%E2%80%AF-help886",
+      "status": "first snapshot",
+      "changed": false
+    },
+    {
+      "name": "bunq Crypto",
+      "market": "Eligible EU/EEA markets; not UK",
+      "role": "Integrated finance benchmark",
+      "url": "https://help.bunq.com/articles/bunq-crypto",
+      "status": "first snapshot",
+      "changed": false
+    },
+    {
+      "name": "N26 Crypto",
+      "market": "Eligible European markets; not UK",
+      "role": "Integrated finance benchmark",
+      "url": "https://support.n26.com/en-eu/app-and-features/app/how-n26-crypto-works",
+      "status": "first snapshot",
+      "changed": false
+    }
+  ]
+}
