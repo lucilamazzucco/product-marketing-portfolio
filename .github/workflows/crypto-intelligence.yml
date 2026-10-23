@@ -20,7 +20,7 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: gpt-4.1-mini
-        run: python agent/run.py
+        run: python crypto-agent-starter/agent/run.py
       - name: Commit results if changed
         run: |
           git config user.name 'github-actions[bot]'
