@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-23 21:28 UTC",
+  "checked_at": "2026-10-23 21:33 UTC",
   "sources": [
     {
       "name": "Revolut Crypto",
@@ -10,13 +10,133 @@
       "changed": false
     },
     {
+      "name": "Revolut | Help centre: crypto home",
+      "url": "https://help.revolut.com/help/crypto/",
+      "market": "United Kingdom",
+      "role": "Focus: Revolut Crypto main app",
+      "theme": "discovery",
+      "origin": "curated candidate; availability and relevance unverified",
+      "status": "fetch failed: HTTPError",
+      "changed": false
+    },
+    {
+      "name": "Revolut | Crypto product overview",
+      "url": "https://www.revolut.com/crypto/",
+      "market": "United Kingdom",
+      "role": "Focus: Revolut Crypto main app",
+      "theme": "positioning",
+      "origin": "curated candidate; availability and relevance unverified",
+      "status": "fetch failed: HTTPError",
+      "changed": false
+    },
+    {
+      "name": "Revolut | Buy crypto overview",
+      "url": "https://www.revolut.com/crypto/buy-crypto/",
+      "market": "United Kingdom",
+      "role": "Focus: Revolut Crypto main app",
+      "theme": "positioning",
+      "origin": "curated candidate; availability and relevance unverified",
+      "status": "fetch failed: HTTPError",
+      "changed": false
+    },
+    {
+      "name": "Revolut | Crypto: getting started and trading",
+      "url": "https://help.revolut.com/help/wealth/cryptocurrencies/crypto-overview/",
+      "market": "United Kingdom",
+      "role": "Focus: Revolut Crypto main app",
+      "theme": "onboarding",
+      "origin": "curated candidate; availability and relevance unverified",
+      "status": "fetch failed: HTTPError",
+      "changed": false
+    },
+    {
+      "name": "Revolut | Crypto features",
+      "url": "https://help.revolut.com/help/wealth/cryptocurrencies/more-about-cryptocurrencies/",
+      "market": "United Kingdom",
+      "role": "Focus: Revolut Crypto main app",
+      "theme": "features",
+      "origin": "curated candidate; availability and relevance unverified",
+      "status": "fetch failed: HTTPError",
+      "changed": false
+    },
+    {
+      "name": "Revolut | Crypto trading fees",
+      "url": "https://help.revolut.com/help/wealth/cryptocurrencies/getting-cryptocurrency-exposure/how-much-does-it-cost-to-buy-or-sell-cryptocurrency/",
+      "market": "United Kingdom",
+      "role": "Focus: Revolut Crypto main app",
+      "theme": "fees",
+      "origin": "curated candidate; availability and relevance unverified",
+      "status": "fetch failed: HTTPError",
+      "changed": false
+    },
+    {
+      "name": "Revolut | Crypto safety",
+      "url": "https://help.revolut.com/help/wealth/cryptocurrencies/understanding-revolut-cryptocurrency/crypto-safety/",
+      "market": "United Kingdom",
+      "role": "Focus: Revolut Crypto main app",
+      "theme": "risks",
+      "origin": "curated candidate; availability and relevance unverified",
+      "status": "fetch failed: HTTPError",
+      "changed": false
+    },
+    {
+      "name": "Revolut | Crypto deposits",
+      "url": "https://help.revolut.com/help/wealth/cryptocurrencies/transferring-cryptocurrencies/depositing-cryptocurrencies/",
+      "market": "United Kingdom",
+      "role": "Focus: Revolut Crypto main app",
+      "theme": "transfers",
+      "origin": "curated candidate; availability and relevance unverified",
+      "status": "fetch failed: HTTPError",
+      "changed": false
+    },
+    {
+      "name": "Revolut | Crypto withdrawals",
+      "url": "https://help.revolut.com/help/wealth/cryptocurrencies/crypto-withdraw-deposit/",
+      "market": "United Kingdom",
+      "role": "Focus: Revolut Crypto main app",
+      "theme": "transfers",
+      "origin": "curated candidate; availability and relevance unverified",
+      "status": "fetch failed: HTTPError",
+      "changed": false
+    },
+    {
+      "name": "Revolut | Crypto staking",
+      "url": "https://help.revolut.com/help/wealth/cryptocurrencies/crypto-staking/",
+      "market": "United Kingdom",
+      "role": "Focus: Revolut Crypto main app",
+      "theme": "staking",
+      "origin": "curated candidate; availability and relevance unverified",
+      "status": "fetch failed: HTTPError",
+      "changed": false
+    },
+    {
+      "name": "Revolut | Crypto legal terms",
+      "url": "https://www.revolut.com/legal/cryptocurrency-terms/",
+      "market": "United Kingdom",
+      "role": "Focus: Revolut Crypto main app",
+      "theme": "terms",
+      "origin": "curated candidate; availability and relevance unverified",
+      "status": "fetch failed: HTTPError",
+      "changed": false
+    },
+    {
+      "name": "Revolut | Revolut X: separate advanced product",
+      "url": "https://help.revolut.com/help/wealth/cryptocurrencies/crypto-exchange/",
+      "market": "United Kingdom",
+      "role": "Context only: Revolut X",
+      "theme": "advanced-context",
+      "origin": "curated candidate; availability and relevance unverified",
+      "status": "fetch failed: HTTPError",
+      "changed": false
+    },
+    {
       "name": "PayPal | Positioning",
       "market": "United Kingdom \u2014 verify buying restrictions",
       "role": "Integrated-finance benchmark (UK)",
       "theme": "features-and-education",
       "url": "https://www.paypal.com/uk/digital-wallet/manage-money/crypto",
-      "status": "changed",
-      "changed": true
+      "status": "unchanged",
+      "changed": false
     },
     {
       "name": "PayPal | Onboarding",
@@ -249,7 +369,7 @@
       "role": "Integrated-banking benchmark (EU)",
       "theme": "onboarding",
       "url": "https://help.bunq.com/articles/what-is-a-rate-guarantee-when-i-buy-crypto",
-      "status": "first snapshot",
+      "status": "unchanged",
       "changed": false
     },
     {
@@ -268,126 +388,6 @@
       "theme": "features-and-education",
       "url": "https://support.n26.com/en-eu/app-and-features/app/how-n26-crypto-works",
       "status": "unchanged",
-      "changed": false
-    },
-    {
-      "name": "Revolut | Help centre: crypto home",
-      "url": "https://help.revolut.com/help/crypto/",
-      "market": "United Kingdom",
-      "role": "Focus: Revolut Crypto main app",
-      "theme": "discovery",
-      "origin": "curated candidate; availability and relevance unverified",
-      "status": "fetch failed: HTTPError",
-      "changed": false
-    },
-    {
-      "name": "Revolut | Crypto product overview",
-      "url": "https://www.revolut.com/crypto/",
-      "market": "United Kingdom",
-      "role": "Focus: Revolut Crypto main app",
-      "theme": "positioning",
-      "origin": "curated candidate; availability and relevance unverified",
-      "status": "fetch failed: HTTPError",
-      "changed": false
-    },
-    {
-      "name": "Revolut | Buy crypto overview",
-      "url": "https://www.revolut.com/crypto/buy-crypto/",
-      "market": "United Kingdom",
-      "role": "Focus: Revolut Crypto main app",
-      "theme": "positioning",
-      "origin": "curated candidate; availability and relevance unverified",
-      "status": "fetch failed: HTTPError",
-      "changed": false
-    },
-    {
-      "name": "Revolut | Crypto: getting started and trading",
-      "url": "https://help.revolut.com/help/wealth/cryptocurrencies/crypto-overview/",
-      "market": "United Kingdom",
-      "role": "Focus: Revolut Crypto main app",
-      "theme": "onboarding",
-      "origin": "curated candidate; availability and relevance unverified",
-      "status": "fetch failed: HTTPError",
-      "changed": false
-    },
-    {
-      "name": "Revolut | Crypto features",
-      "url": "https://help.revolut.com/help/wealth/cryptocurrencies/more-about-cryptocurrencies/",
-      "market": "United Kingdom",
-      "role": "Focus: Revolut Crypto main app",
-      "theme": "features",
-      "origin": "curated candidate; availability and relevance unverified",
-      "status": "fetch failed: HTTPError",
-      "changed": false
-    },
-    {
-      "name": "Revolut | Crypto trading fees",
-      "url": "https://help.revolut.com/help/wealth/cryptocurrencies/getting-cryptocurrency-exposure/how-much-does-it-cost-to-buy-or-sell-cryptocurrency/",
-      "market": "United Kingdom",
-      "role": "Focus: Revolut Crypto main app",
-      "theme": "fees",
-      "origin": "curated candidate; availability and relevance unverified",
-      "status": "fetch failed: HTTPError",
-      "changed": false
-    },
-    {
-      "name": "Revolut | Crypto safety",
-      "url": "https://help.revolut.com/help/wealth/cryptocurrencies/understanding-revolut-cryptocurrency/crypto-safety/",
-      "market": "United Kingdom",
-      "role": "Focus: Revolut Crypto main app",
-      "theme": "risks",
-      "origin": "curated candidate; availability and relevance unverified",
-      "status": "fetch failed: HTTPError",
-      "changed": false
-    },
-    {
-      "name": "Revolut | Crypto deposits",
-      "url": "https://help.revolut.com/help/wealth/cryptocurrencies/transferring-cryptocurrencies/depositing-cryptocurrencies/",
-      "market": "United Kingdom",
-      "role": "Focus: Revolut Crypto main app",
-      "theme": "transfers",
-      "origin": "curated candidate; availability and relevance unverified",
-      "status": "fetch failed: HTTPError",
-      "changed": false
-    },
-    {
-      "name": "Revolut | Crypto withdrawals",
-      "url": "https://help.revolut.com/help/wealth/cryptocurrencies/crypto-withdraw-deposit/",
-      "market": "United Kingdom",
-      "role": "Focus: Revolut Crypto main app",
-      "theme": "transfers",
-      "origin": "curated candidate; availability and relevance unverified",
-      "status": "fetch failed: HTTPError",
-      "changed": false
-    },
-    {
-      "name": "Revolut | Crypto staking",
-      "url": "https://help.revolut.com/help/wealth/cryptocurrencies/crypto-staking/",
-      "market": "United Kingdom",
-      "role": "Focus: Revolut Crypto main app",
-      "theme": "staking",
-      "origin": "curated candidate; availability and relevance unverified",
-      "status": "fetch failed: HTTPError",
-      "changed": false
-    },
-    {
-      "name": "Revolut | Crypto legal terms",
-      "url": "https://www.revolut.com/legal/cryptocurrency-terms/",
-      "market": "United Kingdom",
-      "role": "Focus: Revolut Crypto main app",
-      "theme": "terms",
-      "origin": "curated candidate; availability and relevance unverified",
-      "status": "fetch failed: HTTPError",
-      "changed": false
-    },
-    {
-      "name": "Revolut | Revolut X: separate advanced product",
-      "url": "https://help.revolut.com/help/wealth/cryptocurrencies/crypto-exchange/",
-      "market": "United Kingdom",
-      "role": "Context only: Revolut X",
-      "theme": "advanced-context",
-      "origin": "curated candidate; availability and relevance unverified",
-      "status": "fetch failed: HTTPError",
       "changed": false
     }
   ]

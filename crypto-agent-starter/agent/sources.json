@@ -6,6 +6,102 @@
     "url": "https://help.revolut.com/help/wealth/cryptocurrencies/understanding-revolut-cryptocurrency/are-there-any-limits-on-crypto-exchanges/"
   },
   {
+    "name": "Revolut | Help centre: crypto home",
+    "url": "https://help.revolut.com/help/crypto/",
+    "market": "United Kingdom",
+    "role": "Focus: Revolut Crypto main app",
+    "theme": "discovery",
+    "origin": "curated candidate; availability and relevance unverified"
+  },
+  {
+    "name": "Revolut | Crypto product overview",
+    "url": "https://www.revolut.com/crypto/",
+    "market": "United Kingdom",
+    "role": "Focus: Revolut Crypto main app",
+    "theme": "positioning",
+    "origin": "curated candidate; availability and relevance unverified"
+  },
+  {
+    "name": "Revolut | Buy crypto overview",
+    "url": "https://www.revolut.com/crypto/buy-crypto/",
+    "market": "United Kingdom",
+    "role": "Focus: Revolut Crypto main app",
+    "theme": "positioning",
+    "origin": "curated candidate; availability and relevance unverified"
+  },
+  {
+    "name": "Revolut | Crypto: getting started and trading",
+    "url": "https://help.revolut.com/help/wealth/cryptocurrencies/crypto-overview/",
+    "market": "United Kingdom",
+    "role": "Focus: Revolut Crypto main app",
+    "theme": "onboarding",
+    "origin": "curated candidate; availability and relevance unverified"
+  },
+  {
+    "name": "Revolut | Crypto features",
+    "url": "https://help.revolut.com/help/wealth/cryptocurrencies/more-about-cryptocurrencies/",
+    "market": "United Kingdom",
+    "role": "Focus: Revolut Crypto main app",
+    "theme": "features",
+    "origin": "curated candidate; availability and relevance unverified"
+  },
+  {
+    "name": "Revolut | Crypto trading fees",
+    "url": "https://help.revolut.com/help/wealth/cryptocurrencies/getting-cryptocurrency-exposure/how-much-does-it-cost-to-buy-or-sell-cryptocurrency/",
+    "market": "United Kingdom",
+    "role": "Focus: Revolut Crypto main app",
+    "theme": "fees",
+    "origin": "curated candidate; availability and relevance unverified"
+  },
+  {
+    "name": "Revolut | Crypto safety",
+    "url": "https://help.revolut.com/help/wealth/cryptocurrencies/understanding-revolut-cryptocurrency/crypto-safety/",
+    "market": "United Kingdom",
+    "role": "Focus: Revolut Crypto main app",
+    "theme": "risks",
+    "origin": "curated candidate; availability and relevance unverified"
+  },
+  {
+    "name": "Revolut | Crypto deposits",
+    "url": "https://help.revolut.com/help/wealth/cryptocurrencies/transferring-cryptocurrencies/depositing-cryptocurrencies/",
+    "market": "United Kingdom",
+    "role": "Focus: Revolut Crypto main app",
+    "theme": "transfers",
+    "origin": "curated candidate; availability and relevance unverified"
+  },
+  {
+    "name": "Revolut | Crypto withdrawals",
+    "url": "https://help.revolut.com/help/wealth/cryptocurrencies/crypto-withdraw-deposit/",
+    "market": "United Kingdom",
+    "role": "Focus: Revolut Crypto main app",
+    "theme": "transfers",
+    "origin": "curated candidate; availability and relevance unverified"
+  },
+  {
+    "name": "Revolut | Crypto staking",
+    "url": "https://help.revolut.com/help/wealth/cryptocurrencies/crypto-staking/",
+    "market": "United Kingdom",
+    "role": "Focus: Revolut Crypto main app",
+    "theme": "staking",
+    "origin": "curated candidate; availability and relevance unverified"
+  },
+  {
+    "name": "Revolut | Crypto legal terms",
+    "url": "https://www.revolut.com/legal/cryptocurrency-terms/",
+    "market": "United Kingdom",
+    "role": "Focus: Revolut Crypto main app",
+    "theme": "terms",
+    "origin": "curated candidate; availability and relevance unverified"
+  },
+  {
+    "name": "Revolut | Revolut X: separate advanced product",
+    "url": "https://help.revolut.com/help/wealth/cryptocurrencies/crypto-exchange/",
+    "market": "United Kingdom",
+    "role": "Context only: Revolut X",
+    "theme": "advanced-context",
+    "origin": "curated candidate; availability and relevance unverified"
+  },
+  {
     "name": "PayPal | Positioning",
     "market": "United Kingdom — verify buying restrictions",
     "role": "Integrated-finance benchmark (UK)",
@@ -207,101 +303,5 @@
     "role": "Integrated-banking benchmark (EU)",
     "theme": "features-and-education",
     "url": "https://support.n26.com/en-eu/app-and-features/app/how-n26-crypto-works"
-  },
-  {
-    "name": "Revolut | Help centre: crypto home",
-    "url": "https://help.revolut.com/help/crypto/",
-    "market": "United Kingdom",
-    "role": "Focus: Revolut Crypto main app",
-    "theme": "discovery",
-    "origin": "curated candidate; availability and relevance unverified"
-  },
-  {
-    "name": "Revolut | Crypto product overview",
-    "url": "https://www.revolut.com/crypto/",
-    "market": "United Kingdom",
-    "role": "Focus: Revolut Crypto main app",
-    "theme": "positioning",
-    "origin": "curated candidate; availability and relevance unverified"
-  },
-  {
-    "name": "Revolut | Buy crypto overview",
-    "url": "https://www.revolut.com/crypto/buy-crypto/",
-    "market": "United Kingdom",
-    "role": "Focus: Revolut Crypto main app",
-    "theme": "positioning",
-    "origin": "curated candidate; availability and relevance unverified"
-  },
-  {
-    "name": "Revolut | Crypto: getting started and trading",
-    "url": "https://help.revolut.com/help/wealth/cryptocurrencies/crypto-overview/",
-    "market": "United Kingdom",
-    "role": "Focus: Revolut Crypto main app",
-    "theme": "onboarding",
-    "origin": "curated candidate; availability and relevance unverified"
-  },
-  {
-    "name": "Revolut | Crypto features",
-    "url": "https://help.revolut.com/help/wealth/cryptocurrencies/more-about-cryptocurrencies/",
-    "market": "United Kingdom",
-    "role": "Focus: Revolut Crypto main app",
-    "theme": "features",
-    "origin": "curated candidate; availability and relevance unverified"
-  },
-  {
-    "name": "Revolut | Crypto trading fees",
-    "url": "https://help.revolut.com/help/wealth/cryptocurrencies/getting-cryptocurrency-exposure/how-much-does-it-cost-to-buy-or-sell-cryptocurrency/",
-    "market": "United Kingdom",
-    "role": "Focus: Revolut Crypto main app",
-    "theme": "fees",
-    "origin": "curated candidate; availability and relevance unverified"
-  },
-  {
-    "name": "Revolut | Crypto safety",
-    "url": "https://help.revolut.com/help/wealth/cryptocurrencies/understanding-revolut-cryptocurrency/crypto-safety/",
-    "market": "United Kingdom",
-    "role": "Focus: Revolut Crypto main app",
-    "theme": "risks",
-    "origin": "curated candidate; availability and relevance unverified"
-  },
-  {
-    "name": "Revolut | Crypto deposits",
-    "url": "https://help.revolut.com/help/wealth/cryptocurrencies/transferring-cryptocurrencies/depositing-cryptocurrencies/",
-    "market": "United Kingdom",
-    "role": "Focus: Revolut Crypto main app",
-    "theme": "transfers",
-    "origin": "curated candidate; availability and relevance unverified"
-  },
-  {
-    "name": "Revolut | Crypto withdrawals",
-    "url": "https://help.revolut.com/help/wealth/cryptocurrencies/crypto-withdraw-deposit/",
-    "market": "United Kingdom",
-    "role": "Focus: Revolut Crypto main app",
-    "theme": "transfers",
-    "origin": "curated candidate; availability and relevance unverified"
-  },
-  {
-    "name": "Revolut | Crypto staking",
-    "url": "https://help.revolut.com/help/wealth/cryptocurrencies/crypto-staking/",
-    "market": "United Kingdom",
-    "role": "Focus: Revolut Crypto main app",
-    "theme": "staking",
-    "origin": "curated candidate; availability and relevance unverified"
-  },
-  {
-    "name": "Revolut | Crypto legal terms",
-    "url": "https://www.revolut.com/legal/cryptocurrency-terms/",
-    "market": "United Kingdom",
-    "role": "Focus: Revolut Crypto main app",
-    "theme": "terms",
-    "origin": "curated candidate; availability and relevance unverified"
-  },
-  {
-    "name": "Revolut | Revolut X: separate advanced product",
-    "url": "https://help.revolut.com/help/wealth/cryptocurrencies/crypto-exchange/",
-    "market": "United Kingdom",
-    "role": "Context only: Revolut X",
-    "theme": "advanced-context",
-    "origin": "curated candidate; availability and relevance unverified"
   }
 ]
