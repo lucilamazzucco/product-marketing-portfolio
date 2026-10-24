@@ -35,7 +35,7 @@
   document.getElementById('btc-result').textContent=money(final);
   document.getElementById('btc-difference').textContent=(delta>0?'+':delta<0?'−':'')+money(Math.abs(delta))+' ('+(pct>0?'+':'')+pct.toFixed(1)+'%)';
   document.getElementById('btc-change-row').className='btc-change-row '+(delta>0?'is-gain':delta<0?'is-loss':'is-flat');
-  document.getElementById('btc-change-arrow').textContent=delta>0?'↗':delta<0?'↘':'→';';
+  document.getElementById('btc-change-arrow').textContent=delta>0?'↗':delta<0?'↘':'→';
   document.getElementById('btc-asof').textContent=date(last[0]);
   document.getElementById('btc-start-date').textContent=date(windowPrices[0][0]);
   document.getElementById('btc-end-date').textContent=date(last[0]);
