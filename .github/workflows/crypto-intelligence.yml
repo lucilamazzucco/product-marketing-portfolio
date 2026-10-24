@@ -40,6 +40,12 @@ jobs:
           OPENAI_MODEL: gpt-4.1-mini
         run: python crypto-agent-starter/agent/run.py
 
+      - name: Generate evidence-backed competitive intelligence
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: gpt-4.1-mini
+        run: python crypto-agent-starter/agent/competitive_analysis.py
+
       - name: Report source coverage
         if: always()
         run: python crypto-agent-starter/agent/coverage.py
