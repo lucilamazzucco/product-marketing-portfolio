@@ -9,6 +9,7 @@ from pathlib import Path
 from html.parser import HTMLParser
 from urllib.request import Request, urlopen
 from urllib.parse import urlsplit
+from urllib.error import HTTPError
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "reports"
@@ -56,11 +57,17 @@ def fetch_with_firecrawl(url):
         headers={"Authorization": "Bearer " + key, "Content-Type": "application/json"},
         method="POST",
     )
-    with urlopen(request, timeout=60) as response:
-        data = response.read(1_500_001)
+    try:
+        with urlopen(request, timeout=60) as response:
+            data = response.read(1_500_001)
+    except HTTPError as exc:
+        # Report only the status code; never log request headers, tokens or bodies.
+        raise RuntimeError(f"Firecrawl HTTP {exc.code}") from None
         if len(data) > 1_500_000:
             raise ValueError("Firecrawl response exceeds size limit")
     result = json.loads(data)
+    if result.get("success") is False:
+        raise RuntimeError("Firecrawl returned success=false")
     page = (result.get("data") or {}).get("markdown") or result.get("markdown") or ""
     if not isinstance(page, str) or len(page.strip()) < 250:
         raise ValueError("Firecrawl returned no substantial markdown")
@@ -94,9 +101,15 @@ def main():
             try:
                 page=fetch(url)
             except Exception as direct_error:
-                if is_revolut(url) and os.environ.get("FIRECRAWL_API_KEY", "").strip():
-                    page=fetch_with_firecrawl(url)
-                    provider="Firecrawl API"
+                if is_revolut(url):
+                    if os.environ.get("FIRECRAWL_API_KEY", "").strip():
+                        try:
+                            page=fetch_with_firecrawl(url)
+                            provider="Firecrawl API"
+                        except Exception as firecrawl_error:
+                            raise RuntimeError(str(firecrawl_error) if isinstance(firecrawl_error, RuntimeError) else "Firecrawl " + type(firecrawl_error).__name__) from None
+                    else:
+                        raise RuntimeError("Firecrawl secret missing; direct source blocked") from None
                 else:
                     raise direct_error
             digest=hashlib.sha256(page.encode()).hexdigest()
@@ -110,8 +123,8 @@ def main():
             records.append({**item,"status":status,"changed":changed,"provider":provider,"excerpt":diff or page[:1500]})
             print(name, status)
         except Exception as exc:
-            records.append({**item,"status":"fetch failed: "+type(exc).__name__,"changed":False,"provider":"direct / Firecrawl fallback when configured"})
-            print(name,"fetch failed",type(exc).__name__)
+            records.append({**item,"status":"fetch failed: "+(str(exc)[:95] if is_revolut(url) else type(exc).__name__),"changed":False,"provider":"Firecrawl fallback" if is_revolut(url) else "direct"})
+            print(name,"fetch failed",str(exc)[:95] if is_revolut(url) else type(exc).__name__)
     # Do not replace the last good snapshot when a fetch fails.
     old_file.write_text(json.dumps(current,ensure_ascii=False,indent=2)+"\n")
     lines=["# Crypto Competitive Intelligence — Monitoring Brief", "",f"**Run:** {date}  ","**Status:** automated source monitoring; human review required  ","**Scope:** Revolut Crypto in the main app, not the advanced Revolut X journey.","", "## Source checks", "", "| Source | Market | Status | Official page |", "|---|---|---|---|"]
