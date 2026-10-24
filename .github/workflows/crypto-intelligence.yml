@@ -35,6 +35,7 @@ jobs:
 
       - name: Monitor content and generate brief
         env:
+          FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: gpt-4.1-mini
         run: python crypto-agent-starter/agent/run.py
