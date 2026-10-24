@@ -40,15 +40,19 @@ def main():
         selected = [s for s in sources if brand(s.get('url', '')) == company]
         checked = [by_url[s['url']] for s in selected if s.get('url') in by_url]
         successful = [r for r in checked if r.get('status') in ('first snapshot','changed','unchanged')]
+        cached = [r for r in checked if r.get('status') == 'cached snapshot']
+        deferred = [r for r in checked if r.get('status', '').startswith('deferred:')]
         failures = [r for r in checked if r.get('status', '').startswith('fetch failed')]
         counts[company] = {
             'candidate_urls':len(selected),
             'attempted':len(checked),
             'read_successfully':len(successful),
+            'cached_snapshots':len(cached),
+            'deferred':len(deferred),
             'failed':len(failures),
             'not_attempted':len(selected)-len(checked),
             'changed':sum(r.get('status')=='changed' for r in successful),
-            'failed_examples':[{'name':r.get('name'),'url':r.get('url'),'status':r.get('status')} for r in failures[:12]],
+            'failed_examples':[{'name':r.get('name'),'url':r.get('url'),'status':r.get('status')} for r in (failures+deferred)[:12]],
         }
     revolt = load_json(REPORTS / 'revolut-discovery-status.json', {})
     competitor = load_json(REPORTS / 'competitor-source-catalog.json', {})
@@ -64,14 +68,16 @@ def main():
     (REPORTS / 'source-coverage.json').write_text(json.dumps(report,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
     lines = ['# Crypto intelligence — source coverage', '', f"Monitoring run: **{last.get('checked_at','unknown')}**", '',
         '> A successful GitHub workflow does not guarantee that all sources were readable. Candidate URLs are not verified coverage.', '',
-        '| Company | Candidate URLs | Attempted | Successfully read | Failed | Changed |',
-        '|---|---:|---:|---:|---:|---:|']
+        '| Company | Candidate URLs | Attempted | Fresh reads | Cached | Deferred | Failed | Changed |',
+        '|---|---:|---:|---:|---:|---:|---:|---:|']
     for company in BRANDS+['Other']:
         c=counts[company]
         if company=='Other' and not c['candidate_urls']: continue
-        lines.append(f"| {company} | {c['candidate_urls']} | {c['attempted']} | {c['read_successfully']} | {c['failed']} | {c['changed']} |")
+        lines.append(f"| {company} | {c['candidate_urls']} | {c['attempted']} | {c['read_successfully']} | {c['cached_snapshots']} | {c['deferred']} | {c['failed']} | {c['changed']} |")
     lines += ['', f'**Revolut category-index failures:** {discover_fail}', '',
        '## Interpretation', '',
+       '- Fresh reads were fetched this run. Cached snapshots are prior successful reads and **not** fresh verification.',
+       '- After a persistent Firecrawl 429, remaining pages may be deferred until the next run.',
        '- HTTP 403 is an access restriction. Do not circumvent it or describe a blocked page as analysed.',
        '- Product claims from unavailable sources require a separate, authorized manual review.',
        '- A changed page is only a text-change signal, not proof of a feature launch.',
