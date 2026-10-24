@@ -38,10 +38,10 @@ NAVIGATION = (
 )
 def evidence_lines(text, terms, max_lines=2):
     """Select substantive, topic-specific snippets rather than page navigation."""
-    lines = re.split(r"\\n+|(?<=[.!?])\\s+(?=[A-Z])", text)
+    lines = re.split(r"\n+|(?<=[.!?])\s+(?=[A-Z])", text)
     candidates = []
     for raw in lines:
-        line = re.sub(r"\\s+", " ", raw).strip(" -*#\\t")
+        line = re.sub(r"\s+", " ", raw).strip(" -*#\t")
         lower = line.lower()
         if not 85 <= len(line) <= 420 or lower.startswith(("http", "[", "#")):
             continue
