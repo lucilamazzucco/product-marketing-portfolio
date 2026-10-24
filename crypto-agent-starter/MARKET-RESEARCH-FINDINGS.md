@@ -22,7 +22,6 @@ The initial automated research collected official-source material from Revolut, 
 | **PayPal Crypto** | UK benchmark; verify current eligibility | UK help content describes buying, selling and holding, with restrictions on transfers; public fees content discusses transaction fees | Test whether clearly explaining capabilities and limitations builds informed consideration |
 | **bunq Crypto** | European benchmark, **not assumed UK-available** | Crypto feature page emphasizes beginner-friendly access within bunq; FAQ discusses spread and fees | Benchmark how integrated-app propositions communicate simplicity and costs |
 | **N26 Crypto** | European benchmark, **not direct UK competitor** | N26 support specifies eligible European countries and a Bitpanda-related pricing/execution context | Use as a messaging and disclosure reference, not a UK market-share competitor |
-| **Coinbase** | Proposed specialist-exchange benchmark | No successful snapshots in this run | Research gap: do not assert positioning, pricing or comparative advantage |
 
 ## Source-linked observations
 
@@ -34,13 +33,22 @@ The initial automated research collected official-source material from Revolut, 
 
 These URLs are from the workflow's official-source snapshots. Some Revolut snapshots were cached from an earlier run on the same day. Reopen current terms and check geography before treating any offer as live.
 
-## Positioning interpretation
+## Positioning interpretation — integrated finance as a category proposition
 
-**Emerging category pattern:** Some finance apps emphasize crypto access inside an existing money-management relationship. This may lower the *perceived* burden of discovering a separate product, but our sources do not demonstrate that users find it easier or safer.
+Revolut's public crypto messaging explicitly places crypto in the same app customers use for everyday money management. bunq similarly emphasizes crypto access without an additional login. These observations support an **integrated-finance messaging pattern**; they do not establish which provider customers prefer.
 
-**Potential Revolut messaging territory (hypothesis):** “Understand crypto within the finance app you already use — with clear explanations of costs, limitations and risks.”
+| Positioning dimension | Potential customer value | Tension or research question |
+|---|---|---|
+| Convenience | Access without starting with an unfamiliar standalone destination | Does this materially influence provider choice? |
+| Familiarity | Existing interface and brand relationship | Does familiarity help comprehension or create a false sense of safety? |
+| Transparency | Clear explanations of fees, product limitations and risks | Can customers accurately describe the true costs and constraints? |
+| Education | Information presented at the point of decision | Does contextual learning support better informed choices? |
 
-This is a proposed research direction, **not** a verified customer insight, approved brand message or encouragement to invest.
+**Strategic interpretation:** convenience is a category-level promise, not automatically a unique advantage. Revolut could explore a more specific territory: **familiar access paired with transparent, risk-balanced decision support**. That proposition must be tested with UK customers and assessed for regulatory compliance.
+
+**Proposed positioning direction (not approved copy):** “Explore crypto within the finance app you already use, with clear information about costs, limitations and risks.”
+
+A separate specialist-exchange benchmark is excluded from this initial evidence-backed comparison because the available snapshots were insufficient. The failure details remain in the technical source-coverage report, not the executive comparison.
 
 ## Proposed customer decision journey
 
