@@ -1,6 +1,6 @@
 # Crypto Competitive Intelligence — Monitoring Brief
 
-**Run:** 2026-10-24 08:33 UTC  
+**Run:** 2026-10-24 08:35 UTC  
 **Status:** automated source monitoring; human review required  
 **Scope:** Revolut Crypto in the main app, not the advanced Revolut X journey.
 
@@ -26,7 +26,7 @@
 | Coinbase / UK onboarding and FCA requirements | United Kingdom | fetch failed: HTTPError | [Open](https://help.coinbase.com/en-gb/coinbase/getting-started/getting-started-with-coinbase/fca-financial-promo-changes) |
 | Coinbase / UK fees and spreads | United Kingdom | fetch failed: HTTPError | [Open](https://help.coinbase.com/en-gb/coinbase/trading-and-funding/pricing-and-fees/fees) |
 | Coinbase / Account creation | United Kingdom | fetch failed: HTTPError | [Open](https://help.coinbase.com/en-gb/coinbase/getting-started/getting-started-with-coinbase/create-a-coinbase-account) |
-| PayPal / Positioning | United Kingdom — verify buying restrictions | unchanged | [Open](https://www.paypal.com/uk/digital-wallet/manage-money/crypto) |
+| PayPal / Positioning | United Kingdom — verify buying restrictions | changed | [Open](https://www.paypal.com/uk/digital-wallet/manage-money/crypto) |
 | PayPal / Onboarding | United Kingdom — verify buying restrictions | unchanged | [Open](https://www.paypal.com/uk/cshelp/article/how-do-i-buy-cryptocurrency-on-paypal-help567) |
 | PayPal / Capabilities | United Kingdom — verify buying restrictions | unchanged | [Open](https://www.paypal.com/uk/cshelp/article/what-can-i-do-with-crypto-on-paypal-help893) |
 | PayPal / Fees | United Kingdom — verify buying restrictions | unchanged | [Open](https://www.paypal.com/uk/webapps/mpp/digital-wallet/paypal-consumer-fees) |
@@ -66,7 +66,23 @@
 - A persistent Firecrawl HTTP 429 pauses remaining Firecrawl requests this run; a later run can retry.
 - All interpretations are proposed research hypotheses, not verified business outcomes.
 
-**No verified source-content changes identified in this run.**
+## Changed-page excerpts (machine-generated diffs)
+
+### PayPal | Positioning
+Source: https://www.paypal.com/uk/digital-wallet/manage-money/crypto
+
+```diff
+--- 
+
++++ 
+
+@@ -91,3 +91,3 @@
+
+ If you receive a suspicious message, forward it to to
+-phishing@paypal.com
++[email protected]
+ , then delete it.
+```
 
 ## AI review
 

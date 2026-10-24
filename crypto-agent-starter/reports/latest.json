@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-24 08:33 UTC",
+  "checked_at": "2026-10-24 08:35 UTC",
   "sources": [
     {
       "name": "Revolut Crypto",
@@ -217,10 +217,10 @@
       "role": "Integrated-finance benchmark (UK)",
       "theme": "features-and-education",
       "url": "https://www.paypal.com/uk/digital-wallet/manage-money/crypto",
-      "status": "unchanged",
-      "changed": false,
+      "status": "changed",
+      "changed": true,
       "provider": "direct",
-      "snapshot_at": "2026-10-24 08:33 UTC"
+      "snapshot_at": "2026-10-24 08:35 UTC"
     },
     {
       "name": "PayPal | Onboarding",
@@ -231,7 +231,7 @@
       "status": "unchanged",
       "changed": false,
       "provider": "direct",
-      "snapshot_at": "2026-10-24 08:33 UTC"
+      "snapshot_at": "2026-10-24 08:35 UTC"
     },
     {
       "name": "PayPal | Capabilities",
@@ -242,7 +242,7 @@
       "status": "unchanged",
       "changed": false,
       "provider": "direct",
-      "snapshot_at": "2026-10-24 08:33 UTC"
+      "snapshot_at": "2026-10-24 08:35 UTC"
     },
     {
       "name": "PayPal | Fees",
@@ -253,7 +253,7 @@
       "status": "unchanged",
       "changed": false,
       "provider": "direct",
-      "snapshot_at": "2026-10-24 08:33 UTC"
+      "snapshot_at": "2026-10-24 08:35 UTC"
     },
     {
       "name": "PayPal | Availability",
@@ -264,7 +264,7 @@
       "status": "unchanged",
       "changed": false,
       "provider": "direct",
-      "snapshot_at": "2026-10-24 08:33 UTC"
+      "snapshot_at": "2026-10-24 08:35 UTC"
     },
     {
       "name": "PayPal | Risks",
@@ -275,7 +275,7 @@
       "status": "unchanged",
       "changed": false,
       "provider": "direct",
-      "snapshot_at": "2026-10-24 08:33 UTC"
+      "snapshot_at": "2026-10-24 08:35 UTC"
     },
     {
       "name": "PayPal | Education",
@@ -286,7 +286,7 @@
       "status": "unchanged",
       "changed": false,
       "provider": "direct",
-      "snapshot_at": "2026-10-24 08:33 UTC"
+      "snapshot_at": "2026-10-24 08:35 UTC"
     },
     {
       "name": "PayPal | Terms",
@@ -307,7 +307,7 @@
       "status": "unchanged",
       "changed": false,
       "provider": "direct",
-      "snapshot_at": "2026-10-24 08:33 UTC"
+      "snapshot_at": "2026-10-24 08:35 UTC"
     },
     {
       "name": "PayPal | purchase crypto including PYUSD in the PayPal app",
@@ -318,7 +318,7 @@
       "status": "unchanged",
       "changed": false,
       "provider": "direct",
-      "snapshot_at": "2026-10-24 08:33 UTC"
+      "snapshot_at": "2026-10-24 08:35 UTC"
     },
     {
       "name": "PayPal | Legal",
@@ -339,7 +339,7 @@
       "status": "unchanged",
       "changed": false,
       "provider": "direct",
-      "snapshot_at": "2026-10-24 08:33 UTC"
+      "snapshot_at": "2026-10-24 08:35 UTC"
     },
     {
       "name": "bunq | Overview",
@@ -350,7 +350,7 @@
       "status": "unchanged",
       "changed": false,
       "provider": "direct",
-      "snapshot_at": "2026-10-24 08:33 UTC"
+      "snapshot_at": "2026-10-24 08:35 UTC"
     },
     {
       "name": "bunq | Features",
@@ -361,7 +361,7 @@
       "status": "unchanged",
       "changed": false,
       "provider": "direct",
-      "snapshot_at": "2026-10-24 08:33 UTC"
+      "snapshot_at": "2026-10-24 08:35 UTC"
     },
     {
       "name": "bunq | Fees",
@@ -372,7 +372,7 @@
       "status": "unchanged",
       "changed": false,
       "provider": "direct",
-      "snapshot_at": "2026-10-24 08:33 UTC"
+      "snapshot_at": "2026-10-24 08:35 UTC"
     },
     {
       "name": "bunq | Staking",
@@ -383,7 +383,7 @@
       "status": "unchanged",
       "changed": false,
       "provider": "direct",
-      "snapshot_at": "2026-10-24 08:33 UTC"
+      "snapshot_at": "2026-10-24 08:35 UTC"
     },
     {
       "name": "bunq | Lifecycle",
@@ -394,7 +394,7 @@
       "status": "unchanged",
       "changed": false,
       "provider": "direct",
-      "snapshot_at": "2026-10-24 08:33 UTC"
+      "snapshot_at": "2026-10-24 08:35 UTC"
     },
     {
       "name": "bunq | Crypto",
@@ -405,7 +405,7 @@
       "status": "unchanged",
       "changed": false,
       "provider": "direct",
-      "snapshot_at": "2026-10-24 08:33 UTC"
+      "snapshot_at": "2026-10-24 08:35 UTC"
     },
     {
       "name": "bunq | Crypto",
@@ -416,7 +416,7 @@
       "status": "unchanged",
       "changed": false,
       "provider": "direct",
-      "snapshot_at": "2026-10-24 08:33 UTC"
+      "snapshot_at": "2026-10-24 08:35 UTC"
     },
     {
       "name": "bunq | Do I have to pay taxes on crypto? (opens in new tab)",
@@ -427,7 +427,7 @@
       "status": "unchanged",
       "changed": false,
       "provider": "direct",
-      "snapshot_at": "2026-10-24 08:33 UTC"
+      "snapshot_at": "2026-10-24 08:35 UTC"
     },
     {
       "name": "bunq | What risks are involved in investing in crypto? (opens in new tab)",
@@ -438,7 +438,7 @@
       "status": "unchanged",
       "changed": false,
       "provider": "direct",
-      "snapshot_at": "2026-10-24 08:33 UTC"
+      "snapshot_at": "2026-10-24 08:35 UTC"
     },
     {
       "name": "bunq | See Crypto Terms and Conditions",
@@ -449,7 +449,7 @@
       "status": "unchanged",
       "changed": false,
       "provider": "direct",
-      "snapshot_at": "2026-10-24 08:33 UTC"
+      "snapshot_at": "2026-10-24 08:35 UTC"
     },
     {
       "name": "bunq | Learn more",
@@ -460,7 +460,7 @@
       "status": "unchanged",
       "changed": false,
       "provider": "direct",
-      "snapshot_at": "2026-10-24 08:33 UTC"
+      "snapshot_at": "2026-10-24 08:35 UTC"
     },
     {
       "name": "bunq | Investing 2 minute read Why Ethereum Matters Beyond Crypto for Finance Ethereum is not only a cryptocurrency, it powers apps and contracts. ",
@@ -471,7 +471,7 @@
       "status": "unchanged",
       "changed": false,
       "provider": "direct",
-      "snapshot_at": "2026-10-24 08:33 UTC"
+      "snapshot_at": "2026-10-24 08:35 UTC"
     },
     {
       "name": "bunq | Investing 3 minute read How do I star t investing in crypto? Thinking about crypto? See how buying Bitcoin and Ethereum works in the bunq ap",
@@ -482,7 +482,7 @@
       "status": "unchanged",
       "changed": false,
       "provider": "direct",
-      "snapshot_at": "2026-10-24 08:33 UTC"
+      "snapshot_at": "2026-10-24 08:35 UTC"
     },
     {
       "name": "bunq | Delisted Crypto (opens in new tab)",
@@ -493,7 +493,7 @@
       "status": "unchanged",
       "changed": false,
       "provider": "direct",
-      "snapshot_at": "2026-10-24 08:33 UTC"
+      "snapshot_at": "2026-10-24 08:35 UTC"
     },
     {
       "name": "bunq | What is a rate guarantee when I buy Crypto? (opens in new tab)",
@@ -504,7 +504,7 @@
       "status": "unchanged",
       "changed": false,
       "provider": "direct",
-      "snapshot_at": "2026-10-24 08:33 UTC"
+      "snapshot_at": "2026-10-24 08:35 UTC"
     },
     {
       "name": "bunq | Business account activities related to Cryptocurrency (opens in new tab)",
@@ -515,7 +515,7 @@
       "status": "unchanged",
       "changed": false,
       "provider": "direct",
-      "snapshot_at": "2026-10-24 08:33 UTC"
+      "snapshot_at": "2026-10-24 08:35 UTC"
     },
     {
       "name": "N26 | Features / onboarding",
@@ -526,7 +526,7 @@
       "status": "unchanged",
       "changed": false,
       "provider": "direct",
-      "snapshot_at": "2026-10-24 08:33 UTC"
+      "snapshot_at": "2026-10-24 08:35 UTC"
     }
   ]
 }
