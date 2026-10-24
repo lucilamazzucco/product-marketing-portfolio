@@ -11,6 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 CFG = ROOT / 'agent' / 'sources.json'
 SEEDS = [
     ('Help centre: crypto home', 'discovery', 'https://help.revolut.com/help/crypto/'),
+    ('Crypto account onboarding requirements', 'onboarding', 'https://help.revolut.com/help/wealth/cryptocurrencies/more-about-cryptocurrencies/cryptocurrencies-onboarding/what-does-the-new-crypto-onboarding-flow-consist-of/'),
     ('Crypto product overview', 'positioning', 'https://www.revolut.com/crypto/'),
     ('Buy crypto overview', 'positioning', 'https://www.revolut.com/crypto/buy-crypto/'),
     ('Crypto: getting started and trading', 'onboarding', 'https://help.revolut.com/help/wealth/cryptocurrencies/crypto-overview/'),
