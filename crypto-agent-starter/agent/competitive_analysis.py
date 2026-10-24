@@ -14,11 +14,13 @@ from urllib.error import HTTPError
 ROOT = Path(__file__).resolve().parents[1]
 REPORTS = ROOT / "reports"
 TOPICS = {
-    "Positioning & integrated experience": ["crypto", "app", "bank", "invest", "buy", "sell"],
-    "Onboarding & eligibility": ["onboarding", "knowledge", "assessment", "eligib", "verification", "24 hour", "cooling"],
-    "Education & risk comprehension": ["learn", "educat", "risk", "volatil", "loss", "warning", "scam"],
-    "Fees & transparency": ["fee", "spread", "commission", "cost", "price", "charge"],
-    "Transfers & product capabilities": ["transfer", "deposit", "withdraw", "staking", "wallet", "token"],
+    "Positioning & messaging": ["designed for", "get started", "all in one", "in one app", "simple way", "crypto investing", "cryptocurrency"],
+    "Target audience & eligibility": ["beginner", "new to crypto", "eligible", "residen", "customer", "investor category", "retail investor"],
+    "Product differentiation": ["staking", "recurring buy", "withdraw", "deposit", "transfer crypto", "crypto learn", "buy and sell"],
+    "Pricing & packaging": ["trading fee", "transaction fee", "spread", "commission", "pricing", "subscription plan", "exchange fee"],
+    "Go-to-market & education": ["learn", "education", "reward", "referral", "campaign", "partner", "discover"],
+    "Trust & risk disclosures": ["risk of losing", "lose all", "high risk", "cooling-off", "knowledge assessment", "volatility", "cryptoassets"],
+    "Market movement signals": ["launch", "introduc", "announc", "new feature", "now available", "expanded"],
 }
 MARKET = {"Revolut": "UK", "PayPal": "UK", "bunq": "EU / verify country", "N26": "EU / verify country"}
 def brand(url):
@@ -29,18 +31,32 @@ def brand(url):
             return name
     return None
 
+NAVIGATION = (
+    "skip to main", "cookie", "privacy policy", "terms of use",
+    "all rights reserved", "log in", "sign up", "download the app",
+    "international bank accounts and foreign currencies",
+)
 def evidence_lines(text, terms, max_lines=2):
-    lines = re.split(r"\n+|(?<=[.!?])\s+(?=[A-Z])", text)
+    """Select substantive, topic-specific snippets rather than page navigation."""
+    lines = re.split(r"\\n+|(?<=[.!?])\\s+(?=[A-Z])", text)
     candidates = []
     for raw in lines:
-        line = re.sub(r"\s+", " ", raw).strip(" -*#\t")
+        line = re.sub(r"\\s+", " ", raw).strip(" -*#\\t")
         lower = line.lower()
-        if 45 <= len(line) <= 350 and any(term in lower for term in terms):
-            if line not in candidates:
-                candidates.append(line)
-        if len(candidates) >= max_lines:
-            break
-    return candidates
+        if not 85 <= len(line) <= 420 or lower.startswith(("http", "[", "#")):
+            continue
+        if any(term in lower for term in NAVIGATION):
+            continue
+        if line.count("http") or line.count("](") or line.count("|") > 2:
+            continue
+        if not any(term in lower for term in terms):
+            continue
+        # Prefer explanatory sentences over menu labels or generic keyword matches.
+        score = sum(3 for term in terms if term in lower)
+        score += int(any(w in lower for w in ("you can", "customers", "users", "fee", "risk", "available", "account", "require")))
+        candidates.append((score, line))
+    ranked = sorted(candidates, key=lambda x: (-x[0], len(x[1])))
+    return list(dict.fromkeys(line for _, line in ranked))[:max_lines]
 
 def generate_ai(evidence):
     key = os.environ.get("OPENAI_API_KEY", "").strip()
@@ -89,7 +105,7 @@ def main():
         company = brand(url)
         if not company or not snap.get("text"):
             continue
-        if item.get("role", "").lower().startswith("context only"):
+        if "revolut x" in item.get("name", "").lower() or item.get("role", "").lower().startswith("context only"):
             continue
         selected.append((company, item, snap, by_url.get(url, {})))
     selected.sort(key=lambda x: (list(MARKET).index(x[0]), x[1].get("name", "")))
@@ -98,7 +114,7 @@ def main():
         for company in MARKET:
             matches = 0
             for co, item, snap, status in selected:
-                if co != company or matches >= 3:
+                if co != company or matches >= 2:
                     continue
                 quotes = evidence_lines(snap["text"], terms, max_lines=2)
                 if not quotes:
@@ -139,6 +155,45 @@ def main():
             lines += [f"- **{row['brand']} ({row['market']})** — {excerpt}",
                       f"  - [Official source]({row['source']}) · captured {row['retrieved_at']} · {row['retrieval_status_this_run']}"]
         lines.append("")
+    lines += [
+        "## Competitive comparison matrix", "",
+        "| Dimension | Revolut (UK) | PayPal (UK) | bunq (EU) | N26 (EU) |",
+        "|---|---|---|---|---|",
+    ]
+    for topic in TOPICS:
+        cells = []
+        for company in MARKET:
+            rows = [r for r in evidence if r["topic"] == topic and r["brand"] == company]
+            if rows:
+                cells.append(f"[Evidence to review]({rows[0]['source']})")
+            else:
+                cells.append("Evidence gap")
+        lines.append("| " + topic + " | " + " | ".join(cells) + " |")
+    lines += ["", "Cells link to source material, not verified comparative rankings.", "",
+              "## Positioning map — research design", "",
+              "**Suggested axes:** perceived ease of getting started (X) vs perceived breadth of everyday-finance integration (Y).",
+              "Do not assign coordinates without user research or a documented scoring rubric. "
+              "Use interviews or blinded message testing to validate positions.", "",
+              "## Competitor battlecards — working hypotheses", ""]
+    for company in ("PayPal", "bunq", "N26"):
+        rows = [r for r in evidence if r["brand"] == company]
+        lines += [f"### Revolut vs {company}", "",
+                  f"- **What to verify:** positioning, fees, eligibility, onboarding and trust cues in {MARKET[company]}.",
+                  "- **Customer question:** What makes this alternative feel simpler, safer or more relevant?",
+                  "- **Evidence:** " + (f"[Official source]({rows[0]['source']})" if rows else "Not enough source evidence"),
+                  "- **Messaging response to test:** Explain Revolut's integrated-app experience without claiming superiority or guaranteed outcomes.",
+                  "- **Validation:** message comprehension interviews; competitor consideration survey; legal/compliance review.", ""]
+    lines += ["## GTM, reviews and market perception — evidence gaps", "",
+              "- **Acquisition channels:** current snapshots cannot establish actual ad spend, SEO traffic, funnel conversion or partner impact.",
+              "- **Customer sentiment:** G2, Trustpilot, Reddit and app reviews require a separate dated, representative research collection; anecdotes are not market share.",
+              "- **Win/loss:** no internal sales or customer-choice dataset is available; do not invent one.",
+              "- **Movement signals:** compare dated official announcements and page changes; a keyword mention is not a launch.",
+              "",
+              "## Recommended PMM action", "",
+              "**Test a beginner-focused messaging framework** explaining eligibility, risk, fees and how crypto fits into the existing app. "
+              "Validate comprehension and perceived clarity with UK crypto-curious participants before changing live copy.",
+              "",
+    ]
     lines += [
         "## PMM hypotheses to validate", "",
         "1. **Risk comprehension:** Test whether crypto-curious users understand volatility, custody, and potential losses before exploring a trade.",
