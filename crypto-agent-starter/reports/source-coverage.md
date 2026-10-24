@@ -1,12 +1,12 @@
 # Crypto intelligence — source coverage
 
-Monitoring run: **2026-10-24 08:16 UTC**
+Monitoring run: **2026-10-24 08:25 UTC**
 
 > A successful GitHub workflow does not guarantee that all sources were readable. Candidate URLs are not verified coverage.
 
 | Company | Candidate URLs | Attempted | Fresh reads | Cached | Deferred | Failed | Changed |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| Revolut | 14 | 14 | 4 | 10 | 0 | 0 | 0 |
+| Revolut | 14 | 14 | 0 | 14 | 0 | 0 | 0 |
 | PayPal | 12 | 12 | 10 | 0 | 0 | 2 | 0 |
 | bunq | 16 | 16 | 16 | 0 | 0 | 0 | 0 |
 | N26 | 1 | 1 | 1 | 0 | 0 | 0 | 0 |

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-24T08:16:52.548409+00:00",
-  "monitor_run_at": "2026-10-24 08:16 UTC",
+  "generated_at": "2026-10-24T08:25:33.325739+00:00",
+  "monitor_run_at": "2026-10-24 08:25 UTC",
   "scope": "Revolut Crypto main app, UK; Revolut X is separate-product context",
   "discovery": {
     "revolut_failed_indexes": 9,
@@ -11,8 +11,8 @@
     "Revolut": {
       "candidate_urls": 14,
       "attempted": 14,
-      "read_successfully": 4,
-      "cached_snapshots": 10,
+      "read_successfully": 0,
+      "cached_snapshots": 14,
       "deferred": 0,
       "failed": 0,
       "not_attempted": 0,

@@ -1,6 +1,6 @@
 # Crypto Competitive Intelligence — Monitoring Brief
 
-**Run:** 2026-10-24 08:16 UTC  
+**Run:** 2026-10-24 08:25 UTC  
 **Status:** automated source monitoring; human review required  
 **Scope:** Revolut Crypto in the main app, not the advanced Revolut X journey.
 
@@ -18,10 +18,10 @@
 | Revolut / Crypto safety | United Kingdom | cached snapshot | [Open](https://help.revolut.com/help/wealth/cryptocurrencies/understanding-revolut-cryptocurrency/crypto-safety/) |
 | Revolut / Crypto deposits | United Kingdom | cached snapshot | [Open](https://help.revolut.com/help/wealth/cryptocurrencies/transferring-cryptocurrencies/depositing-cryptocurrencies/) |
 | Revolut / Crypto withdrawals | United Kingdom | cached snapshot | [Open](https://help.revolut.com/help/wealth/cryptocurrencies/crypto-withdraw-deposit/) |
-| Revolut / Crypto staking | United Kingdom | first snapshot | [Open](https://help.revolut.com/help/wealth/cryptocurrencies/crypto-staking/) |
-| Revolut / Crypto legal terms | United Kingdom | first snapshot | [Open](https://www.revolut.com/legal/cryptocurrency-terms/) |
-| Revolut / Revolut X: separate advanced product | United Kingdom | first snapshot | [Open](https://help.revolut.com/help/wealth/cryptocurrencies/crypto-exchange/) |
-| Revolut / Crypto account onboarding requirements | United Kingdom | first snapshot | [Open](https://help.revolut.com/help/wealth/cryptocurrencies/more-about-cryptocurrencies/cryptocurrencies-onboarding/what-does-the-new-crypto-onboarding-flow-consist-of/) |
+| Revolut / Crypto staking | United Kingdom | cached snapshot | [Open](https://help.revolut.com/help/wealth/cryptocurrencies/crypto-staking/) |
+| Revolut / Crypto legal terms | United Kingdom | cached snapshot | [Open](https://www.revolut.com/legal/cryptocurrency-terms/) |
+| Revolut / Revolut X: separate advanced product | United Kingdom | cached snapshot | [Open](https://help.revolut.com/help/wealth/cryptocurrencies/crypto-exchange/) |
+| Revolut / Crypto account onboarding requirements | United Kingdom | cached snapshot | [Open](https://help.revolut.com/help/wealth/cryptocurrencies/more-about-cryptocurrencies/cryptocurrencies-onboarding/what-does-the-new-crypto-onboarding-flow-consist-of/) |
 | PayPal / Positioning | United Kingdom — verify buying restrictions | unchanged | [Open](https://www.paypal.com/uk/digital-wallet/manage-money/crypto) |
 | PayPal / Onboarding | United Kingdom — verify buying restrictions | unchanged | [Open](https://www.paypal.com/uk/cshelp/article/how-do-i-buy-cryptocurrency-on-paypal-help567) |
 | PayPal / Capabilities | United Kingdom — verify buying restrictions | unchanged | [Open](https://www.paypal.com/uk/cshelp/article/what-can-i-do-with-crypto-on-paypal-help893) |

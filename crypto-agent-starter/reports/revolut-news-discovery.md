@@ -1,6 +1,6 @@
 # Revolut Crypto — indexed announcement discovery
 
-Checked: **2026-10-24T08:16:30.739927+00:00** · Lookback: **30 days**
+Checked: **2026-10-24T08:25:18.033319+00:00** · Lookback: **30 days**
 
 > Discovery only. These are third-party index headlines, NOT validated Revolut updates.
 > A page listed here has not been read from Revolut; dates are index publication dates.
