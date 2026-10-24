@@ -1,14 +1,15 @@
 {
-  "checked_at": "2026-10-24 08:09 UTC",
+  "checked_at": "2026-10-24 08:16 UTC",
   "sources": [
     {
       "name": "Revolut Crypto",
       "market": "United Kingdom",
       "role": "Focus product",
       "url": "https://help.revolut.com/help/wealth/cryptocurrencies/understanding-revolut-cryptocurrency/are-there-any-limits-on-crypto-exchanges/",
-      "status": "first snapshot",
+      "status": "cached snapshot",
       "changed": false,
-      "provider": "Firecrawl API"
+      "provider": "saved Firecrawl snapshot",
+      "snapshot_at": "2026-10-24 08:09 UTC"
     },
     {
       "name": "Revolut | Help centre: crypto home",
@@ -17,9 +18,10 @@
       "role": "Focus: Revolut Crypto main app",
       "theme": "discovery",
       "origin": "curated candidate; availability and relevance unverified",
-      "status": "first snapshot",
+      "status": "cached snapshot",
       "changed": false,
-      "provider": "Firecrawl API"
+      "provider": "saved Firecrawl snapshot",
+      "snapshot_at": "2026-10-24 08:09 UTC"
     },
     {
       "name": "Revolut | Crypto product overview",
@@ -28,9 +30,10 @@
       "role": "Focus: Revolut Crypto main app",
       "theme": "positioning",
       "origin": "curated candidate; availability and relevance unverified",
-      "status": "first snapshot",
+      "status": "cached snapshot",
       "changed": false,
-      "provider": "Firecrawl API"
+      "provider": "saved Firecrawl snapshot",
+      "snapshot_at": "2026-10-24 08:09 UTC"
     },
     {
       "name": "Revolut | Buy crypto overview",
@@ -39,9 +42,10 @@
       "role": "Focus: Revolut Crypto main app",
       "theme": "positioning",
       "origin": "curated candidate; availability and relevance unverified",
-      "status": "first snapshot",
+      "status": "cached snapshot",
       "changed": false,
-      "provider": "Firecrawl API"
+      "provider": "saved Firecrawl snapshot",
+      "snapshot_at": "2026-10-24 08:09 UTC"
     },
     {
       "name": "Revolut | Crypto: getting started and trading",
@@ -50,9 +54,10 @@
       "role": "Focus: Revolut Crypto main app",
       "theme": "onboarding",
       "origin": "curated candidate; availability and relevance unverified",
-      "status": "first snapshot",
+      "status": "cached snapshot",
       "changed": false,
-      "provider": "Firecrawl API"
+      "provider": "saved Firecrawl snapshot",
+      "snapshot_at": "2026-10-24 08:09 UTC"
     },
     {
       "name": "Revolut | Crypto features",
@@ -61,9 +66,10 @@
       "role": "Focus: Revolut Crypto main app",
       "theme": "features",
       "origin": "curated candidate; availability and relevance unverified",
-      "status": "first snapshot",
+      "status": "cached snapshot",
       "changed": false,
-      "provider": "Firecrawl API"
+      "provider": "saved Firecrawl snapshot",
+      "snapshot_at": "2026-10-24 08:09 UTC"
     },
     {
       "name": "Revolut | Crypto trading fees",
@@ -72,9 +78,10 @@
       "role": "Focus: Revolut Crypto main app",
       "theme": "fees",
       "origin": "curated candidate; availability and relevance unverified",
-      "status": "first snapshot",
+      "status": "cached snapshot",
       "changed": false,
-      "provider": "Firecrawl API"
+      "provider": "saved Firecrawl snapshot",
+      "snapshot_at": "2026-10-24 08:09 UTC"
     },
     {
       "name": "Revolut | Crypto safety",
@@ -83,9 +90,10 @@
       "role": "Focus: Revolut Crypto main app",
       "theme": "risks",
       "origin": "curated candidate; availability and relevance unverified",
-      "status": "first snapshot",
+      "status": "cached snapshot",
       "changed": false,
-      "provider": "Firecrawl API"
+      "provider": "saved Firecrawl snapshot",
+      "snapshot_at": "2026-10-24 08:09 UTC"
     },
     {
       "name": "Revolut | Crypto deposits",
@@ -94,9 +102,10 @@
       "role": "Focus: Revolut Crypto main app",
       "theme": "transfers",
       "origin": "curated candidate; availability and relevance unverified",
-      "status": "first snapshot",
+      "status": "cached snapshot",
       "changed": false,
-      "provider": "Firecrawl API"
+      "provider": "saved Firecrawl snapshot",
+      "snapshot_at": "2026-10-24 08:09 UTC"
     },
     {
       "name": "Revolut | Crypto withdrawals",
@@ -105,9 +114,10 @@
       "role": "Focus: Revolut Crypto main app",
       "theme": "transfers",
       "origin": "curated candidate; availability and relevance unverified",
-      "status": "first snapshot",
+      "status": "cached snapshot",
       "changed": false,
-      "provider": "Firecrawl API"
+      "provider": "saved Firecrawl snapshot",
+      "snapshot_at": "2026-10-24 08:09 UTC"
     },
     {
       "name": "Revolut | Crypto staking",
@@ -116,9 +126,10 @@
       "role": "Focus: Revolut Crypto main app",
       "theme": "staking",
       "origin": "curated candidate; availability and relevance unverified",
-      "status": "fetch failed: Firecrawl HTTP 429",
+      "status": "first snapshot",
       "changed": false,
-      "provider": "Firecrawl fallback"
+      "provider": "Firecrawl API",
+      "snapshot_at": "2026-10-24 08:16 UTC"
     },
     {
       "name": "Revolut | Crypto legal terms",
@@ -127,9 +138,10 @@
       "role": "Focus: Revolut Crypto main app",
       "theme": "terms",
       "origin": "curated candidate; availability and relevance unverified",
-      "status": "fetch failed: Firecrawl HTTP 429",
+      "status": "first snapshot",
       "changed": false,
-      "provider": "Firecrawl fallback"
+      "provider": "Firecrawl API",
+      "snapshot_at": "2026-10-24 08:16 UTC"
     },
     {
       "name": "Revolut | Revolut X: separate advanced product",
@@ -138,9 +150,10 @@
       "role": "Context only: Revolut X",
       "theme": "advanced-context",
       "origin": "curated candidate; availability and relevance unverified",
-      "status": "fetch failed: Firecrawl HTTP 429",
+      "status": "first snapshot",
       "changed": false,
-      "provider": "Firecrawl fallback"
+      "provider": "Firecrawl API",
+      "snapshot_at": "2026-10-24 08:16 UTC"
     },
     {
       "name": "Revolut | Crypto account onboarding requirements",
@@ -149,9 +162,10 @@
       "role": "Focus: Revolut Crypto main app",
       "theme": "onboarding",
       "origin": "curated candidate; availability and relevance unverified",
-      "status": "fetch failed: Firecrawl HTTP 429",
+      "status": "first snapshot",
       "changed": false,
-      "provider": "Firecrawl fallback"
+      "provider": "Firecrawl API",
+      "snapshot_at": "2026-10-24 08:16 UTC"
     },
     {
       "name": "PayPal | Positioning",
@@ -159,9 +173,10 @@
       "role": "Integrated-finance benchmark (UK)",
       "theme": "features-and-education",
       "url": "https://www.paypal.com/uk/digital-wallet/manage-money/crypto",
-      "status": "changed",
-      "changed": true,
-      "provider": "direct"
+      "status": "unchanged",
+      "changed": false,
+      "provider": "direct",
+      "snapshot_at": "2026-10-24 08:16 UTC"
     },
     {
       "name": "PayPal | Onboarding",
@@ -171,7 +186,8 @@
       "url": "https://www.paypal.com/uk/cshelp/article/how-do-i-buy-cryptocurrency-on-paypal-help567",
       "status": "unchanged",
       "changed": false,
-      "provider": "direct"
+      "provider": "direct",
+      "snapshot_at": "2026-10-24 08:16 UTC"
     },
     {
       "name": "PayPal | Capabilities",
@@ -181,7 +197,8 @@
       "url": "https://www.paypal.com/uk/cshelp/article/what-can-i-do-with-crypto-on-paypal-help893",
       "status": "unchanged",
       "changed": false,
-      "provider": "direct"
+      "provider": "direct",
+      "snapshot_at": "2026-10-24 08:16 UTC"
     },
     {
       "name": "PayPal | Fees",
@@ -191,7 +208,8 @@
       "url": "https://www.paypal.com/uk/webapps/mpp/digital-wallet/paypal-consumer-fees",
       "status": "unchanged",
       "changed": false,
-      "provider": "direct"
+      "provider": "direct",
+      "snapshot_at": "2026-10-24 08:16 UTC"
     },
     {
       "name": "PayPal | Availability",
@@ -201,7 +219,8 @@
       "url": "https://www.paypal.com/uk/cshelp/article/why-is-my-cryptocurrency-sale-on-hold%E2%80%AF-help886",
       "status": "unchanged",
       "changed": false,
-      "provider": "direct"
+      "provider": "direct",
+      "snapshot_at": "2026-10-24 08:16 UTC"
     },
     {
       "name": "PayPal | Risks",
@@ -211,7 +230,8 @@
       "url": "https://www.paypal.com/uk/cshelp/article/what-to-know-before-buying-crypto-help1292",
       "status": "unchanged",
       "changed": false,
-      "provider": "direct"
+      "provider": "direct",
+      "snapshot_at": "2026-10-24 08:16 UTC"
     },
     {
       "name": "PayPal | Education",
@@ -221,7 +241,8 @@
       "url": "https://www.paypal.com/uk/cshelp/article/paypals-guide-to-cryptocurrency-in-the-uk-help1293",
       "status": "unchanged",
       "changed": false,
-      "provider": "direct"
+      "provider": "direct",
+      "snapshot_at": "2026-10-24 08:16 UTC"
     },
     {
       "name": "PayPal | Terms",
@@ -241,7 +262,8 @@
       "url": "https://www.paypal.com/uk/cshelp/article/crypto-on-paypal-buying-and-purchase-protection-faqs-help573",
       "status": "unchanged",
       "changed": false,
-      "provider": "direct"
+      "provider": "direct",
+      "snapshot_at": "2026-10-24 08:16 UTC"
     },
     {
       "name": "PayPal | purchase crypto including PYUSD in the PayPal app",
@@ -251,7 +273,8 @@
       "url": "https://www.paypal.com/uk/digital-wallet",
       "status": "unchanged",
       "changed": false,
-      "provider": "direct"
+      "provider": "direct",
+      "snapshot_at": "2026-10-24 08:16 UTC"
     },
     {
       "name": "PayPal | Legal",
@@ -271,7 +294,8 @@
       "url": "https://www.paypal.com/uk/cshelp/article/crypto-on-paypal-purchase-and-paypal-buyer-protection-faqs-help573",
       "status": "unchanged",
       "changed": false,
-      "provider": "direct"
+      "provider": "direct",
+      "snapshot_at": "2026-10-24 08:16 UTC"
     },
     {
       "name": "bunq | Overview",
@@ -281,7 +305,8 @@
       "url": "https://help.bunq.com/articles/bunq-crypto",
       "status": "unchanged",
       "changed": false,
-      "provider": "direct"
+      "provider": "direct",
+      "snapshot_at": "2026-10-24 08:16 UTC"
     },
     {
       "name": "bunq | Features",
@@ -291,7 +316,8 @@
       "url": "https://help.bunq.com/articles/crypto-faq",
       "status": "unchanged",
       "changed": false,
-      "provider": "direct"
+      "provider": "direct",
+      "snapshot_at": "2026-10-24 08:16 UTC"
     },
     {
       "name": "bunq | Fees",
@@ -301,7 +327,8 @@
       "url": "https://help.bunq.com/articles/how-do-the-fees-and-spread-work-in-bunq-crypto",
       "status": "unchanged",
       "changed": false,
-      "provider": "direct"
+      "provider": "direct",
+      "snapshot_at": "2026-10-24 08:16 UTC"
     },
     {
       "name": "bunq | Staking",
@@ -311,7 +338,8 @@
       "url": "https://help.bunq.com/articles/crypto-staking",
       "status": "unchanged",
       "changed": false,
-      "provider": "direct"
+      "provider": "direct",
+      "snapshot_at": "2026-10-24 08:16 UTC"
     },
     {
       "name": "bunq | Lifecycle",
@@ -321,7 +349,8 @@
       "url": "https://help.bunq.com/articles/never-miss-your-crypto-move",
       "status": "unchanged",
       "changed": false,
-      "provider": "direct"
+      "provider": "direct",
+      "snapshot_at": "2026-10-24 08:16 UTC"
     },
     {
       "name": "bunq | Crypto",
@@ -331,7 +360,8 @@
       "url": "https://www.bunq.com/personal/features/crypto",
       "status": "unchanged",
       "changed": false,
-      "provider": "direct"
+      "provider": "direct",
+      "snapshot_at": "2026-10-24 08:16 UTC"
     },
     {
       "name": "bunq | Crypto",
@@ -341,7 +371,8 @@
       "url": "https://help.bunq.com/topics/crypto",
       "status": "unchanged",
       "changed": false,
-      "provider": "direct"
+      "provider": "direct",
+      "snapshot_at": "2026-10-24 08:16 UTC"
     },
     {
       "name": "bunq | Do I have to pay taxes on crypto? (opens in new tab)",
@@ -351,7 +382,8 @@
       "url": "https://help.bunq.com/articles/do-i-have-to-pay-taxes-on-crypto",
       "status": "unchanged",
       "changed": false,
-      "provider": "direct"
+      "provider": "direct",
+      "snapshot_at": "2026-10-24 08:16 UTC"
     },
     {
       "name": "bunq | What risks are involved in investing in crypto? (opens in new tab)",
@@ -361,7 +393,8 @@
       "url": "https://help.bunq.com/articles/what-risks-are-involved-in-investing-in-crypto",
       "status": "unchanged",
       "changed": false,
-      "provider": "direct"
+      "provider": "direct",
+      "snapshot_at": "2026-10-24 08:16 UTC"
     },
     {
       "name": "bunq | See Crypto Terms and Conditions",
@@ -371,7 +404,8 @@
       "url": "https://www.bunq.com/documents/personal-account-terms-conditions",
       "status": "unchanged",
       "changed": false,
-      "provider": "direct"
+      "provider": "direct",
+      "snapshot_at": "2026-10-24 08:16 UTC"
     },
     {
       "name": "bunq | Learn more",
@@ -381,7 +415,8 @@
       "url": "https://help.bunq.com/articles/extra-protection-for-your-crypto-with-safety-shield",
       "status": "unchanged",
       "changed": false,
-      "provider": "direct"
+      "provider": "direct",
+      "snapshot_at": "2026-10-24 08:16 UTC"
     },
     {
       "name": "bunq | Investing 2 minute read Why Ethereum Matters Beyond Crypto for Finance Ethereum is not only a cryptocurrency, it powers apps and contracts. ",
@@ -391,7 +426,8 @@
       "url": "https://www.bunq.com/blog/not-just-crypto-why-ethereum-could-power-the-future-of-finance",
       "status": "unchanged",
       "changed": false,
-      "provider": "direct"
+      "provider": "direct",
+      "snapshot_at": "2026-10-24 08:16 UTC"
     },
     {
       "name": "bunq | Investing 3 minute read How do I star t investing in crypto? Thinking about crypto? See how buying Bitcoin and Ethereum works in the bunq ap",
@@ -401,7 +437,8 @@
       "url": "https://www.bunq.com/blog/how-do-i-start-investing-in-crypto",
       "status": "unchanged",
       "changed": false,
-      "provider": "direct"
+      "provider": "direct",
+      "snapshot_at": "2026-10-24 08:16 UTC"
     },
     {
       "name": "bunq | Delisted Crypto (opens in new tab)",
@@ -411,7 +448,8 @@
       "url": "https://help.bunq.com/articles/delisted-crypto",
       "status": "unchanged",
       "changed": false,
-      "provider": "direct"
+      "provider": "direct",
+      "snapshot_at": "2026-10-24 08:16 UTC"
     },
     {
       "name": "bunq | What is a rate guarantee when I buy Crypto? (opens in new tab)",
@@ -421,7 +459,8 @@
       "url": "https://help.bunq.com/articles/what-is-a-rate-guarantee-when-i-buy-crypto",
       "status": "unchanged",
       "changed": false,
-      "provider": "direct"
+      "provider": "direct",
+      "snapshot_at": "2026-10-24 08:16 UTC"
     },
     {
       "name": "bunq | Business account activities related to Cryptocurrency (opens in new tab)",
@@ -431,7 +470,8 @@
       "url": "https://help.bunq.com/articles/business-account-activities-related-to-cryptocurrency",
       "status": "unchanged",
       "changed": false,
-      "provider": "direct"
+      "provider": "direct",
+      "snapshot_at": "2026-10-24 08:16 UTC"
     },
     {
       "name": "N26 | Features / onboarding",
@@ -441,7 +481,8 @@
       "url": "https://support.n26.com/en-eu/app-and-features/app/how-n26-crypto-works",
       "status": "unchanged",
       "changed": false,
-      "provider": "direct"
+      "provider": "direct",
+      "snapshot_at": "2026-10-24 08:16 UTC"
     }
   ]
 }
