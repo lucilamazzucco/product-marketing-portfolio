@@ -1,17 +1,13 @@
 # Revolut Crypto — indexed announcement discovery
 
-Checked: **2026-10-24T07:59:35.615049+00:00** · Lookback: **30 days**
+Checked: **2026-10-24T08:03:22.647012+00:00** · Lookback: **30 days**
 
 > Discovery only. These are third-party index headlines, NOT validated Revolut updates.
 > A page listed here has not been read from Revolut; dates are index publication dates.
 > Manual verification of the official page, UK applicability and claims is required.
 
-**Recent relevant candidates:** 0 · **New this run:** 0
+**Recent relevant candidates:** 1 · **New this run:** 1
  · **Official articles verified:** 0
 
-No qualifying indexed headlines were returned. This does NOT establish that Revolut made no changes.
-
-## Feed errors
-
-- site:revolut.com/news/ crypto when:30d: HTTPError: HTTP Error 503: Service Unavailable
-- site:help.revolut.com/help/wealth/cryptocurrencies/ when:30d: HTTPError: HTTP Error 503: Service Unavailable
+- [Revolut receives crypto licence authorisation in Gibraltar, fueling further expansion - Revolut](https://news.google.com/rss/articles/CBMitAFBVV95cUxOemU5MnlNejQxcGVWQ2Jsc1VldWQxemVMeHNrOXRzai00QzRocERzMGNoSUduakxUajVvWFY4WlphWGxXUjMtaFdIZHR3R3JaZ29fcUpUbUp3V3o5OEFkeDMxcG5jSU1TUFpBMDNOZkVxeFpVZjZ0VlJ6bUdLczVoWWRScUlwbWIzZGpsdE9oblRleW1MSnBrWlhHTUxVLWhKSkQzSE01WkVLbEhWdEZjcnlvaWE?oc=5)
+  - 2026-10-19 · Features & transfers · Revolut Crypto: candidate · NEW · **unverified**

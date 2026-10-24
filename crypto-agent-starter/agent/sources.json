@@ -102,6 +102,14 @@
     "origin": "curated candidate; availability and relevance unverified"
   },
   {
+    "name": "Revolut | Crypto account onboarding requirements",
+    "url": "https://help.revolut.com/help/wealth/cryptocurrencies/more-about-cryptocurrencies/cryptocurrencies-onboarding/what-does-the-new-crypto-onboarding-flow-consist-of/",
+    "market": "United Kingdom",
+    "role": "Focus: Revolut Crypto main app",
+    "theme": "onboarding",
+    "origin": "curated candidate; availability and relevance unverified"
+  },
+  {
     "name": "PayPal | Positioning",
     "market": "United Kingdom — verify buying restrictions",
     "role": "Integrated-finance benchmark (UK)",
@@ -303,13 +311,5 @@
     "role": "Integrated-banking benchmark (EU)",
     "theme": "features-and-education",
     "url": "https://support.n26.com/en-eu/app-and-features/app/how-n26-crypto-works"
-  },
-  {
-    "name": "Revolut | Crypto account onboarding requirements",
-    "url": "https://help.revolut.com/help/wealth/cryptocurrencies/more-about-cryptocurrencies/cryptocurrencies-onboarding/what-does-the-new-crypto-onboarding-flow-consist-of/",
-    "market": "United Kingdom",
-    "role": "Focus: Revolut Crypto main app",
-    "theme": "onboarding",
-    "origin": "curated candidate; availability and relevance unverified"
   }
 ]

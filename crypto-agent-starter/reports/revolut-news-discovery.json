@@ -1,20 +1,21 @@
 {
-  "checked_at": "2026-10-24T07:59:35.615049+00:00",
+  "checked_at": "2026-10-24T08:03:22.647012+00:00",
   "window_days": 30,
   "method": "Public third-party Google News RSS; not an official Revolut API",
   "verified_official_articles": 0,
-  "candidate_count": 0,
-  "new_candidate_count": 0,
+  "candidate_count": 1,
+  "new_candidate_count": 1,
   "advanced_context_count": 0,
-  "items": [],
-  "errors": [
+  "items": [
     {
-      "query": "site:revolut.com/news/ crypto when:30d",
-      "error": "HTTPError: HTTP Error 503: Service Unavailable"
-    },
-    {
-      "query": "site:help.revolut.com/help/wealth/cryptocurrencies/ when:30d",
-      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+      "title": "Revolut receives crypto licence authorisation in Gibraltar, fueling further expansion - Revolut",
+      "indexed_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOemU5MnlNejQxcGVWQ2Jsc1VldWQxemVMeHNrOXRzai00QzRocERzMGNoSUduakxUajVvWFY4WlphWGxXUjMtaFdIZHR3R3JaZ29fcUpUbUp3V3o5OEFkeDMxcG5jSU1TUFpBMDNOZkVxeFpVZjZ0VlJ6bUdLczVoWWRScUlwbWIzZGpsdE9oblRleW1MSnBrWlhHTUxVLWhKSkQzSE01WkVLbEhWdEZjcnlvaWE?oc=5",
+      "published": "2026-10-19T10:07:30+00:00",
+      "topic": "Features & transfers",
+      "journey_scope": "Revolut Crypto: candidate",
+      "verification": "UNVERIFIED: index headline only; official article not fetched",
+      "is_new": true
     }
-  ]
+  ],
+  "errors": []
 }

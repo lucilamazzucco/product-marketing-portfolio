@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-24 07:59 UTC",
+  "checked_at": "2026-10-24 08:03 UTC",
   "sources": [
     {
       "name": "Revolut Crypto",
@@ -143,13 +143,24 @@
       "provider": "direct / Firecrawl fallback when configured"
     },
     {
+      "name": "Revolut | Crypto account onboarding requirements",
+      "url": "https://help.revolut.com/help/wealth/cryptocurrencies/more-about-cryptocurrencies/cryptocurrencies-onboarding/what-does-the-new-crypto-onboarding-flow-consist-of/",
+      "market": "United Kingdom",
+      "role": "Focus: Revolut Crypto main app",
+      "theme": "onboarding",
+      "origin": "curated candidate; availability and relevance unverified",
+      "status": "fetch failed: HTTPError",
+      "changed": false,
+      "provider": "direct / Firecrawl fallback when configured"
+    },
+    {
       "name": "PayPal | Positioning",
       "market": "United Kingdom \u2014 verify buying restrictions",
       "role": "Integrated-finance benchmark (UK)",
       "theme": "features-and-education",
       "url": "https://www.paypal.com/uk/digital-wallet/manage-money/crypto",
-      "status": "changed",
-      "changed": true,
+      "status": "unchanged",
+      "changed": false,
       "provider": "direct"
     },
     {
@@ -431,17 +442,6 @@
       "status": "unchanged",
       "changed": false,
       "provider": "direct"
-    },
-    {
-      "name": "Revolut | Crypto account onboarding requirements",
-      "url": "https://help.revolut.com/help/wealth/cryptocurrencies/more-about-cryptocurrencies/cryptocurrencies-onboarding/what-does-the-new-crypto-onboarding-flow-consist-of/",
-      "market": "United Kingdom",
-      "role": "Focus: Revolut Crypto main app",
-      "theme": "onboarding",
-      "origin": "curated candidate; availability and relevance unverified",
-      "status": "fetch failed: HTTPError",
-      "changed": false,
-      "provider": "direct / Firecrawl fallback when configured"
     }
   ]
 }
