@@ -5,6 +5,7 @@ import difflib
 import hashlib
 import json
 import os
+import time
 from pathlib import Path
 from html.parser import HTMLParser
 from urllib.request import Request, urlopen
@@ -14,6 +15,9 @@ from urllib.error import HTTPError
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "reports"
 OUT.mkdir(exist_ok=True)
+FIRECRAWL_CACHE_HOURS = 12
+FIRECRAWL_SPACING_SECONDS = 2
+FIRECRAWL_RETRY_SECONDS = 8
 
 class TextExtractor(HTMLParser):
     def __init__(self):
@@ -42,29 +46,45 @@ def is_revolut(url):
     host = (urlsplit(url).hostname or "").lower()
     return host == "revolut.com" or host.endswith(".revolut.com")
 
+def cached_revolut_snapshot(snapshot, now):
+    """Reuse a recent verified download, without claiming a fresh page check."""
+    if not snapshot or not snapshot.get("text") or not snapshot.get("sha256"):
+        return False
+    try:
+        stamp = dt.datetime.fromisoformat(snapshot["checked_at"].replace(" UTC", "+00:00"))
+        if stamp.tzinfo is None:
+            stamp = stamp.replace(tzinfo=dt.timezone.utc)
+    except (KeyError, ValueError, TypeError):
+        return False
+    age = (now - stamp.astimezone(dt.timezone.utc)).total_seconds()
+    return 0 <= age < FIRECRAWL_CACHE_HOURS * 3600
+
 def fetch_with_firecrawl(url):
-    """Authorized Firecrawl API fallback; never exposes credentials in reports."""
+    """Bounded Firecrawl fetch with one 429 retry; never log token or response body."""
     key = os.environ.get("FIRECRAWL_API_KEY", "").strip()
     if not key:
         raise RuntimeError("Firecrawl API key is not configured")
-    payload = {
-        "url": url, "formats": ["markdown"],
-        "onlyMainContent": True, "maxAge": 0,
-    }
+    payload = {"url": url, "formats": ["markdown"], "onlyMainContent": True,
+               "maxAge": 60 * 60 * 1000}
     request = Request(
         "https://api.firecrawl.dev/v2/scrape",
         data=json.dumps(payload).encode("utf-8"),
         headers={"Authorization": "Bearer " + key, "Content-Type": "application/json"},
         method="POST",
     )
-    try:
-        with urlopen(request, timeout=60) as response:
-            data = response.read(1_500_001)
-    except HTTPError as exc:
-        # Report only the status code; never log request headers, tokens or bodies.
-        raise RuntimeError(f"Firecrawl HTTP {exc.code}") from None
-        if len(data) > 1_500_000:
-            raise ValueError("Firecrawl response exceeds size limit")
+    for attempt in range(2):
+        try:
+            with urlopen(request, timeout=60) as response:
+                data = response.read(1_500_001)
+            break
+        except HTTPError as exc:
+            if exc.code == 429 and attempt == 0:
+                print("Firecrawl rate limit received; one delayed retry")
+                time.sleep(FIRECRAWL_RETRY_SECONDS)
+                continue
+            raise RuntimeError(f"Firecrawl HTTP {exc.code}") from None
+    if len(data) > 1_500_000:
+        raise ValueError("Firecrawl response exceeds size limit")
     result = json.loads(data)
     if result.get("success") is False:
         raise RuntimeError("Firecrawl returned success=false")
@@ -93,9 +113,27 @@ def main():
     sources=json.loads((ROOT/"agent/sources.json").read_text())
     old_file=OUT/"snapshots.json"
     previous=json.loads(old_file.read_text()) if old_file.exists() else {}
-    current=dict(previous); records=[]; date=dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    current=dict(previous); records=[]
+    now=dt.datetime.now(dt.timezone.utc)
+    date=now.strftime("%Y-%m-%d %H:%M UTC")
+    firecrawl_last_call=0.0
+    firecrawl_rate_limited=False
     for item in sources:
         name=item["name"]; url=item["url"]
+        before=previous.get(url,{})
+        # Save credits for repeated manual runs. A cache hit is NOT a fresh check.
+        if is_revolut(url) and cached_revolut_snapshot(before, now):
+            records.append({**item,"status":"cached snapshot","changed":False,
+                            "provider":"saved Firecrawl snapshot",
+                            "snapshot_at":before.get("checked_at"),
+                            "excerpt":""})
+            print(name, "cached snapshot")
+            continue
+        if is_revolut(url) and firecrawl_rate_limited:
+            records.append({**item,"status":"deferred: Firecrawl HTTP 429",
+                            "changed":False,"provider":"Firecrawl API"})
+            print(name, "deferred after persistent HTTP 429")
+            continue
         try:
             provider="direct"
             try:
@@ -104,26 +142,35 @@ def main():
                 if is_revolut(url):
                     if os.environ.get("FIRECRAWL_API_KEY", "").strip():
                         try:
+                            elapsed=time.monotonic()-firecrawl_last_call
+                            if firecrawl_last_call and elapsed < FIRECRAWL_SPACING_SECONDS:
+                                time.sleep(FIRECRAWL_SPACING_SECONDS-elapsed)
+                            firecrawl_last_call=time.monotonic()
                             page=fetch_with_firecrawl(url)
                             provider="Firecrawl API"
                         except Exception as firecrawl_error:
-                            raise RuntimeError(str(firecrawl_error) if isinstance(firecrawl_error, RuntimeError) else "Firecrawl " + type(firecrawl_error).__name__) from None
+                            msg=str(firecrawl_error) if isinstance(firecrawl_error, RuntimeError) else "Firecrawl " + type(firecrawl_error).__name__
+                            if msg=="Firecrawl HTTP 429":
+                                firecrawl_rate_limited=True
+                            raise RuntimeError(msg) from None
                     else:
                         raise RuntimeError("Firecrawl secret missing; direct source blocked") from None
                 else:
                     raise direct_error
             digest=hashlib.sha256(page.encode()).hexdigest()
-            before=previous.get(url,{}); changed=bool(before and before.get("sha256")!=digest)
+            changed=bool(before and before.get("sha256")!=digest)
             status="changed" if changed else ("first snapshot" if not before else "unchanged")
             diff=""
             if changed:
                 delta=list(difflib.unified_diff(before.get("text","").splitlines(),page.splitlines(),n=1))
                 diff="\n".join(delta[:36])[:3500]
             current[url]={"sha256":digest,"text":page,"checked_at":date}
-            records.append({**item,"status":status,"changed":changed,"provider":provider,"excerpt":diff or page[:1500]})
+            records.append({**item,"status":status,"changed":changed,"provider":provider,
+                            "snapshot_at":date,"excerpt":diff or page[:1500]})
             print(name, status)
         except Exception as exc:
-            records.append({**item,"status":"fetch failed: "+(str(exc)[:95] if is_revolut(url) else type(exc).__name__),"changed":False,"provider":"Firecrawl fallback" if is_revolut(url) else "direct"})
+            records.append({**item,"status":"fetch failed: "+(str(exc)[:95] if is_revolut(url) else type(exc).__name__),
+                            "changed":False,"provider":"Firecrawl fallback" if is_revolut(url) else "direct"})
             print(name,"fetch failed",str(exc)[:95] if is_revolut(url) else type(exc).__name__)
     # Do not replace the last good snapshot when a fetch fails.
     old_file.write_text(json.dumps(current,ensure_ascii=False,indent=2)+"\n")
@@ -131,7 +178,7 @@ def main():
     for r in records:
         safe=lambda v: str(v).replace('|','/').replace('\n',' ')
         lines.append(f"| {safe(r['name'])} | {safe(r['market'])} | {safe(r['status'])} | [Open]({r['url']}) |")
-    lines += ["", "## What the results mean", "", "- A **first snapshot** is the baseline, not evidence that anything changed.", "- A **changed** page means the extracted page text changed; it does **not** by itself prove a product, price or regulatory change.", "- A **failed fetch** is not evidence of a product change. Check the link manually.", "- Revolut pages may use the Firecrawl API fallback when a GitHub secret is configured; the provider is noted in latest.json.", "- All interpretations are proposed research hypotheses, not verified business outcomes.", ""]
+    lines += ["", "## What the results mean", "", "- A **first snapshot** is the baseline, not evidence that anything changed.", "- A **changed** page means the extracted page text changed; it does **not** by itself prove a product, price or regulatory change.", "- A **failed fetch** is not evidence of a product change. Check the link manually.", "- Revolut pages may use the Firecrawl API fallback when a GitHub secret is configured; the provider is noted in latest.json.", "- **Cached snapshot** means a prior successful read was reused (up to 12 hours old); it does not confirm the page is unchanged today.", "- A persistent Firecrawl HTTP 429 pauses remaining Firecrawl requests this run; a later run can retry.", "- All interpretations are proposed research hypotheses, not verified business outcomes.", ""]
     changed=[r for r in records if r['changed']]
     if changed:
         lines += ["## Changed-page excerpts (machine-generated diffs)",""]
