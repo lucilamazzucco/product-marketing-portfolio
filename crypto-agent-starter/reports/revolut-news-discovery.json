@@ -1,10 +1,10 @@
 {
-  "checked_at": "2026-10-24T08:03:22.647012+00:00",
+  "checked_at": "2026-10-24T08:06:10.075976+00:00",
   "window_days": 30,
   "method": "Public third-party Google News RSS; not an official Revolut API",
   "verified_official_articles": 0,
   "candidate_count": 1,
-  "new_candidate_count": 1,
+  "new_candidate_count": 0,
   "advanced_context_count": 0,
   "items": [
     {
@@ -14,7 +14,7 @@
       "topic": "Features & transfers",
       "journey_scope": "Revolut Crypto: candidate",
       "verification": "UNVERIFIED: index headline only; official article not fetched",
-      "is_new": true
+      "is_new": false
     }
   ],
   "errors": []
