@@ -22,7 +22,7 @@ TOPICS = {
     "Trust & risk disclosures": ["risk of losing", "lose all", "high risk", "cooling-off", "knowledge assessment", "volatility", "cryptoassets"],
     "Market movement signals": ["launch", "introduc", "announc", "new feature", "now available", "expanded"],
 }
-MARKET = {"Revolut": "UK", "PayPal": "UK", "bunq": "EU / verify country", "N26": "EU / verify country"}
+MARKET = {"Revolut": "UK", "PayPal": "UK", "bunq": "EU / verify country", "N26": "EU / verify country", "Coinbase": "UK specialist exchange"}
 def brand(url):
     from urllib.parse import urlsplit
     host = urlsplit(url).hostname or ""
@@ -157,8 +157,8 @@ def main():
         lines.append("")
     lines += [
         "## Competitive comparison matrix", "",
-        "| Dimension | Revolut (UK) | PayPal (UK) | bunq (EU) | N26 (EU) |",
-        "|---|---|---|---|---|",
+        "| Dimension | Revolut (UK) | PayPal (UK) | bunq (EU) | N26 (EU) | Coinbase (UK) |",
+        "|---|---|---|---|---|---|",
     ]
     for topic in TOPICS:
         cells = []
@@ -175,7 +175,7 @@ def main():
               "Do not assign coordinates without user research or a documented scoring rubric. "
               "Use interviews or blinded message testing to validate positions.", "",
               "## Competitor battlecards — working hypotheses", ""]
-    for company in ("PayPal", "bunq", "N26"):
+    for company in ("Coinbase", "PayPal", "bunq", "N26"):
         rows = [r for r in evidence if r["brand"] == company]
         lines += [f"### Revolut vs {company}", "",
                   f"- **What to verify:** positioning, fees, eligibility, onboarding and trust cues in {MARKET[company]}.",
@@ -203,6 +203,40 @@ def main():
         "",
         "These are **research hypotheses**, not observed customer findings or recommendations to increase speculative trading.",
         "",
+    ]
+    lines += [
+        "## Business challenge", "",
+        "**Decision to support:** Which messages and educational touchpoints should Revolut Crypto test "
+        "for UK customers curious about crypto, while maintaining clear risk communication?",
+        "",
+        "## Customer decision journey — hypotheses, not observed behavior", "",
+        "| Stage | Customer question to research | Evidence needed | PMM experiment |",
+        "|---|---|---|---|",
+        "| Trigger | Why explore crypto now? | Interviews and search intent | Test risk-balanced value propositions |",
+        "| Consideration | Existing finance app or specialist exchange? | Revolut vs Coinbase concept test | Compare integrated-app vs specialist messaging |",
+        "| Evaluation | Do I understand fees, eligibility and risks? | Comprehension interviews | Test plain-language fee and risk explanations |",
+        "| Onboarding | Which requirements are confusing? | Moderated UK journey walkthrough | Test onboarding education and expectation-setting |",
+        "| Post-onboarding | What builds confidence without prompting risky activity? | Follow-up interviews | Test educational content usefulness |",
+        "",
+        "## Strategic opportunities — prioritized hypotheses", "",
+        "### 1. Make eligibility, fees and risk easier to understand", "",
+        "**Rationale:** Customers may need clearer explanations before deciding whether crypto is appropriate for them. "
+        "This is a hypothesis, not measured friction.", "",
+        "**Experiment:** Run UK moderated comprehension sessions comparing current public messaging with a proposed plain-language guide. "
+        "**Measure:** accurate recall of risks, eligibility and total costs; avoid using trading conversion alone as success.", "",
+        "### 2. Test the integrated-app positioning against specialist exchanges", "",
+        "**Rationale:** Revolut's broader finance context and Coinbase's specialist proposition may influence consideration differently. "
+        "The preference is unknown.", "",
+        "**Experiment:** Blind message testing with crypto-curious UK participants; compare clarity, relevance and perceived credibility. "
+        "**Measure:** correct understanding, message recall and stated consideration, with risk comprehension guardrails.", "",
+        "### 3. Make educational content match decision-stage questions", "",
+        "**Rationale:** A structured education journey might reduce uncertainty, but there is no behavioral evidence yet.", "",
+        "**Experiment:** Prototype stage-specific FAQs and compare task completion and comprehension in usability testing. "
+        "**Measure:** ability to locate answers and accurately explain relevant risks and fees.", "",
+        "## Recommended next decision", "",
+        "**Start with opportunity #1** because it is researchable with public information and a small participant study, "
+        "has a clear customer-comprehension outcome, and does not depend on access to Revolut's internal analytics. "
+        "Treat this as a proposed research priority, not a proven commercial uplift.", "",
     ]
     ai, state = generate_ai(evidence)
     if ai:
