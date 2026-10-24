@@ -1,6 +1,6 @@
 # Crypto intelligence — source coverage
 
-Monitoring run: **2026-10-24 08:25 UTC**
+Monitoring run: **2026-10-24 08:33 UTC**
 
 > A successful GitHub workflow does not guarantee that all sources were readable. Candidate URLs are not verified coverage.
 
@@ -10,6 +10,7 @@ Monitoring run: **2026-10-24 08:25 UTC**
 | PayPal | 12 | 12 | 10 | 0 | 0 | 2 | 0 |
 | bunq | 16 | 16 | 16 | 0 | 0 | 0 | 0 |
 | N26 | 1 | 1 | 1 | 0 | 0 | 0 | 0 |
+| Coinbase | 4 | 4 | 0 | 0 | 0 | 4 | 0 |
 
 **Revolut category-index failures:** 9
 
@@ -27,3 +28,10 @@ Monitoring run: **2026-10-24 08:25 UTC**
 
 - [PayPal | Terms](https://www.paypal.com/uk/legalhub/paypal/cryptocurrencies-tnc): fetch failed: ValueError
 - [PayPal | Legal](https://www.paypal.com/uk/webapps/mpp/ua/cryptocurrencies-tnc): fetch failed: ValueError
+
+## Coinbase: failed sources (up to 12)
+
+- [Coinbase | UK positioning](https://help.coinbase.com/en-gb/coinbase/getting-started/getting-started-with-coinbase/what-is-coinbase): fetch failed: HTTPError
+- [Coinbase | UK onboarding and FCA requirements](https://help.coinbase.com/en-gb/coinbase/getting-started/getting-started-with-coinbase/fca-financial-promo-changes): fetch failed: HTTPError
+- [Coinbase | UK fees and spreads](https://help.coinbase.com/en-gb/coinbase/trading-and-funding/pricing-and-fees/fees): fetch failed: HTTPError
+- [Coinbase | Account creation](https://help.coinbase.com/en-gb/coinbase/getting-started/getting-started-with-coinbase/create-a-coinbase-account): fetch failed: HTTPError

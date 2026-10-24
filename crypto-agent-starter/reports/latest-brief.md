@@ -1,6 +1,6 @@
 # Crypto Competitive Intelligence — Monitoring Brief
 
-**Run:** 2026-10-24 08:25 UTC  
+**Run:** 2026-10-24 08:33 UTC  
 **Status:** automated source monitoring; human review required  
 **Scope:** Revolut Crypto in the main app, not the advanced Revolut X journey.
 
@@ -22,6 +22,10 @@
 | Revolut / Crypto legal terms | United Kingdom | cached snapshot | [Open](https://www.revolut.com/legal/cryptocurrency-terms/) |
 | Revolut / Revolut X: separate advanced product | United Kingdom | cached snapshot | [Open](https://help.revolut.com/help/wealth/cryptocurrencies/crypto-exchange/) |
 | Revolut / Crypto account onboarding requirements | United Kingdom | cached snapshot | [Open](https://help.revolut.com/help/wealth/cryptocurrencies/more-about-cryptocurrencies/cryptocurrencies-onboarding/what-does-the-new-crypto-onboarding-flow-consist-of/) |
+| Coinbase / UK positioning | United Kingdom | fetch failed: HTTPError | [Open](https://help.coinbase.com/en-gb/coinbase/getting-started/getting-started-with-coinbase/what-is-coinbase) |
+| Coinbase / UK onboarding and FCA requirements | United Kingdom | fetch failed: HTTPError | [Open](https://help.coinbase.com/en-gb/coinbase/getting-started/getting-started-with-coinbase/fca-financial-promo-changes) |
+| Coinbase / UK fees and spreads | United Kingdom | fetch failed: HTTPError | [Open](https://help.coinbase.com/en-gb/coinbase/trading-and-funding/pricing-and-fees/fees) |
+| Coinbase / Account creation | United Kingdom | fetch failed: HTTPError | [Open](https://help.coinbase.com/en-gb/coinbase/getting-started/getting-started-with-coinbase/create-a-coinbase-account) |
 | PayPal / Positioning | United Kingdom — verify buying restrictions | unchanged | [Open](https://www.paypal.com/uk/digital-wallet/manage-money/crypto) |
 | PayPal / Onboarding | United Kingdom — verify buying restrictions | unchanged | [Open](https://www.paypal.com/uk/cshelp/article/how-do-i-buy-cryptocurrency-on-paypal-help567) |
 | PayPal / Capabilities | United Kingdom — verify buying restrictions | unchanged | [Open](https://www.paypal.com/uk/cshelp/article/what-can-i-do-with-crypto-on-paypal-help893) |

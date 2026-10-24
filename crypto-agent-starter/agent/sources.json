@@ -110,6 +110,38 @@
     "origin": "curated candidate; availability and relevance unverified"
   },
   {
+    "name": "Coinbase | UK positioning",
+    "url": "https://help.coinbase.com/en-gb/coinbase/getting-started/getting-started-with-coinbase/what-is-coinbase",
+    "market": "United Kingdom",
+    "role": "Specialist exchange benchmark",
+    "theme": "positioning",
+    "origin": "official Coinbase UK help; availability subject to verification"
+  },
+  {
+    "name": "Coinbase | UK onboarding and FCA requirements",
+    "url": "https://help.coinbase.com/en-gb/coinbase/getting-started/getting-started-with-coinbase/fca-financial-promo-changes",
+    "market": "United Kingdom",
+    "role": "Specialist exchange benchmark",
+    "theme": "onboarding",
+    "origin": "official Coinbase UK help; availability subject to verification"
+  },
+  {
+    "name": "Coinbase | UK fees and spreads",
+    "url": "https://help.coinbase.com/en-gb/coinbase/trading-and-funding/pricing-and-fees/fees",
+    "market": "United Kingdom",
+    "role": "Specialist exchange benchmark",
+    "theme": "pricing",
+    "origin": "official Coinbase UK help; availability subject to verification"
+  },
+  {
+    "name": "Coinbase | Account creation",
+    "url": "https://help.coinbase.com/en-gb/coinbase/getting-started/getting-started-with-coinbase/create-a-coinbase-account",
+    "market": "United Kingdom",
+    "role": "Specialist exchange benchmark",
+    "theme": "onboarding",
+    "origin": "official Coinbase UK help; availability subject to verification"
+  },
+  {
     "name": "PayPal | Positioning",
     "market": "United Kingdom — verify buying restrictions",
     "role": "Integrated-finance benchmark (UK)",
@@ -311,37 +343,5 @@
     "role": "Integrated-banking benchmark (EU)",
     "theme": "features-and-education",
     "url": "https://support.n26.com/en-eu/app-and-features/app/how-n26-crypto-works"
-  },
-  {
-    "name": "Coinbase | UK positioning",
-    "url": "https://help.coinbase.com/en-gb/coinbase/getting-started/getting-started-with-coinbase/what-is-coinbase",
-    "market": "United Kingdom",
-    "role": "Specialist exchange benchmark",
-    "theme": "positioning",
-    "origin": "official Coinbase UK help; availability subject to verification"
-  },
-  {
-    "name": "Coinbase | UK onboarding and FCA requirements",
-    "url": "https://help.coinbase.com/en-gb/coinbase/getting-started/getting-started-with-coinbase/fca-financial-promo-changes",
-    "market": "United Kingdom",
-    "role": "Specialist exchange benchmark",
-    "theme": "onboarding",
-    "origin": "official Coinbase UK help; availability subject to verification"
-  },
-  {
-    "name": "Coinbase | UK fees and spreads",
-    "url": "https://help.coinbase.com/en-gb/coinbase/trading-and-funding/pricing-and-fees/fees",
-    "market": "United Kingdom",
-    "role": "Specialist exchange benchmark",
-    "theme": "pricing",
-    "origin": "official Coinbase UK help; availability subject to verification"
-  },
-  {
-    "name": "Coinbase | Account creation",
-    "url": "https://help.coinbase.com/en-gb/coinbase/getting-started/getting-started-with-coinbase/create-a-coinbase-account",
-    "market": "United Kingdom",
-    "role": "Specialist exchange benchmark",
-    "theme": "onboarding",
-    "origin": "official Coinbase UK help; availability subject to verification"
   }
 ]
