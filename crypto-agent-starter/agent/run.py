@@ -8,6 +8,7 @@ import os
 from pathlib import Path
 from html.parser import HTMLParser
 from urllib.request import Request, urlopen
+from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "reports"
@@ -36,6 +37,35 @@ def fetch(url):
     if len(clean)<250: raise ValueError("Insufficient visible content; may be blocked or JS-rendered")
     return clean[:45000]
 
+def is_revolut(url):
+    host = (urlsplit(url).hostname or "").lower()
+    return host == "revolut.com" or host.endswith(".revolut.com")
+
+def fetch_with_firecrawl(url):
+    """Authorized Firecrawl API fallback; never exposes credentials in reports."""
+    key = os.environ.get("FIRECRAWL_API_KEY", "").strip()
+    if not key:
+        raise RuntimeError("Firecrawl API key is not configured")
+    payload = {
+        "url": url, "formats": ["markdown"],
+        "onlyMainContent": True, "maxAge": 0,
+    }
+    request = Request(
+        "https://api.firecrawl.dev/v2/scrape",
+        data=json.dumps(payload).encode("utf-8"),
+        headers={"Authorization": "Bearer " + key, "Content-Type": "application/json"},
+        method="POST",
+    )
+    with urlopen(request, timeout=60) as response:
+        data = response.read(1_500_001)
+        if len(data) > 1_500_000:
+            raise ValueError("Firecrawl response exceeds size limit")
+    result = json.loads(data)
+    page = (result.get("data") or {}).get("markdown") or result.get("markdown") or ""
+    if not isinstance(page, str) or len(page.strip()) < 250:
+        raise ValueError("Firecrawl returned no substantial markdown")
+    return page.strip()[:45000]
+
 def ai_review(records):
     key=os.environ.get("OPENAI_API_KEY","").strip()
     if not key: return None
@@ -60,7 +90,16 @@ def main():
     for item in sources:
         name=item["name"]; url=item["url"]
         try:
-            page=fetch(url); digest=hashlib.sha256(page.encode()).hexdigest()
+            provider="direct"
+            try:
+                page=fetch(url)
+            except Exception as direct_error:
+                if is_revolut(url) and os.environ.get("FIRECRAWL_API_KEY", "").strip():
+                    page=fetch_with_firecrawl(url)
+                    provider="Firecrawl API"
+                else:
+                    raise direct_error
+            digest=hashlib.sha256(page.encode()).hexdigest()
             before=previous.get(url,{}); changed=bool(before and before.get("sha256")!=digest)
             status="changed" if changed else ("first snapshot" if not before else "unchanged")
             diff=""
@@ -68,10 +107,10 @@ def main():
                 delta=list(difflib.unified_diff(before.get("text","").splitlines(),page.splitlines(),n=1))
                 diff="\n".join(delta[:36])[:3500]
             current[url]={"sha256":digest,"text":page,"checked_at":date}
-            records.append({**item,"status":status,"changed":changed,"excerpt":diff or page[:1500]})
+            records.append({**item,"status":status,"changed":changed,"provider":provider,"excerpt":diff or page[:1500]})
             print(name, status)
         except Exception as exc:
-            records.append({**item,"status":"fetch failed: "+type(exc).__name__,"changed":False})
+            records.append({**item,"status":"fetch failed: "+type(exc).__name__,"changed":False,"provider":"direct / Firecrawl fallback when configured"})
             print(name,"fetch failed",type(exc).__name__)
     # Do not replace the last good snapshot when a fetch fails.
     old_file.write_text(json.dumps(current,ensure_ascii=False,indent=2)+"\n")
@@ -79,7 +118,7 @@ def main():
     for r in records:
         safe=lambda v: str(v).replace('|','/').replace('\n',' ')
         lines.append(f"| {safe(r['name'])} | {safe(r['market'])} | {safe(r['status'])} | [Open]({r['url']}) |")
-    lines += ["", "## What the results mean", "", "- A **first snapshot** is the baseline, not evidence that anything changed.", "- A **changed** page means the extracted page text changed; it does **not** by itself prove a product, price or regulatory change.", "- A **failed fetch** is not evidence of a product change. Check the link manually.", "- All interpretations are proposed research hypotheses, not verified business outcomes.", ""]
+    lines += ["", "## What the results mean", "", "- A **first snapshot** is the baseline, not evidence that anything changed.", "- A **changed** page means the extracted page text changed; it does **not** by itself prove a product, price or regulatory change.", "- A **failed fetch** is not evidence of a product change. Check the link manually.", "- Revolut pages may use the Firecrawl API fallback when a GitHub secret is configured; the provider is noted in latest.json.", "- All interpretations are proposed research hypotheses, not verified business outcomes.", ""]
     changed=[r for r in records if r['changed']]
     if changed:
         lines += ["## Changed-page excerpts (machine-generated diffs)",""]
