@@ -10,7 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 REPORTS = ROOT / 'reports'
 SOURCES = ROOT / 'agent' / 'sources.json'
 
-BRANDS = ['Revolut', 'PayPal', 'bunq', 'N26']
+BRANDS = ['Revolut', 'PayPal', 'bunq', 'N26', 'Coinbase']
 
 def brand(url):
     domain = urlsplit(url).hostname or ''
@@ -22,6 +22,8 @@ def brand(url):
         return 'bunq'
     if domain == 'n26.com' or domain.endswith('.n26.com'):
         return 'N26'
+    if domain == 'coinbase.com' or domain.endswith('.coinbase.com'):
+        return 'Coinbase'
     return 'Other'
 
 def load_json(file, default):
