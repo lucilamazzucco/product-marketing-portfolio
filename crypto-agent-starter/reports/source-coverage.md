@@ -1,13 +1,13 @@
 # Crypto intelligence — source coverage
 
-Monitoring run: **2026-10-24 08:06 UTC**
+Monitoring run: **2026-10-24 08:09 UTC**
 
 > A successful GitHub workflow does not guarantee that all sources were readable. Candidate URLs are not verified coverage.
 
 | Company | Candidate URLs | Attempted | Successfully read | Failed | Changed |
 |---|---:|---:|---:|---:|---:|
-| Revolut | 14 | 14 | 0 | 14 | 0 |
-| PayPal | 12 | 12 | 10 | 2 | 0 |
+| Revolut | 14 | 14 | 10 | 4 | 0 |
+| PayPal | 12 | 12 | 10 | 2 | 1 |
 | bunq | 16 | 16 | 16 | 0 | 0 |
 | N26 | 1 | 1 | 1 | 0 | 0 |
 
@@ -23,18 +23,10 @@ Monitoring run: **2026-10-24 08:06 UTC**
 
 ## Revolut: failed sources (up to 12)
 
-- [Revolut Crypto](https://help.revolut.com/help/wealth/cryptocurrencies/understanding-revolut-cryptocurrency/are-there-any-limits-on-crypto-exchanges/): fetch failed: Firecrawl HTTP 401
-- [Revolut | Help centre: crypto home](https://help.revolut.com/help/crypto/): fetch failed: Firecrawl HTTP 401
-- [Revolut | Crypto product overview](https://www.revolut.com/crypto/): fetch failed: Firecrawl HTTP 401
-- [Revolut | Buy crypto overview](https://www.revolut.com/crypto/buy-crypto/): fetch failed: Firecrawl HTTP 401
-- [Revolut | Crypto: getting started and trading](https://help.revolut.com/help/wealth/cryptocurrencies/crypto-overview/): fetch failed: Firecrawl HTTP 401
-- [Revolut | Crypto features](https://help.revolut.com/help/wealth/cryptocurrencies/more-about-cryptocurrencies/): fetch failed: Firecrawl HTTP 401
-- [Revolut | Crypto trading fees](https://help.revolut.com/help/wealth/cryptocurrencies/getting-cryptocurrency-exposure/how-much-does-it-cost-to-buy-or-sell-cryptocurrency/): fetch failed: Firecrawl HTTP 401
-- [Revolut | Crypto safety](https://help.revolut.com/help/wealth/cryptocurrencies/understanding-revolut-cryptocurrency/crypto-safety/): fetch failed: Firecrawl HTTP 401
-- [Revolut | Crypto deposits](https://help.revolut.com/help/wealth/cryptocurrencies/transferring-cryptocurrencies/depositing-cryptocurrencies/): fetch failed: Firecrawl HTTP 401
-- [Revolut | Crypto withdrawals](https://help.revolut.com/help/wealth/cryptocurrencies/crypto-withdraw-deposit/): fetch failed: Firecrawl HTTP 401
-- [Revolut | Crypto staking](https://help.revolut.com/help/wealth/cryptocurrencies/crypto-staking/): fetch failed: Firecrawl HTTP 401
-- [Revolut | Crypto legal terms](https://www.revolut.com/legal/cryptocurrency-terms/): fetch failed: Firecrawl HTTP 401
+- [Revolut | Crypto staking](https://help.revolut.com/help/wealth/cryptocurrencies/crypto-staking/): fetch failed: Firecrawl HTTP 429
+- [Revolut | Crypto legal terms](https://www.revolut.com/legal/cryptocurrency-terms/): fetch failed: Firecrawl HTTP 429
+- [Revolut | Revolut X: separate advanced product](https://help.revolut.com/help/wealth/cryptocurrencies/crypto-exchange/): fetch failed: Firecrawl HTTP 429
+- [Revolut | Crypto account onboarding requirements](https://help.revolut.com/help/wealth/cryptocurrencies/more-about-cryptocurrencies/cryptocurrencies-onboarding/what-does-the-new-crypto-onboarding-flow-consist-of/): fetch failed: Firecrawl HTTP 429
 
 ## PayPal: failed sources (up to 12)
 

@@ -1,6 +1,6 @@
 # Competitor crypto research source catalog
 
-Collected: 2026-10-24T08:05:55.046283+00:00
+Collected: 2026-10-24T08:09:33.942990+00:00
 
 Sources are *candidates*, not confirmation they can all be fetched or are current. Links discovered on-page require human relevance review.
 
