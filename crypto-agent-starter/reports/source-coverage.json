@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-23T21:33:18.388145+00:00",
-  "monitor_run_at": "2026-10-23 21:33 UTC",
+  "generated_at": "2026-10-24T08:00:05.389580+00:00",
+  "monitor_run_at": "2026-10-24 07:59 UTC",
   "scope": "Revolut Crypto main app, UK; Revolut X is separate-product context",
   "discovery": {
     "revolut_failed_indexes": 9,
@@ -9,10 +9,10 @@
   },
   "companies": {
     "Revolut": {
-      "candidate_urls": 13,
-      "attempted": 13,
+      "candidate_urls": 14,
+      "attempted": 14,
       "read_successfully": 0,
-      "failed": 13,
+      "failed": 14,
       "not_attempted": 0,
       "changed": 0,
       "failed_examples": [
@@ -84,7 +84,7 @@
       "read_successfully": 10,
       "failed": 2,
       "not_attempted": 0,
-      "changed": 0,
+      "changed": 1,
       "failed_examples": [
         {
           "name": "PayPal | Terms",

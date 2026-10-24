@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-23 21:33 UTC",
+  "checked_at": "2026-10-24 07:59 UTC",
   "sources": [
     {
       "name": "Revolut Crypto",
@@ -7,7 +7,8 @@
       "role": "Focus product",
       "url": "https://help.revolut.com/help/wealth/cryptocurrencies/understanding-revolut-cryptocurrency/are-there-any-limits-on-crypto-exchanges/",
       "status": "fetch failed: HTTPError",
-      "changed": false
+      "changed": false,
+      "provider": "direct / Firecrawl fallback when configured"
     },
     {
       "name": "Revolut | Help centre: crypto home",
@@ -17,7 +18,8 @@
       "theme": "discovery",
       "origin": "curated candidate; availability and relevance unverified",
       "status": "fetch failed: HTTPError",
-      "changed": false
+      "changed": false,
+      "provider": "direct / Firecrawl fallback when configured"
     },
     {
       "name": "Revolut | Crypto product overview",
@@ -27,7 +29,8 @@
       "theme": "positioning",
       "origin": "curated candidate; availability and relevance unverified",
       "status": "fetch failed: HTTPError",
-      "changed": false
+      "changed": false,
+      "provider": "direct / Firecrawl fallback when configured"
     },
     {
       "name": "Revolut | Buy crypto overview",
@@ -37,7 +40,8 @@
       "theme": "positioning",
       "origin": "curated candidate; availability and relevance unverified",
       "status": "fetch failed: HTTPError",
-      "changed": false
+      "changed": false,
+      "provider": "direct / Firecrawl fallback when configured"
     },
     {
       "name": "Revolut | Crypto: getting started and trading",
@@ -47,7 +51,8 @@
       "theme": "onboarding",
       "origin": "curated candidate; availability and relevance unverified",
       "status": "fetch failed: HTTPError",
-      "changed": false
+      "changed": false,
+      "provider": "direct / Firecrawl fallback when configured"
     },
     {
       "name": "Revolut | Crypto features",
@@ -57,7 +62,8 @@
       "theme": "features",
       "origin": "curated candidate; availability and relevance unverified",
       "status": "fetch failed: HTTPError",
-      "changed": false
+      "changed": false,
+      "provider": "direct / Firecrawl fallback when configured"
     },
     {
       "name": "Revolut | Crypto trading fees",
@@ -67,7 +73,8 @@
       "theme": "fees",
       "origin": "curated candidate; availability and relevance unverified",
       "status": "fetch failed: HTTPError",
-      "changed": false
+      "changed": false,
+      "provider": "direct / Firecrawl fallback when configured"
     },
     {
       "name": "Revolut | Crypto safety",
@@ -77,7 +84,8 @@
       "theme": "risks",
       "origin": "curated candidate; availability and relevance unverified",
       "status": "fetch failed: HTTPError",
-      "changed": false
+      "changed": false,
+      "provider": "direct / Firecrawl fallback when configured"
     },
     {
       "name": "Revolut | Crypto deposits",
@@ -87,7 +95,8 @@
       "theme": "transfers",
       "origin": "curated candidate; availability and relevance unverified",
       "status": "fetch failed: HTTPError",
-      "changed": false
+      "changed": false,
+      "provider": "direct / Firecrawl fallback when configured"
     },
     {
       "name": "Revolut | Crypto withdrawals",
@@ -97,7 +106,8 @@
       "theme": "transfers",
       "origin": "curated candidate; availability and relevance unverified",
       "status": "fetch failed: HTTPError",
-      "changed": false
+      "changed": false,
+      "provider": "direct / Firecrawl fallback when configured"
     },
     {
       "name": "Revolut | Crypto staking",
@@ -107,7 +117,8 @@
       "theme": "staking",
       "origin": "curated candidate; availability and relevance unverified",
       "status": "fetch failed: HTTPError",
-      "changed": false
+      "changed": false,
+      "provider": "direct / Firecrawl fallback when configured"
     },
     {
       "name": "Revolut | Crypto legal terms",
@@ -117,7 +128,8 @@
       "theme": "terms",
       "origin": "curated candidate; availability and relevance unverified",
       "status": "fetch failed: HTTPError",
-      "changed": false
+      "changed": false,
+      "provider": "direct / Firecrawl fallback when configured"
     },
     {
       "name": "Revolut | Revolut X: separate advanced product",
@@ -127,7 +139,8 @@
       "theme": "advanced-context",
       "origin": "curated candidate; availability and relevance unverified",
       "status": "fetch failed: HTTPError",
-      "changed": false
+      "changed": false,
+      "provider": "direct / Firecrawl fallback when configured"
     },
     {
       "name": "PayPal | Positioning",
@@ -135,8 +148,9 @@
       "role": "Integrated-finance benchmark (UK)",
       "theme": "features-and-education",
       "url": "https://www.paypal.com/uk/digital-wallet/manage-money/crypto",
-      "status": "unchanged",
-      "changed": false
+      "status": "changed",
+      "changed": true,
+      "provider": "direct"
     },
     {
       "name": "PayPal | Onboarding",
@@ -145,7 +159,8 @@
       "theme": "onboarding",
       "url": "https://www.paypal.com/uk/cshelp/article/how-do-i-buy-cryptocurrency-on-paypal-help567",
       "status": "unchanged",
-      "changed": false
+      "changed": false,
+      "provider": "direct"
     },
     {
       "name": "PayPal | Capabilities",
@@ -154,7 +169,8 @@
       "theme": "features-and-education",
       "url": "https://www.paypal.com/uk/cshelp/article/what-can-i-do-with-crypto-on-paypal-help893",
       "status": "unchanged",
-      "changed": false
+      "changed": false,
+      "provider": "direct"
     },
     {
       "name": "PayPal | Fees",
@@ -163,7 +179,8 @@
       "theme": "fees",
       "url": "https://www.paypal.com/uk/webapps/mpp/digital-wallet/paypal-consumer-fees",
       "status": "unchanged",
-      "changed": false
+      "changed": false,
+      "provider": "direct"
     },
     {
       "name": "PayPal | Availability",
@@ -172,7 +189,8 @@
       "theme": "availability",
       "url": "https://www.paypal.com/uk/cshelp/article/why-is-my-cryptocurrency-sale-on-hold%E2%80%AF-help886",
       "status": "unchanged",
-      "changed": false
+      "changed": false,
+      "provider": "direct"
     },
     {
       "name": "PayPal | Risks",
@@ -181,7 +199,8 @@
       "theme": "onboarding",
       "url": "https://www.paypal.com/uk/cshelp/article/what-to-know-before-buying-crypto-help1292",
       "status": "unchanged",
-      "changed": false
+      "changed": false,
+      "provider": "direct"
     },
     {
       "name": "PayPal | Education",
@@ -190,7 +209,8 @@
       "theme": "features-and-education",
       "url": "https://www.paypal.com/uk/cshelp/article/paypals-guide-to-cryptocurrency-in-the-uk-help1293",
       "status": "unchanged",
-      "changed": false
+      "changed": false,
+      "provider": "direct"
     },
     {
       "name": "PayPal | Terms",
@@ -199,7 +219,8 @@
       "theme": "terms",
       "url": "https://www.paypal.com/uk/legalhub/paypal/cryptocurrencies-tnc",
       "status": "fetch failed: ValueError",
-      "changed": false
+      "changed": false,
+      "provider": "direct / Firecrawl fallback when configured"
     },
     {
       "name": "PayPal | Price & protection",
@@ -208,7 +229,8 @@
       "theme": "fees",
       "url": "https://www.paypal.com/uk/cshelp/article/crypto-on-paypal-buying-and-purchase-protection-faqs-help573",
       "status": "unchanged",
-      "changed": false
+      "changed": false,
+      "provider": "direct"
     },
     {
       "name": "PayPal | purchase crypto including PYUSD in the PayPal app",
@@ -217,7 +239,8 @@
       "theme": "onboarding",
       "url": "https://www.paypal.com/uk/digital-wallet",
       "status": "unchanged",
-      "changed": false
+      "changed": false,
+      "provider": "direct"
     },
     {
       "name": "PayPal | Legal",
@@ -226,7 +249,8 @@
       "theme": "terms",
       "url": "https://www.paypal.com/uk/webapps/mpp/ua/cryptocurrencies-tnc",
       "status": "fetch failed: ValueError",
-      "changed": false
+      "changed": false,
+      "provider": "direct / Firecrawl fallback when configured"
     },
     {
       "name": "PayPal | United Kingdom",
@@ -235,7 +259,8 @@
       "theme": "onboarding",
       "url": "https://www.paypal.com/uk/cshelp/article/crypto-on-paypal-purchase-and-paypal-buyer-protection-faqs-help573",
       "status": "unchanged",
-      "changed": false
+      "changed": false,
+      "provider": "direct"
     },
     {
       "name": "bunq | Overview",
@@ -244,7 +269,8 @@
       "theme": "features-and-education",
       "url": "https://help.bunq.com/articles/bunq-crypto",
       "status": "unchanged",
-      "changed": false
+      "changed": false,
+      "provider": "direct"
     },
     {
       "name": "bunq | Features",
@@ -253,7 +279,8 @@
       "theme": "features-and-education",
       "url": "https://help.bunq.com/articles/crypto-faq",
       "status": "unchanged",
-      "changed": false
+      "changed": false,
+      "provider": "direct"
     },
     {
       "name": "bunq | Fees",
@@ -262,7 +289,8 @@
       "theme": "fees",
       "url": "https://help.bunq.com/articles/how-do-the-fees-and-spread-work-in-bunq-crypto",
       "status": "unchanged",
-      "changed": false
+      "changed": false,
+      "provider": "direct"
     },
     {
       "name": "bunq | Staking",
@@ -271,7 +299,8 @@
       "theme": "staking",
       "url": "https://help.bunq.com/articles/crypto-staking",
       "status": "unchanged",
-      "changed": false
+      "changed": false,
+      "provider": "direct"
     },
     {
       "name": "bunq | Lifecycle",
@@ -280,7 +309,8 @@
       "theme": "features-and-education",
       "url": "https://help.bunq.com/articles/never-miss-your-crypto-move",
       "status": "unchanged",
-      "changed": false
+      "changed": false,
+      "provider": "direct"
     },
     {
       "name": "bunq | Crypto",
@@ -289,7 +319,8 @@
       "theme": "features-and-education",
       "url": "https://www.bunq.com/personal/features/crypto",
       "status": "unchanged",
-      "changed": false
+      "changed": false,
+      "provider": "direct"
     },
     {
       "name": "bunq | Crypto",
@@ -298,7 +329,8 @@
       "theme": "features-and-education",
       "url": "https://help.bunq.com/topics/crypto",
       "status": "unchanged",
-      "changed": false
+      "changed": false,
+      "provider": "direct"
     },
     {
       "name": "bunq | Do I have to pay taxes on crypto? (opens in new tab)",
@@ -307,7 +339,8 @@
       "theme": "features-and-education",
       "url": "https://help.bunq.com/articles/do-i-have-to-pay-taxes-on-crypto",
       "status": "unchanged",
-      "changed": false
+      "changed": false,
+      "provider": "direct"
     },
     {
       "name": "bunq | What risks are involved in investing in crypto? (opens in new tab)",
@@ -316,7 +349,8 @@
       "theme": "risks",
       "url": "https://help.bunq.com/articles/what-risks-are-involved-in-investing-in-crypto",
       "status": "unchanged",
-      "changed": false
+      "changed": false,
+      "provider": "direct"
     },
     {
       "name": "bunq | See Crypto Terms and Conditions",
@@ -325,7 +359,8 @@
       "theme": "terms",
       "url": "https://www.bunq.com/documents/personal-account-terms-conditions",
       "status": "unchanged",
-      "changed": false
+      "changed": false,
+      "provider": "direct"
     },
     {
       "name": "bunq | Learn more",
@@ -334,7 +369,8 @@
       "theme": "risks",
       "url": "https://help.bunq.com/articles/extra-protection-for-your-crypto-with-safety-shield",
       "status": "unchanged",
-      "changed": false
+      "changed": false,
+      "provider": "direct"
     },
     {
       "name": "bunq | Investing 2 minute read Why Ethereum Matters Beyond Crypto for Finance Ethereum is not only a cryptocurrency, it powers apps and contracts. ",
@@ -343,7 +379,8 @@
       "theme": "features-and-education",
       "url": "https://www.bunq.com/blog/not-just-crypto-why-ethereum-could-power-the-future-of-finance",
       "status": "unchanged",
-      "changed": false
+      "changed": false,
+      "provider": "direct"
     },
     {
       "name": "bunq | Investing 3 minute read How do I star t investing in crypto? Thinking about crypto? See how buying Bitcoin and Ethereum works in the bunq ap",
@@ -352,7 +389,8 @@
       "theme": "onboarding",
       "url": "https://www.bunq.com/blog/how-do-i-start-investing-in-crypto",
       "status": "unchanged",
-      "changed": false
+      "changed": false,
+      "provider": "direct"
     },
     {
       "name": "bunq | Delisted Crypto (opens in new tab)",
@@ -361,7 +399,8 @@
       "theme": "features-and-education",
       "url": "https://help.bunq.com/articles/delisted-crypto",
       "status": "unchanged",
-      "changed": false
+      "changed": false,
+      "provider": "direct"
     },
     {
       "name": "bunq | What is a rate guarantee when I buy Crypto? (opens in new tab)",
@@ -370,7 +409,8 @@
       "theme": "onboarding",
       "url": "https://help.bunq.com/articles/what-is-a-rate-guarantee-when-i-buy-crypto",
       "status": "unchanged",
-      "changed": false
+      "changed": false,
+      "provider": "direct"
     },
     {
       "name": "bunq | Business account activities related to Cryptocurrency (opens in new tab)",
@@ -379,7 +419,8 @@
       "theme": "features-and-education",
       "url": "https://help.bunq.com/articles/business-account-activities-related-to-cryptocurrency",
       "status": "unchanged",
-      "changed": false
+      "changed": false,
+      "provider": "direct"
     },
     {
       "name": "N26 | Features / onboarding",
@@ -388,7 +429,19 @@
       "theme": "features-and-education",
       "url": "https://support.n26.com/en-eu/app-and-features/app/how-n26-crypto-works",
       "status": "unchanged",
-      "changed": false
+      "changed": false,
+      "provider": "direct"
+    },
+    {
+      "name": "Revolut | Crypto account onboarding requirements",
+      "url": "https://help.revolut.com/help/wealth/cryptocurrencies/more-about-cryptocurrencies/cryptocurrencies-onboarding/what-does-the-new-crypto-onboarding-flow-consist-of/",
+      "market": "United Kingdom",
+      "role": "Focus: Revolut Crypto main app",
+      "theme": "onboarding",
+      "origin": "curated candidate; availability and relevance unverified",
+      "status": "fetch failed: HTTPError",
+      "changed": false,
+      "provider": "direct / Firecrawl fallback when configured"
     }
   ]
 }

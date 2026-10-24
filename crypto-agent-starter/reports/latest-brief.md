@@ -1,6 +1,6 @@
 # Crypto Competitive Intelligence — Monitoring Brief
 
-**Run:** 2026-10-23 21:33 UTC  
+**Run:** 2026-10-24 07:59 UTC  
 **Status:** automated source monitoring; human review required  
 **Scope:** Revolut Crypto in the main app, not the advanced Revolut X journey.
 
@@ -21,7 +21,7 @@
 | Revolut / Crypto staking | United Kingdom | fetch failed: HTTPError | [Open](https://help.revolut.com/help/wealth/cryptocurrencies/crypto-staking/) |
 | Revolut / Crypto legal terms | United Kingdom | fetch failed: HTTPError | [Open](https://www.revolut.com/legal/cryptocurrency-terms/) |
 | Revolut / Revolut X: separate advanced product | United Kingdom | fetch failed: HTTPError | [Open](https://help.revolut.com/help/wealth/cryptocurrencies/crypto-exchange/) |
-| PayPal / Positioning | United Kingdom — verify buying restrictions | unchanged | [Open](https://www.paypal.com/uk/digital-wallet/manage-money/crypto) |
+| PayPal / Positioning | United Kingdom — verify buying restrictions | changed | [Open](https://www.paypal.com/uk/digital-wallet/manage-money/crypto) |
 | PayPal / Onboarding | United Kingdom — verify buying restrictions | unchanged | [Open](https://www.paypal.com/uk/cshelp/article/how-do-i-buy-cryptocurrency-on-paypal-help567) |
 | PayPal / Capabilities | United Kingdom — verify buying restrictions | unchanged | [Open](https://www.paypal.com/uk/cshelp/article/what-can-i-do-with-crypto-on-paypal-help893) |
 | PayPal / Fees | United Kingdom — verify buying restrictions | unchanged | [Open](https://www.paypal.com/uk/webapps/mpp/digital-wallet/paypal-consumer-fees) |
@@ -50,15 +50,33 @@
 | bunq / What is a rate guarantee when I buy Crypto? (opens in new tab) | Eligible European markets — not UK direct alternative | unchanged | [Open](https://help.bunq.com/articles/what-is-a-rate-guarantee-when-i-buy-crypto) |
 | bunq / Business account activities related to Cryptocurrency (opens in new tab) | Eligible European markets — not UK direct alternative | unchanged | [Open](https://help.bunq.com/articles/business-account-activities-related-to-cryptocurrency) |
 | N26 / Features / onboarding | Eligible European markets — not UK direct alternative | unchanged | [Open](https://support.n26.com/en-eu/app-and-features/app/how-n26-crypto-works) |
+| Revolut / Crypto account onboarding requirements | United Kingdom | fetch failed: HTTPError | [Open](https://help.revolut.com/help/wealth/cryptocurrencies/more-about-cryptocurrencies/cryptocurrencies-onboarding/what-does-the-new-crypto-onboarding-flow-consist-of/) |
 
 ## What the results mean
 
 - A **first snapshot** is the baseline, not evidence that anything changed.
 - A **changed** page means the extracted page text changed; it does **not** by itself prove a product, price or regulatory change.
 - A **failed fetch** is not evidence of a product change. Check the link manually.
+- Revolut pages may use the Firecrawl API fallback when a GitHub secret is configured; the provider is noted in latest.json.
 - All interpretations are proposed research hypotheses, not verified business outcomes.
 
-**No verified source-content changes identified in this run.**
+## Changed-page excerpts (machine-generated diffs)
+
+### PayPal | Positioning
+Source: https://www.paypal.com/uk/digital-wallet/manage-money/crypto
+
+```diff
+--- 
+
++++ 
+
+@@ -91,3 +91,3 @@
+
+ If you receive a suspicious message, forward it to to
+-phishing@paypal.com
++[email protected]
+ , then delete it.
+```
 
 ## AI review
 
