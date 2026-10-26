@@ -1,12 +1,12 @@
 # Crypto intelligence — source coverage
 
-Monitoring run: **2026-10-24 08:35 UTC**
+Monitoring run: **2026-10-26 09:58 UTC**
 
 > A successful GitHub workflow does not guarantee that all sources were readable. Candidate URLs are not verified coverage.
 
 | Company | Candidate URLs | Attempted | Fresh reads | Cached | Deferred | Failed | Changed |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| Revolut | 14 | 14 | 0 | 14 | 0 | 0 | 0 |
+| Revolut | 14 | 14 | 10 | 0 | 3 | 1 | 2 |
 | PayPal | 12 | 12 | 10 | 0 | 0 | 2 | 1 |
 | bunq | 16 | 16 | 16 | 0 | 0 | 0 | 0 |
 | N26 | 1 | 1 | 1 | 0 | 0 | 0 | 0 |
@@ -23,6 +23,13 @@ Monitoring run: **2026-10-24 08:35 UTC**
 - A changed page is only a text-change signal, not proof of a feature launch.
 - EU-only benchmarks (bunq/N26) are not direct substitutes for UK availability.
 - Revolut X belongs to an advanced trading journey, outside the primary crypto-curious scope.
+
+## Revolut: failed sources (up to 12)
+
+- [Revolut | Crypto staking](https://help.revolut.com/help/wealth/cryptocurrencies/crypto-staking/): fetch failed: Firecrawl HTTP 429
+- [Revolut | Crypto legal terms](https://www.revolut.com/legal/cryptocurrency-terms/): deferred: Firecrawl HTTP 429
+- [Revolut | Revolut X: separate advanced product](https://help.revolut.com/help/wealth/cryptocurrencies/crypto-exchange/): deferred: Firecrawl HTTP 429
+- [Revolut | Crypto account onboarding requirements](https://help.revolut.com/help/wealth/cryptocurrencies/more-about-cryptocurrencies/cryptocurrencies-onboarding/what-does-the-new-crypto-onboarding-flow-consist-of/): deferred: Firecrawl HTTP 429
 
 ## PayPal: failed sources (up to 12)
 

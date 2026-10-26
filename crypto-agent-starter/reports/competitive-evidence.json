@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24 08:35 UTC",
+  "generated_at": "2026-10-26 09:59 UTC",
   "ai_status": "not configured",
   "evidence": [
     {
@@ -8,8 +8,8 @@
       "market": "UK",
       "source": "https://help.revolut.com/help/wealth/cryptocurrencies/understanding-revolut-cryptocurrency/are-there-any-limits-on-crypto-exchanges/",
       "source_title": "Revolut Crypto",
-      "retrieved_at": "2026-10-24 08:09 UTC",
-      "retrieval_status_this_run": "cached snapshot",
+      "retrieved_at": "2026-10-26 09:58 UTC",
+      "retrieval_status_this_run": "unchanged",
       "excerpts": [
         "These 200 exchanges will be subjected to a minimum and a maximum limit depending on the cryptocurrency you wish to exchange.",
         "When you buy or sell crypto in Revolut, you’re making what’s known as a crypto exchange — swapping one currency (like GBP or EUR) for a cryptocurrency, or vice versa."
@@ -21,8 +21,8 @@
       "market": "UK",
       "source": "https://www.revolut.com/crypto/buy-crypto/",
       "source_title": "Revolut | Buy crypto overview",
-      "retrieved_at": "2026-10-24 08:09 UTC",
-      "retrieval_status_this_run": "cached snapshot",
+      "retrieved_at": "2026-10-26 09:58 UTC",
+      "retrieval_status_this_run": "changed",
       "excerpts": [
         "Whenever you make a cryptocurrency exchange using Revolut, you'll pay the current rate plus a fee.",
         "We do not make any claims regarding the advisability of transacting in cryptocurrency."
@@ -34,7 +34,7 @@
       "market": "UK",
       "source": "https://www.paypal.com/uk/cshelp/article/why-is-my-cryptocurrency-sale-on-hold%E2%80%AF-help886",
       "source_title": "PayPal | Availability",
-      "retrieved_at": "2026-10-24 08:35 UTC",
+      "retrieved_at": "2026-10-26 09:58 UTC",
       "retrieval_status_this_run": "unchanged",
       "excerpts": [
         "Holds can be placed on a cryptocurrency sell transaction during a bank transfer (or where another issue with the payment or the account is identified).",
@@ -47,7 +47,7 @@
       "market": "UK",
       "source": "https://www.paypal.com/uk/cshelp/article/what-can-i-do-with-crypto-on-paypal-help893",
       "source_title": "PayPal | Capabilities",
-      "retrieved_at": "2026-10-24 08:35 UTC",
+      "retrieved_at": "2026-10-26 09:58 UTC",
       "retrieval_status_this_run": "unchanged",
       "excerpts": [
         "PayPal only supports the buying, selling and holding of Cryptocurrency using your PayPal account.",
@@ -60,7 +60,7 @@
       "market": "EU / verify country",
       "source": "https://help.bunq.com/articles/business-account-activities-related-to-cryptocurrency",
       "source_title": "bunq | Business account activities related to Cryptocurrency (opens in new tab)",
-      "retrieved_at": "2026-10-24 08:35 UTC",
+      "retrieved_at": "2026-10-26 09:58 UTC",
       "retrieval_status_this_run": "unchanged",
       "excerpts": [
         "Learn which cryptocurrency-related activities are supported for your specific business.",
@@ -73,7 +73,7 @@
       "market": "EU / verify country",
       "source": "https://www.bunq.com/personal/features/crypto",
       "source_title": "bunq | Crypto",
-      "retrieved_at": "2026-10-24 08:35 UTC",
+      "retrieved_at": "2026-10-26 09:58 UTC",
       "retrieval_status_this_run": "unchanged",
       "excerpts": [
         "With Auto Round Up, you can set aside the difference between your purchase amount and the next euro and automatically invest it in your favorite cryptocurrency.",
@@ -86,7 +86,7 @@
       "market": "EU / verify country",
       "source": "https://support.n26.com/en-eu/app-and-features/app/how-n26-crypto-works",
       "source_title": "N26 | Features / onboarding",
-      "retrieved_at": "2026-10-24 08:35 UTC",
+      "retrieved_at": "2026-10-26 09:58 UTC",
       "retrieval_status_this_run": "unchanged",
       "excerpts": [
         "The fees and cryptocurrency prices shown on the N26 app for every transaction and including a possible spread are not determined by N26 but provided by Bitpanda.",
@@ -99,8 +99,8 @@
       "market": "UK",
       "source": "https://www.revolut.com/crypto/buy-crypto/",
       "source_title": "Revolut | Buy crypto overview",
-      "retrieved_at": "2026-10-24 08:09 UTC",
-      "retrieval_status_this_run": "cached snapshot",
+      "retrieved_at": "2026-10-26 09:58 UTC",
+      "retrieval_status_this_run": "changed",
       "excerpts": [
         "Get in on the crypto action in the same app you use to manage your money, and see for yourself why 80+ million global customers stick with Revolut."
       ]
@@ -112,7 +112,7 @@
       "source": "https://help.revolut.com/help/wealth/cryptocurrencies/more-about-cryptocurrencies/cryptocurrencies-onboarding/what-does-the-new-crypto-onboarding-flow-consist-of/",
       "source_title": "Revolut | Crypto account onboarding requirements",
       "retrieved_at": "2026-10-24 08:16 UTC",
-      "retrieval_status_this_run": "cached snapshot",
+      "retrieval_status_this_run": "deferred: Firecrawl HTTP 429",
       "excerpts": [
         "If you're an existing crypto customer, you can also withdraw, sell, and unstake your crypto."
       ]
@@ -123,7 +123,7 @@
       "market": "UK",
       "source": "https://www.paypal.com/uk/cshelp/article/paypals-guide-to-cryptocurrency-in-the-uk-help1293",
       "source_title": "PayPal | Education",
-      "retrieved_at": "2026-10-24 08:35 UTC",
+      "retrieved_at": "2026-10-26 09:58 UTC",
       "retrieval_status_this_run": "unchanged",
       "excerpts": [
         "PayPal works with Paxos Trust Company, our custodian and liquidity provider, to keep our customers’ crypto secure."
@@ -135,7 +135,7 @@
       "market": "UK",
       "source": "https://www.paypal.com/uk/webapps/mpp/digital-wallet/paypal-consumer-fees",
       "source_title": "PayPal | Fees",
-      "retrieved_at": "2026-10-24 08:35 UTC",
+      "retrieved_at": "2026-10-26 09:58 UTC",
       "retrieval_status_this_run": "unchanged",
       "excerpts": [
         "Rates published below apply to PayPal accounts of residents of the following market/region:",
@@ -148,7 +148,7 @@
       "market": "EU / verify country",
       "source": "https://www.bunq.com/personal/features/crypto",
       "source_title": "bunq | Crypto",
-      "retrieved_at": "2026-10-24 08:35 UTC",
+      "retrieved_at": "2026-10-26 09:58 UTC",
       "retrieval_status_this_run": "unchanged",
       "excerpts": [
         "from €1 with fees from 0.25% per trade—buy and sell top coins in bunq without new logins, built for beginners and backed by Kraken."
@@ -160,7 +160,7 @@
       "market": "EU / verify country",
       "source": "https://help.bunq.com/articles/do-i-have-to-pay-taxes-on-crypto",
       "source_title": "bunq | Do I have to pay taxes on crypto? (opens in new tab)",
-      "retrieved_at": "2026-10-24 08:35 UTC",
+      "retrieved_at": "2026-10-26 09:58 UTC",
       "retrieval_status_this_run": "unchanged",
       "excerpts": [
         "You can currently use Crypto in the bunq app if you're a resident of 🇦🇹 Austria, 🇧🇪 Belgium, 🇧🇬 Bulgaria, 🇭🇷 Croatia, 🇨🇾 Cyprus, 🇨🇿 Czech Republic, 🇩🇰 Denmark, 🇪🇪 Estonia, 🇫🇮 Finland, 🇫🇷 France, 🇩🇪 Germany, 🇬🇷 Greece, 🇭🇺 Hungary, 🇮🇪 Ireland, 🇮🇹 Italy, 🇱🇻 Latvia, 🇱🇹 Lithuania, 🇱🇺 Luxembourg, 🇲🇹 Malta, 🇳🇱 Netherlands, 🇵🇱 Poland, 🇵🇹 Portugal, 🇷🇴 Romania, 🇸🇰 Slovakia, 🇸🇮 Slovenia, 🇪🇸 Spain or 🇸🇪 Sweden."
@@ -172,7 +172,7 @@
       "market": "EU / verify country",
       "source": "https://support.n26.com/en-eu/app-and-features/app/how-n26-crypto-works",
       "source_title": "N26 | Features / onboarding",
-      "retrieved_at": "2026-10-24 08:35 UTC",
+      "retrieved_at": "2026-10-26 09:58 UTC",
       "retrieval_status_this_run": "unchanged",
       "excerpts": [
         "N26 Crypto is currently only available to eligible customers in Austria, Belgium, Germany, Spain, France, Portugal and Ireland.",
@@ -185,8 +185,8 @@
       "market": "UK",
       "source": "https://help.revolut.com/help/wealth/cryptocurrencies/understanding-revolut-cryptocurrency/are-there-any-limits-on-crypto-exchanges/",
       "source_title": "Revolut Crypto",
-      "retrieved_at": "2026-10-24 08:09 UTC",
-      "retrieval_status_this_run": "cached snapshot",
+      "retrieved_at": "2026-10-26 09:58 UTC",
+      "retrieval_status_this_run": "unchanged",
       "excerpts": [
         "You can buy and sell 250+ tokens with Revolut, including Bitcoin, Ethereum, Polygon, Solana, Dogecoin, and more."
       ]
@@ -197,8 +197,8 @@
       "market": "UK",
       "source": "https://www.revolut.com/crypto/buy-crypto/",
       "source_title": "Revolut | Buy crypto overview",
-      "retrieved_at": "2026-10-24 08:09 UTC",
-      "retrieval_status_this_run": "cached snapshot",
+      "retrieved_at": "2026-10-26 09:58 UTC",
+      "retrieval_status_this_run": "changed",
       "excerpts": [
         "Create a recurring buy to purchase cryptocurrencies at regularly scheduled intervals in the future, paying the existing rate each time.",
         "Create a recurring buy and purchase cryptocurrencies at regularly scheduled intervals in the future, at the existing exchange rate each time."
@@ -210,7 +210,7 @@
       "market": "UK",
       "source": "https://www.paypal.com/uk/cshelp/article/why-is-my-cryptocurrency-sale-on-hold%E2%80%AF-help886",
       "source_title": "PayPal | Availability",
-      "retrieved_at": "2026-10-24 08:35 UTC",
+      "retrieved_at": "2026-10-26 09:58 UTC",
       "retrieval_status_this_run": "unchanged",
       "excerpts": [
         "Withdrawals to bank accounts can take up to 8 working days depending upon your bank's processing times.",
@@ -223,7 +223,7 @@
       "market": "UK",
       "source": "https://www.paypal.com/uk/cshelp/article/what-can-i-do-with-crypto-on-paypal-help893",
       "source_title": "PayPal | Capabilities",
-      "retrieved_at": "2026-10-24 08:35 UTC",
+      "retrieved_at": "2026-10-26 09:58 UTC",
       "retrieval_status_this_run": "unchanged",
       "excerpts": [
         "You can't send cryptocurrencies to family or friends, send cryptocurrencies to pay for goods or services, transfer cryptocurrencies from your Cryptocurrencies Hub to an external cryptocurrency wallet, or transfer cryptocurrencies into your Cryptocurrencies Hub from an external cryptocurrency wallet."
@@ -235,7 +235,7 @@
       "market": "EU / verify country",
       "source": "https://www.bunq.com/personal/features/crypto",
       "source_title": "bunq | Crypto",
-      "retrieved_at": "2026-10-24 08:35 UTC",
+      "retrieved_at": "2026-10-26 09:58 UTC",
       "retrieval_status_this_run": "unchanged",
       "excerpts": [
         "Staking is unregulated, involves risk of slashing, and is provided by Payward Commercial Ltd t/a Kraken.",
@@ -248,7 +248,7 @@
       "market": "EU / verify country",
       "source": "https://help.bunq.com/articles/crypto-faq",
       "source_title": "bunq | Features",
-      "retrieved_at": "2026-10-24 08:35 UTC",
+      "retrieved_at": "2026-10-26 09:58 UTC",
       "retrieval_status_this_run": "unchanged",
       "excerpts": [
         "This means you can buy and sell your crypto for any amount above €1, or swap your crypto for any amount above $1.",
@@ -261,7 +261,7 @@
       "market": "EU / verify country",
       "source": "https://support.n26.com/en-eu/app-and-features/app/how-n26-crypto-works",
       "source_title": "N26 | Features / onboarding",
-      "retrieved_at": "2026-10-24 08:35 UTC",
+      "retrieved_at": "2026-10-26 09:58 UTC",
       "retrieval_status_this_run": "unchanged",
       "excerpts": [
         "As a N26 customer, you can exercise your 14-day revocation right directly via the new in-app Withdrawal button, located under"
@@ -273,8 +273,8 @@
       "market": "UK",
       "source": "https://www.revolut.com/crypto/buy-crypto/",
       "source_title": "Revolut | Buy crypto overview",
-      "retrieved_at": "2026-10-24 08:09 UTC",
-      "retrieval_status_this_run": "cached snapshot",
+      "retrieved_at": "2026-10-26 09:58 UTC",
+      "retrieval_status_this_run": "changed",
       "excerpts": [
         "Buy hundreds of tokens with exchange fees as low as 0%, depending on plan and trading volume."
       ]
@@ -286,7 +286,7 @@
       "source": "https://www.revolut.com/legal/cryptocurrency-terms/",
       "source_title": "Revolut | Crypto legal terms",
       "retrieved_at": "2026-10-24 08:16 UTC",
-      "retrieval_status_this_run": "cached snapshot",
+      "retrieval_status_this_run": "deferred: Firecrawl HTTP 429",
       "excerpts": [
         "This exchange will be subject to minimum or percentage-based fees, our exchange rate at the time of the transaction, and any fair usage fees applicable to your subscription plan.",
         "To ensure you are getting the value you are happy with, you can always see the current crypto exchange rate, inclusive of spread, in the Revolut app before you submit your transaction."
@@ -298,7 +298,7 @@
       "market": "UK",
       "source": "https://www.paypal.com/uk/webapps/mpp/digital-wallet/paypal-consumer-fees",
       "source_title": "PayPal | Fees",
-      "retrieved_at": "2026-10-24 08:35 UTC",
+      "retrieved_at": "2026-10-26 09:58 UTC",
       "retrieval_status_this_run": "unchanged",
       "excerpts": [
         "The transaction fees are based on how much cryptocurrency (“crypto”) you buy or sell.",
@@ -311,7 +311,7 @@
       "market": "UK",
       "source": "https://www.paypal.com/uk/digital-wallet/manage-money/crypto",
       "source_title": "PayPal | Positioning",
-      "retrieved_at": "2026-10-24 08:35 UTC",
+      "retrieved_at": "2026-10-26 09:58 UTC",
       "retrieval_status_this_run": "changed",
       "excerpts": [
         "When you buy or sell crypto, we’ll show you the exchange rate and the transaction fee before you confirm."
@@ -323,7 +323,7 @@
       "market": "EU / verify country",
       "source": "https://www.bunq.com/personal/features/crypto",
       "source_title": "bunq | Crypto",
-      "retrieved_at": "2026-10-24 08:35 UTC",
+      "retrieved_at": "2026-10-26 09:58 UTC",
       "retrieval_status_this_run": "unchanged",
       "excerpts": [
         "Kraken retains 30% of staking rewards as commission; displayed APRs exclude this commission, so actual payouts are lower and may vary by coin and market conditions."
@@ -335,7 +335,7 @@
       "market": "EU / verify country",
       "source": "https://help.bunq.com/articles/crypto-faq",
       "source_title": "bunq | Features",
-      "retrieved_at": "2026-10-24 08:35 UTC",
+      "retrieved_at": "2026-10-26 09:58 UTC",
       "retrieval_status_this_run": "unchanged",
       "excerpts": [
         "The price you see in your bunq app before you confirm your trade already includes this fee and the spread — the gap between the buy price and the sell price."
@@ -347,7 +347,7 @@
       "market": "EU / verify country",
       "source": "https://support.n26.com/en-eu/app-and-features/app/how-n26-crypto-works",
       "source_title": "N26 | Features / onboarding",
-      "retrieved_at": "2026-10-24 08:35 UTC",
+      "retrieved_at": "2026-10-26 09:58 UTC",
       "retrieval_status_this_run": "unchanged",
       "excerpts": [
         "Instead of paying two full trading fees (one for selling and one for buying), you’ll just pay a single,",
@@ -360,8 +360,8 @@
       "market": "UK",
       "source": "https://www.revolut.com/crypto/buy-crypto/",
       "source_title": "Revolut | Buy crypto overview",
-      "retrieved_at": "2026-10-24 08:09 UTC",
-      "retrieval_status_this_run": "cached snapshot",
+      "retrieved_at": "2026-10-26 09:58 UTC",
+      "retrieval_status_this_run": "changed",
       "excerpts": [
         "Explore our Learn lessons to cut through the jargon, and make crypto easier to understand.",
         "Discover the best ways to buy crypto in the same app you use to manage your money, and invest starting from just £1."
@@ -374,7 +374,7 @@
       "source": "https://help.revolut.com/help/wealth/cryptocurrencies/more-about-cryptocurrencies/cryptocurrencies-onboarding/what-does-the-new-crypto-onboarding-flow-consist-of/",
       "source_title": "Revolut | Crypto account onboarding requirements",
       "retrieved_at": "2026-10-24 08:16 UTC",
-      "retrieval_status_this_run": "cached snapshot",
+      "retrieval_status_this_run": "deferred: Firecrawl HTTP 429",
       "excerpts": [
         "You may also view available tokens, set watchlists or price alerts, and complete 'Crypto Learn' lessons."
       ]
@@ -385,7 +385,7 @@
       "market": "UK",
       "source": "https://www.paypal.com/uk/cshelp/article/why-is-my-cryptocurrency-sale-on-hold%E2%80%AF-help886",
       "source_title": "PayPal | Availability",
-      "retrieved_at": "2026-10-24 08:35 UTC",
+      "retrieved_at": "2026-10-26 09:58 UTC",
       "retrieval_status_this_run": "unchanged",
       "excerpts": [
         "for specific reasons as to why we are holding your money and to learn how you can release it."
@@ -397,7 +397,7 @@
       "market": "UK",
       "source": "https://www.paypal.com/uk/cshelp/article/what-can-i-do-with-crypto-on-paypal-help893",
       "source_title": "PayPal | Capabilities",
-      "retrieved_at": "2026-10-24 08:35 UTC",
+      "retrieved_at": "2026-10-26 09:58 UTC",
       "retrieval_status_this_run": "unchanged",
       "excerpts": [
         "The following information is for educational purposes only and does not constitute an endorsement of this type of cryptocurrency."
@@ -409,7 +409,7 @@
       "market": "EU / verify country",
       "source": "https://help.bunq.com/articles/business-account-activities-related-to-cryptocurrency",
       "source_title": "bunq | Business account activities related to Cryptocurrency (opens in new tab)",
-      "retrieved_at": "2026-10-24 08:35 UTC",
+      "retrieved_at": "2026-10-26 09:58 UTC",
       "retrieval_status_this_run": "unchanged",
       "excerpts": [
         "Learn which cryptocurrency-related activities are supported for your specific business."
@@ -421,7 +421,7 @@
       "market": "EU / verify country",
       "source": "https://www.bunq.com/personal/features/crypto",
       "source_title": "bunq | Crypto",
-      "retrieved_at": "2026-10-24 08:35 UTC",
+      "retrieved_at": "2026-10-26 09:58 UTC",
       "retrieval_status_this_run": "unchanged",
       "excerpts": [
         "Kraken retains 30% of staking rewards as commission; displayed APRs exclude this commission, so actual payouts are lower and may vary by coin and market conditions."
@@ -433,8 +433,8 @@
       "market": "UK",
       "source": "https://www.revolut.com/crypto/buy-crypto/",
       "source_title": "Revolut | Buy crypto overview",
-      "retrieved_at": "2026-10-24 08:09 UTC",
-      "retrieval_status_this_run": "cached snapshot",
+      "retrieved_at": "2026-10-26 09:58 UTC",
+      "retrieval_status_this_run": "changed",
       "excerpts": [
         "Use currencies you have in your Revolut account, like GBP or existing cryptoassets, to buy cryptocurrencies in just a few taps."
       ]
@@ -446,7 +446,7 @@
       "source": "https://www.revolut.com/legal/cryptocurrency-terms/",
       "source_title": "Revolut | Crypto legal terms",
       "retrieved_at": "2026-10-24 08:16 UTC",
-      "retrieval_status_this_run": "cached snapshot",
+      "retrieval_status_this_run": "deferred: Firecrawl HTTP 429",
       "excerpts": [
         "You can use the Revolut app to see the amount of cryptoassets we hold on your behalf.",
         "Transfer cryptoassets to other Revolut users (sometimes called an “ **off-chain transfer**”)."
@@ -458,7 +458,7 @@
       "market": "UK",
       "source": "https://www.paypal.com/uk/cshelp/article/paypals-guide-to-cryptocurrency-in-the-uk-help1293",
       "source_title": "PayPal | Education",
-      "retrieved_at": "2026-10-24 08:35 UTC",
+      "retrieved_at": "2026-10-26 09:58 UTC",
       "retrieval_status_this_run": "unchanged",
       "excerpts": [
         "Crypto prices can change rapidly, and this change in value can present both risks and potential rewards—including the risk of losing your entire investment.",
@@ -471,7 +471,7 @@
       "market": "UK",
       "source": "https://www.paypal.com/uk/cshelp/article/what-to-know-before-buying-crypto-help1292",
       "source_title": "PayPal | Risks",
-      "retrieved_at": "2026-10-24 08:35 UTC",
+      "retrieved_at": "2026-10-26 09:58 UTC",
       "retrieval_status_this_run": "unchanged",
       "excerpts": [
         "There is a risk of losing money or any cryptoassets you purchase due to risks such as cyber-attacks, financial crime, and firm failure.",
@@ -484,7 +484,7 @@
       "market": "EU / verify country",
       "source": "https://help.bunq.com/articles/business-account-activities-related-to-cryptocurrency",
       "source_title": "bunq | Business account activities related to Cryptocurrency (opens in new tab)",
-      "retrieved_at": "2026-10-24 08:35 UTC",
+      "retrieved_at": "2026-10-26 09:58 UTC",
       "retrieval_status_this_run": "unchanged",
       "excerpts": [
         "All crypto activities are considered high risk for us, however we are willing to accept some types of activities."
@@ -496,7 +496,7 @@
       "market": "EU / verify country",
       "source": "https://www.bunq.com/personal/features/crypto",
       "source_title": "bunq | Crypto",
-      "retrieved_at": "2026-10-24 08:35 UTC",
+      "retrieved_at": "2026-10-26 09:58 UTC",
       "retrieval_status_this_run": "unchanged",
       "excerpts": [
         "Please note that investments in digital assets (or crypto assets) carry a high risk of total or partial capital loss."
@@ -508,7 +508,7 @@
       "market": "EU / verify country",
       "source": "https://support.n26.com/en-eu/app-and-features/app/how-n26-crypto-works",
       "source_title": "N26 | Features / onboarding",
-      "retrieved_at": "2026-10-24 08:35 UTC",
+      "retrieved_at": "2026-10-26 09:58 UTC",
       "retrieval_status_this_run": "unchanged",
       "excerpts": [
         "The market for crypto assets and the purchase of crypto assets constitute a high risk.",
@@ -522,7 +522,7 @@
       "source": "https://www.revolut.com/legal/cryptocurrency-terms/",
       "source_title": "Revolut | Crypto legal terms",
       "retrieved_at": "2026-10-24 08:16 UTC",
-      "retrieval_status_this_run": "cached snapshot",
+      "retrieval_status_this_run": "deferred: Firecrawl HTTP 429",
       "excerpts": [
         "To ensure that we cover our costs to make this additional transaction, provide the deposit service to you, and ensure that your deposit amount is not consumed by network fees, we have introduced minimum deposit thresholds for certain cryptoassets.",
         "Once the delisting is announced, you will no longer be able to buy that cryptoasset on the app, and any buy limit orders that you have placed may be cancelled."
@@ -534,7 +534,7 @@
       "market": "UK",
       "source": "https://www.paypal.com/uk/cshelp/article/paypals-guide-to-cryptocurrency-in-the-uk-help1293",
       "source_title": "PayPal | Education",
-      "retrieved_at": "2026-10-24 08:35 UTC",
+      "retrieved_at": "2026-10-26 09:58 UTC",
       "retrieval_status_this_run": "unchanged",
       "excerpts": [
         "Cryptocurrency has changed the financial landscape by introducing decentralized and digital forms of currency, enabling fast and low-cost transactions, and creating new investment opportunities."
@@ -546,7 +546,7 @@
       "market": "EU / verify country",
       "source": "https://www.bunq.com/documents/personal-account-terms-conditions",
       "source_title": "bunq | See Crypto Terms and Conditions",
-      "retrieved_at": "2026-10-24 08:35 UTC",
+      "retrieved_at": "2026-10-26 09:58 UTC",
       "retrieval_status_this_run": "unchanged",
       "excerpts": [
         "We may need to change these terms and conditions from time to time, for example when we introduce new features or for legal reasons.",
@@ -559,7 +559,7 @@
       "market": "EU / verify country",
       "source": "https://support.n26.com/en-eu/app-and-features/app/how-n26-crypto-works",
       "source_title": "N26 | Features / onboarding",
-      "retrieved_at": "2026-10-24 08:35 UTC",
+      "retrieved_at": "2026-10-26 09:58 UTC",
       "retrieval_status_this_run": "unchanged",
       "excerpts": [
         "To help our customers with this, we have now introduced Savings plans that can be applied to any crypto asset at no additional charge"

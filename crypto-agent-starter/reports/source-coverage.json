@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-24T08:35:35.156287+00:00",
-  "monitor_run_at": "2026-10-24 08:35 UTC",
+  "generated_at": "2026-10-26T09:59:24.787083+00:00",
+  "monitor_run_at": "2026-10-26 09:58 UTC",
   "scope": "Revolut Crypto main app, UK; Revolut X is separate-product context",
   "discovery": {
     "revolut_failed_indexes": 9,
@@ -11,13 +11,34 @@
     "Revolut": {
       "candidate_urls": 14,
       "attempted": 14,
-      "read_successfully": 0,
-      "cached_snapshots": 14,
-      "deferred": 0,
-      "failed": 0,
+      "read_successfully": 10,
+      "cached_snapshots": 0,
+      "deferred": 3,
+      "failed": 1,
       "not_attempted": 0,
-      "changed": 0,
-      "failed_examples": []
+      "changed": 2,
+      "failed_examples": [
+        {
+          "name": "Revolut | Crypto staking",
+          "url": "https://help.revolut.com/help/wealth/cryptocurrencies/crypto-staking/",
+          "status": "fetch failed: Firecrawl HTTP 429"
+        },
+        {
+          "name": "Revolut | Crypto legal terms",
+          "url": "https://www.revolut.com/legal/cryptocurrency-terms/",
+          "status": "deferred: Firecrawl HTTP 429"
+        },
+        {
+          "name": "Revolut | Revolut X: separate advanced product",
+          "url": "https://help.revolut.com/help/wealth/cryptocurrencies/crypto-exchange/",
+          "status": "deferred: Firecrawl HTTP 429"
+        },
+        {
+          "name": "Revolut | Crypto account onboarding requirements",
+          "url": "https://help.revolut.com/help/wealth/cryptocurrencies/more-about-cryptocurrencies/cryptocurrencies-onboarding/what-does-the-new-crypto-onboarding-flow-consist-of/",
+          "status": "deferred: Firecrawl HTTP 429"
+        }
+      ]
     },
     "PayPal": {
       "candidate_urls": 12,

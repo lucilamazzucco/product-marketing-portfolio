@@ -1,6 +1,6 @@
 # Crypto Competitive Intelligence — Monitoring Brief
 
-**Run:** 2026-10-24 08:35 UTC  
+**Run:** 2026-10-26 09:58 UTC  
 **Status:** automated source monitoring; human review required  
 **Scope:** Revolut Crypto in the main app, not the advanced Revolut X journey.
 
@@ -8,20 +8,20 @@
 
 | Source | Market | Status | Official page |
 |---|---|---|---|
-| Revolut Crypto | United Kingdom | cached snapshot | [Open](https://help.revolut.com/help/wealth/cryptocurrencies/understanding-revolut-cryptocurrency/are-there-any-limits-on-crypto-exchanges/) |
-| Revolut / Help centre: crypto home | United Kingdom | cached snapshot | [Open](https://help.revolut.com/help/crypto/) |
-| Revolut / Crypto product overview | United Kingdom | cached snapshot | [Open](https://www.revolut.com/crypto/) |
-| Revolut / Buy crypto overview | United Kingdom | cached snapshot | [Open](https://www.revolut.com/crypto/buy-crypto/) |
-| Revolut / Crypto: getting started and trading | United Kingdom | cached snapshot | [Open](https://help.revolut.com/help/wealth/cryptocurrencies/crypto-overview/) |
-| Revolut / Crypto features | United Kingdom | cached snapshot | [Open](https://help.revolut.com/help/wealth/cryptocurrencies/more-about-cryptocurrencies/) |
-| Revolut / Crypto trading fees | United Kingdom | cached snapshot | [Open](https://help.revolut.com/help/wealth/cryptocurrencies/getting-cryptocurrency-exposure/how-much-does-it-cost-to-buy-or-sell-cryptocurrency/) |
-| Revolut / Crypto safety | United Kingdom | cached snapshot | [Open](https://help.revolut.com/help/wealth/cryptocurrencies/understanding-revolut-cryptocurrency/crypto-safety/) |
-| Revolut / Crypto deposits | United Kingdom | cached snapshot | [Open](https://help.revolut.com/help/wealth/cryptocurrencies/transferring-cryptocurrencies/depositing-cryptocurrencies/) |
-| Revolut / Crypto withdrawals | United Kingdom | cached snapshot | [Open](https://help.revolut.com/help/wealth/cryptocurrencies/crypto-withdraw-deposit/) |
-| Revolut / Crypto staking | United Kingdom | cached snapshot | [Open](https://help.revolut.com/help/wealth/cryptocurrencies/crypto-staking/) |
-| Revolut / Crypto legal terms | United Kingdom | cached snapshot | [Open](https://www.revolut.com/legal/cryptocurrency-terms/) |
-| Revolut / Revolut X: separate advanced product | United Kingdom | cached snapshot | [Open](https://help.revolut.com/help/wealth/cryptocurrencies/crypto-exchange/) |
-| Revolut / Crypto account onboarding requirements | United Kingdom | cached snapshot | [Open](https://help.revolut.com/help/wealth/cryptocurrencies/more-about-cryptocurrencies/cryptocurrencies-onboarding/what-does-the-new-crypto-onboarding-flow-consist-of/) |
+| Revolut Crypto | United Kingdom | unchanged | [Open](https://help.revolut.com/help/wealth/cryptocurrencies/understanding-revolut-cryptocurrency/are-there-any-limits-on-crypto-exchanges/) |
+| Revolut / Help centre: crypto home | United Kingdom | unchanged | [Open](https://help.revolut.com/help/crypto/) |
+| Revolut / Crypto product overview | United Kingdom | changed | [Open](https://www.revolut.com/crypto/) |
+| Revolut / Buy crypto overview | United Kingdom | changed | [Open](https://www.revolut.com/crypto/buy-crypto/) |
+| Revolut / Crypto: getting started and trading | United Kingdom | unchanged | [Open](https://help.revolut.com/help/wealth/cryptocurrencies/crypto-overview/) |
+| Revolut / Crypto features | United Kingdom | unchanged | [Open](https://help.revolut.com/help/wealth/cryptocurrencies/more-about-cryptocurrencies/) |
+| Revolut / Crypto trading fees | United Kingdom | unchanged | [Open](https://help.revolut.com/help/wealth/cryptocurrencies/getting-cryptocurrency-exposure/how-much-does-it-cost-to-buy-or-sell-cryptocurrency/) |
+| Revolut / Crypto safety | United Kingdom | unchanged | [Open](https://help.revolut.com/help/wealth/cryptocurrencies/understanding-revolut-cryptocurrency/crypto-safety/) |
+| Revolut / Crypto deposits | United Kingdom | unchanged | [Open](https://help.revolut.com/help/wealth/cryptocurrencies/transferring-cryptocurrencies/depositing-cryptocurrencies/) |
+| Revolut / Crypto withdrawals | United Kingdom | unchanged | [Open](https://help.revolut.com/help/wealth/cryptocurrencies/crypto-withdraw-deposit/) |
+| Revolut / Crypto staking | United Kingdom | fetch failed: Firecrawl HTTP 429 | [Open](https://help.revolut.com/help/wealth/cryptocurrencies/crypto-staking/) |
+| Revolut / Crypto legal terms | United Kingdom | deferred: Firecrawl HTTP 429 | [Open](https://www.revolut.com/legal/cryptocurrency-terms/) |
+| Revolut / Revolut X: separate advanced product | United Kingdom | deferred: Firecrawl HTTP 429 | [Open](https://help.revolut.com/help/wealth/cryptocurrencies/crypto-exchange/) |
+| Revolut / Crypto account onboarding requirements | United Kingdom | deferred: Firecrawl HTTP 429 | [Open](https://help.revolut.com/help/wealth/cryptocurrencies/more-about-cryptocurrencies/cryptocurrencies-onboarding/what-does-the-new-crypto-onboarding-flow-consist-of/) |
 | Coinbase / UK positioning | United Kingdom | fetch failed: HTTPError | [Open](https://help.coinbase.com/en-gb/coinbase/getting-started/getting-started-with-coinbase/what-is-coinbase) |
 | Coinbase / UK onboarding and FCA requirements | United Kingdom | fetch failed: HTTPError | [Open](https://help.coinbase.com/en-gb/coinbase/getting-started/getting-started-with-coinbase/fca-financial-promo-changes) |
 | Coinbase / UK fees and spreads | United Kingdom | fetch failed: HTTPError | [Open](https://help.coinbase.com/en-gb/coinbase/trading-and-funding/pricing-and-fees/fees) |
@@ -68,6 +68,75 @@
 
 ## Changed-page excerpts (machine-generated diffs)
 
+### Revolut | Crypto product overview
+Source: https://www.revolut.com/crypto/
+
+```diff
+--- 
+
++++ 
+
+@@ -5,3 +5,3 @@
+
+ Home or away, local or global — move freely between countries and currencies. Sign up for a Standard account with no monthly fees.
+-[Download the app](https://get.revolut.com/E528/?af_channel=website_organic&af_dp=revolut%3A%2F%2Fapp&af_sub1=%7B%22conversion_page_url%22%3A%22https%3A%2F%2Fwww.revolut.com%2Fen-US%2F%22%2C%22cookie_consent%22%3A%5B%5D%2C%22landing_page_url%22%3A%22https%3A%2F%2Fwww.revolut.com%2Fen-US%2F%22%2C%22qr_code%22%3Afalse%2C%22website_client_id%22%3A%22dbc4af85-6c9a-4fb1-8b8f-db61e6f52d84%22%7D&deep_link_sub1=DEEPLINK&deep_link_value=revolut%3A%2F%2Fapp&pid=website)
++[Download the app](https://get.revolut.com/E528/?af_channel=website_organic&af_dp=revolut%3A%2F%2Fapp&af_sub1=%7B%22conversion_page_url%22%3A%22https%3A%2F%2Fwww.revolut.com%2Fen-US%2F%22%2C%22cookie_consent%22%3A%5B%5D%2C%22landing_page_url%22%3A%22https%3A%2F%2Fwww.revolut.com%2Fen-US%2F%22%2C%22qr_code%22%3Afalse%2C%22website_client_id%22%3A%223a76d0b5-934e-402d-8cc3-baa3cd64a57d%22%7D&deep_link_sub1=DEEPLINK&deep_link_value=revolut%3A%2F%2Fapp&pid=website)
+ 
+@@ -10,3 +10,3 @@
+
+ Spend smartly, send quickly, organize your salary automatically, and watch your savings grow — all with Revolut.
+-[Move your salary](https://get.revolut.com/E528/?af_channel=website_organic&af_dp=revolut%3A%2F%2Fapp&af_sub1=%7B%22conversion_page_url%22%3A%22https%3A%2F%2Fwww.revolut.com%2Fen-US%2F%22%2C%22cookie_consent%22%3A%5B%5D%2C%22landing_page_url%22%3A%22https%3A%2F%2Fwww.revolut.com%2Fen-US%2F%22%2C%22qr_code%22%3Afalse%2C%22website_client_id%22%3A%22dbc4af85-6c9a-4fb1-8b8f-db61e6f52d84%22%7D&deep_link_sub1=DEEPLINK&deep_link_value=revolut%3A%2F%2Fapp&pid=website)
++[Move your salary](https://get.revolut.com/E528/?af_channel=website_organic&af_dp=revolut%3A%2F%2Fapp&af_sub1=%7B%22conversion_page_url%22%3A%22https%3A%2F%2Fwww.revolut.com%2Fen-US%2F%22%2C%22cookie_consent%22%3A%5B%5D%2C%22landing_page_url%22%3A%22https%3A%2F%2Fwww.revolut.com%2Fen-US%2F%22%2C%22qr_code%22%3Afalse%2C%22website_client_id%22%3A%223a76d0b5-934e-402d-8cc3-baa3cd64a57d%22%7D&deep_link_sub1=DEEPLINK&deep_link_value=revolut%3A%2F%2Fapp&pid=website)
+ 
+@@ -22,3 +22,3 @@
+
+ 
+-Customize your card to match your vibe.Some cards available on paid plans only. Fees may apply.[Get your card](https://get.revolut.com/E528/?af_channel=website_organic&af_dp=revolut%3A%2F%2Fapp&af_sub1=%7B%22conversion_page_url%22%3A%22https%3A%2F%2Fwww.revolut.com%2Fen-US%2F%22%2C%22cookie_consent%22%3A%5B%5D%2C%22landing_page_url%22%3A%22https%3A%2F%2Fwww.revolut.com%2Fen-US%2F%22%2C%22qr_code%22%3Afalse%2C%22website_client_id%22%3A%22dbc4af85-6c9a-4fb1-8b8f-db61e6f52d84%22%7D&deep_link_sub1=DEEPLINK&deep_link_value=revolut%3A%2F%2Fapp&pid=website)
++Customize your card to match your vibe.Some cards available on paid plans only. Fees may apply.[Get your card](https://get.revolut.com/E528/?af_channel=website_organic&af_dp=revolut%3A%2F%2Fapp&af_sub1=%7B%22conversion_page_url%22%3A%22https%3A%2F%2Fwww.revolut.com%2Fen-US%2F%22%2C%22cookie_consent%22%3A%5B%5D%2C%22landing_page_url%22%3A%22https%3A%2F%2Fwww.revolut.com%2Fen-US%2F%22%2C%22qr_code%22%3Afalse%2C%22website_client_id%22%3A%223a76d0b5-934e-402d-8cc3-baa3cd64a57d%22%7D&deep_link_sub1=DEEPLINK&deep_link_value=revolut%3A%2F%2Fapp&pid=website)
+ 
+@@ -26,3 +26,3 @@
+
+ 
+-Create and add virtual cards to Apple Pay or Google Pay to start paying right away.[Create a card](https://get.revolut.com/E528/?af_channel=website_organic&af_dp=revolut%3A%2F%2
+```
+
+### Revolut | Buy crypto overview
+Source: https://www.revolut.com/crypto/buy-crypto/
+
+```diff
+--- 
+
++++ 
+
+@@ -20,3 +20,3 @@
+
+ 
+-[Get started](https://get.revolut.com/E528/?af_channel=website_organic&af_dp=revolut%3A%2F%2Fapp&af_sub1=%7B%22conversion_page_url%22%3A%22https%3A%2F%2Fwww.revolut.com%2Fcrypto%2Fbuy-crypto%2F%22%2C%22cookie_consent%22%3A%5B%5D%2C%22landing_page_url%22%3A%22https%3A%2F%2Fwww.revolut.com%2Fcrypto%2Fbuy-crypto%2F%22%2C%22qr_code%22%3Afalse%2C%22website_client_id%22%3A%22cf607ece-c42d-43a8-b48c-b24909354879%22%7D&deep_link_sub1=DEEPLINK&deep_link_value=revolut%3A%2F%2Fapp&pid=website)
++[Get started](https://get.revolut.com/E528/?af_channel=website_organic&af_dp=revolut%3A%2F%2Fapp&af_sub1=%7B%22conversion_page_url%22%3A%22https%3A%2F%2Fwww.revolut.com%2Fcrypto%2Fbuy-crypto%2F%22%2C%22cookie_consent%22%3A%5B%5D%2C%22landing_page_url%22%3A%22https%3A%2F%2Fwww.revolut.com%2Fcrypto%2Fbuy-crypto%2F%22%2C%22qr_code%22%3Afalse%2C%22website_client_id%22%3A%22de9e9796-ef6e-4338-b23e-ff6f02125078%22%7D&deep_link_sub1=DEEPLINK&deep_link_value=revolut%3A%2F%2Fapp&pid=website)
+ 
+@@ -26,3 +26,3 @@
+
+ 
+-Our current rate1 BTC = £60,357.50
++Our current rate1 BTC = £60,248.44
+ Rate does not include fees. Check the Revolut app for live price details. Crypto is not regulated or protected and is volatile - value can go down.
+@@ -60,3 +60,3 @@
+
+ 
+-[Get Revolut](https://get.revolut.com/E528/?af_channel=website_organic&af_dp=revolut%3A%2F%2Fapp&af_sub1=%7B%22conversion_page_url%22%3A%22https%3A%2F%2Fwww.revolut.com%2Fcrypto%2Fbuy-crypto%2F%22%2C%22cookie_consent%22%3A%5B%5D%2C%22landing_page_url%22%3A%22https%3A%2F%2Fwww.revolut.com%2Fcrypto%2Fbuy-crypto%2F%22%2C%22qr_code%22%3Afalse%2C%22website_client_id%22%3A%22cf607ece-c42d-43a8-b48c-b24909354879%22%7D&deep_link_sub1=DEEPLINK&deep_link_value=revolut%3A%2F%2Fapp&pid=website "Learn more")
++[Get Revolut](https://get.revolut.com/E528/?af_channel=website_organic&af_dp=revolut%3A%2F%2Fapp&af_sub1=%7B%22conversion_page_url%22%3A%22https%3A%2F%2Fwww.revolut.com%2Fcrypto%2Fbuy-crypto%2F%22%2C%22cookie_consent%22%3A%5B%5D%2C%22landing_page_url%22%3A%22https%3A%2F%2Fwww.revolut.com%2Fcrypto%2Fbuy-crypto%2F%22%2C%22qr_code%22%3Afalse%2C%22website_client_id%22%3A%22de9e9796-ef6e-4338-b23e-ff6f02125078%22%7D&deep_link_sub1=DEEPLINK&deep_link_value=revolut%3A%2F%2Fapp&pid=website "Learn more")
+ 
+@@ -71,3 +71,3 @@
+
+ Don’t worry about exchanging your money for another currency to make a crypto trade. With Revolut, you can buy crypto in-app using the currencies you already have in your account.
+-[Buy crypto in-app](https://get.revolut.com/E528/?af_channel=website_organic&af_dp=revolut%3A%2F%2Fapp&af_sub1=%7B%22conversion_page_url%22%3A%22https%3A%2F%2Fwww.revolut.com%2Fcrypto%2Fbuy-crypto%2F%22%2C%22cookie_consent%22%3A%5B%5D%2C%22landing_page_url%22%3A%22https%3A%2F%2Fwww.revolut.com%2Fcrypto%2Fbuy-crypto%2F%22%2C%22qr_code%22%3Afalse%2C%22website_client_id%22%3A%22cf607ece-c42d-43a8-b48c-b24909354879%22%7D&deep_link_sub1=DEEPLINK&deep_link_value=revolut%3A%2F%2Fapp&pid=website)
++[Buy crypto in-app](https://get.revolut.com/E528/?af_channel=website_organic&af_dp=revolut%3A%2F%2Fapp&af_sub1=%7B%22conversion_page_url%22%3A%22https%3A%2F%2Fwww.revolut.com%2Fcrypto%2Fbuy-crypto%2F%22%2C%22cookie_consent%22%3A%5B%5D%2C%22landing_page_url%22%3A%22https%3A%2F%2Fwww.revolut.com%2Fcrypto%2Fbuy-crypto%2F%22%2C%22qr_code%22%3Afalse%2C%22website_client_id%22%3A%22de9e9796-ef6e-4338-b23e-ff6f02125078%22%7D&deep_link_sub1=DEEPLINK&deep_link_value=revolut%3A%2F%2Fapp&pid=website)
+ 
+@@ -96,3 +96,3 @@
+
+ Brand 
+```
+
 ### PayPal | Positioning
 Source: https://www.paypal.com/uk/digital-wallet/manage-money/crypto
 
@@ -79,8 +148,8 @@ Source: https://www.paypal.com/uk/digital-wallet/manage-money/crypto
 @@ -91,3 +91,3 @@
 
  If you receive a suspicious message, forward it to to
--phishing@paypal.com
-+[email protected]
+-[email protected]
++phishing@paypal.com
  , then delete it.
 ```
 
