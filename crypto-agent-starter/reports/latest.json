@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-26 09:58 UTC",
+  "checked_at": "2026-11-02 10:19 UTC",
   "sources": [
     {
       "name": "Revolut Crypto",
@@ -9,7 +9,7 @@
       "status": "unchanged",
       "changed": false,
       "provider": "Firecrawl API",
-      "snapshot_at": "2026-10-26 09:58 UTC"
+      "snapshot_at": "2026-11-02 10:19 UTC"
     },
     {
       "name": "Revolut | Help centre: crypto home",
@@ -21,7 +21,7 @@
       "status": "unchanged",
       "changed": false,
       "provider": "Firecrawl API",
-      "snapshot_at": "2026-10-26 09:58 UTC"
+      "snapshot_at": "2026-11-02 10:19 UTC"
     },
     {
       "name": "Revolut | Crypto product overview",
@@ -33,7 +33,7 @@
       "status": "changed",
       "changed": true,
       "provider": "Firecrawl API",
-      "snapshot_at": "2026-10-26 09:58 UTC"
+      "snapshot_at": "2026-11-02 10:19 UTC"
     },
     {
       "name": "Revolut | Buy crypto overview",
@@ -45,7 +45,7 @@
       "status": "changed",
       "changed": true,
       "provider": "Firecrawl API",
-      "snapshot_at": "2026-10-26 09:58 UTC"
+      "snapshot_at": "2026-11-02 10:19 UTC"
     },
     {
       "name": "Revolut | Crypto: getting started and trading",
@@ -57,7 +57,7 @@
       "status": "unchanged",
       "changed": false,
       "provider": "Firecrawl API",
-      "snapshot_at": "2026-10-26 09:58 UTC"
+      "snapshot_at": "2026-11-02 10:19 UTC"
     },
     {
       "name": "Revolut | Crypto features",
@@ -69,7 +69,7 @@
       "status": "unchanged",
       "changed": false,
       "provider": "Firecrawl API",
-      "snapshot_at": "2026-10-26 09:58 UTC"
+      "snapshot_at": "2026-11-02 10:19 UTC"
     },
     {
       "name": "Revolut | Crypto trading fees",
@@ -81,7 +81,7 @@
       "status": "unchanged",
       "changed": false,
       "provider": "Firecrawl API",
-      "snapshot_at": "2026-10-26 09:58 UTC"
+      "snapshot_at": "2026-11-02 10:19 UTC"
     },
     {
       "name": "Revolut | Crypto safety",
@@ -93,7 +93,7 @@
       "status": "unchanged",
       "changed": false,
       "provider": "Firecrawl API",
-      "snapshot_at": "2026-10-26 09:58 UTC"
+      "snapshot_at": "2026-11-02 10:19 UTC"
     },
     {
       "name": "Revolut | Crypto deposits",
@@ -105,7 +105,7 @@
       "status": "unchanged",
       "changed": false,
       "provider": "Firecrawl API",
-      "snapshot_at": "2026-10-26 09:58 UTC"
+      "snapshot_at": "2026-11-02 10:19 UTC"
     },
     {
       "name": "Revolut | Crypto withdrawals",
@@ -117,7 +117,7 @@
       "status": "unchanged",
       "changed": false,
       "provider": "Firecrawl API",
-      "snapshot_at": "2026-10-26 09:58 UTC"
+      "snapshot_at": "2026-11-02 10:19 UTC"
     },
     {
       "name": "Revolut | Crypto staking",
@@ -213,10 +213,10 @@
       "role": "Integrated-finance benchmark (UK)",
       "theme": "features-and-education",
       "url": "https://www.paypal.com/uk/digital-wallet/manage-money/crypto",
-      "status": "changed",
-      "changed": true,
+      "status": "unchanged",
+      "changed": false,
       "provider": "direct",
-      "snapshot_at": "2026-10-26 09:58 UTC"
+      "snapshot_at": "2026-11-02 10:19 UTC"
     },
     {
       "name": "PayPal | Onboarding",
@@ -224,10 +224,9 @@
       "role": "Integrated-finance benchmark (UK)",
       "theme": "onboarding",
       "url": "https://www.paypal.com/uk/cshelp/article/how-do-i-buy-cryptocurrency-on-paypal-help567",
-      "status": "unchanged",
+      "status": "fetch failed: HTTPError",
       "changed": false,
-      "provider": "direct",
-      "snapshot_at": "2026-10-26 09:58 UTC"
+      "provider": "direct"
     },
     {
       "name": "PayPal | Capabilities",
@@ -235,10 +234,9 @@
       "role": "Integrated-finance benchmark (UK)",
       "theme": "features-and-education",
       "url": "https://www.paypal.com/uk/cshelp/article/what-can-i-do-with-crypto-on-paypal-help893",
-      "status": "unchanged",
+      "status": "fetch failed: HTTPError",
       "changed": false,
-      "provider": "direct",
-      "snapshot_at": "2026-10-26 09:58 UTC"
+      "provider": "direct"
     },
     {
       "name": "PayPal | Fees",
@@ -249,7 +247,7 @@
       "status": "unchanged",
       "changed": false,
       "provider": "direct",
-      "snapshot_at": "2026-10-26 09:58 UTC"
+      "snapshot_at": "2026-11-02 10:19 UTC"
     },
     {
       "name": "PayPal | Availability",
@@ -257,10 +255,9 @@
       "role": "Integrated-finance benchmark (UK)",
       "theme": "availability",
       "url": "https://www.paypal.com/uk/cshelp/article/why-is-my-cryptocurrency-sale-on-hold%E2%80%AF-help886",
-      "status": "unchanged",
+      "status": "fetch failed: HTTPError",
       "changed": false,
-      "provider": "direct",
-      "snapshot_at": "2026-10-26 09:58 UTC"
+      "provider": "direct"
     },
     {
       "name": "PayPal | Risks",
@@ -268,10 +265,9 @@
       "role": "Integrated-finance benchmark (UK)",
       "theme": "onboarding",
       "url": "https://www.paypal.com/uk/cshelp/article/what-to-know-before-buying-crypto-help1292",
-      "status": "unchanged",
+      "status": "fetch failed: HTTPError",
       "changed": false,
-      "provider": "direct",
-      "snapshot_at": "2026-10-26 09:58 UTC"
+      "provider": "direct"
     },
     {
       "name": "PayPal | Education",
@@ -279,10 +275,9 @@
       "role": "Integrated-finance benchmark (UK)",
       "theme": "features-and-education",
       "url": "https://www.paypal.com/uk/cshelp/article/paypals-guide-to-cryptocurrency-in-the-uk-help1293",
-      "status": "unchanged",
+      "status": "fetch failed: HTTPError",
       "changed": false,
-      "provider": "direct",
-      "snapshot_at": "2026-10-26 09:58 UTC"
+      "provider": "direct"
     },
     {
       "name": "PayPal | Terms",
@@ -300,10 +295,9 @@
       "role": "Integrated-finance benchmark (UK)",
       "theme": "fees",
       "url": "https://www.paypal.com/uk/cshelp/article/crypto-on-paypal-buying-and-purchase-protection-faqs-help573",
-      "status": "unchanged",
+      "status": "fetch failed: HTTPError",
       "changed": false,
-      "provider": "direct",
-      "snapshot_at": "2026-10-26 09:58 UTC"
+      "provider": "direct"
     },
     {
       "name": "PayPal | purchase crypto including PYUSD in the PayPal app",
@@ -314,28 +308,17 @@
       "status": "unchanged",
       "changed": false,
       "provider": "direct",
-      "snapshot_at": "2026-10-26 09:58 UTC"
+      "snapshot_at": "2026-11-02 10:19 UTC"
     },
     {
-      "name": "PayPal | Legal",
+      "name": "PayPal | exchange rate margin",
       "market": "United Kingdom \u2014 verify buying restrictions",
       "role": "Integrated-finance benchmark (UK)",
-      "theme": "terms",
+      "theme": "features-and-education",
       "url": "https://www.paypal.com/uk/webapps/mpp/ua/cryptocurrencies-tnc",
       "status": "fetch failed: ValueError",
       "changed": false,
       "provider": "direct"
-    },
-    {
-      "name": "PayPal | United Kingdom",
-      "market": "United Kingdom \u2014 verify buying restrictions",
-      "role": "Integrated-finance benchmark (UK)",
-      "theme": "onboarding",
-      "url": "https://www.paypal.com/uk/cshelp/article/crypto-on-paypal-purchase-and-paypal-buyer-protection-faqs-help573",
-      "status": "unchanged",
-      "changed": false,
-      "provider": "direct",
-      "snapshot_at": "2026-10-26 09:58 UTC"
     },
     {
       "name": "bunq | Overview",
@@ -343,10 +326,10 @@
       "role": "Integrated-banking benchmark (EU)",
       "theme": "features-and-education",
       "url": "https://help.bunq.com/articles/bunq-crypto",
-      "status": "unchanged",
-      "changed": false,
+      "status": "changed",
+      "changed": true,
       "provider": "direct",
-      "snapshot_at": "2026-10-26 09:58 UTC"
+      "snapshot_at": "2026-11-02 10:19 UTC"
     },
     {
       "name": "bunq | Features",
@@ -354,10 +337,10 @@
       "role": "Integrated-banking benchmark (EU)",
       "theme": "features-and-education",
       "url": "https://help.bunq.com/articles/crypto-faq",
-      "status": "unchanged",
-      "changed": false,
+      "status": "changed",
+      "changed": true,
       "provider": "direct",
-      "snapshot_at": "2026-10-26 09:58 UTC"
+      "snapshot_at": "2026-11-02 10:19 UTC"
     },
     {
       "name": "bunq | Fees",
@@ -365,10 +348,10 @@
       "role": "Integrated-banking benchmark (EU)",
       "theme": "fees",
       "url": "https://help.bunq.com/articles/how-do-the-fees-and-spread-work-in-bunq-crypto",
-      "status": "unchanged",
-      "changed": false,
+      "status": "changed",
+      "changed": true,
       "provider": "direct",
-      "snapshot_at": "2026-10-26 09:58 UTC"
+      "snapshot_at": "2026-11-02 10:19 UTC"
     },
     {
       "name": "bunq | Staking",
@@ -376,10 +359,10 @@
       "role": "Integrated-banking benchmark (EU)",
       "theme": "staking",
       "url": "https://help.bunq.com/articles/crypto-staking",
-      "status": "unchanged",
-      "changed": false,
+      "status": "changed",
+      "changed": true,
       "provider": "direct",
-      "snapshot_at": "2026-10-26 09:58 UTC"
+      "snapshot_at": "2026-11-02 10:19 UTC"
     },
     {
       "name": "bunq | Lifecycle",
@@ -387,10 +370,10 @@
       "role": "Integrated-banking benchmark (EU)",
       "theme": "features-and-education",
       "url": "https://help.bunq.com/articles/never-miss-your-crypto-move",
-      "status": "unchanged",
-      "changed": false,
+      "status": "changed",
+      "changed": true,
       "provider": "direct",
-      "snapshot_at": "2026-10-26 09:58 UTC"
+      "snapshot_at": "2026-11-02 10:19 UTC"
     },
     {
       "name": "bunq | Crypto",
@@ -398,10 +381,10 @@
       "role": "Integrated-banking benchmark (EU)",
       "theme": "features-and-education",
       "url": "https://www.bunq.com/personal/features/crypto",
-      "status": "unchanged",
-      "changed": false,
+      "status": "changed",
+      "changed": true,
       "provider": "direct",
-      "snapshot_at": "2026-10-26 09:58 UTC"
+      "snapshot_at": "2026-11-02 10:19 UTC"
     },
     {
       "name": "bunq | Crypto",
@@ -409,32 +392,32 @@
       "role": "Integrated-banking benchmark (EU)",
       "theme": "features-and-education",
       "url": "https://help.bunq.com/topics/crypto",
-      "status": "unchanged",
-      "changed": false,
+      "status": "changed",
+      "changed": true,
       "provider": "direct",
-      "snapshot_at": "2026-10-26 09:58 UTC"
+      "snapshot_at": "2026-11-02 10:19 UTC"
     },
     {
-      "name": "bunq | Do I have to pay taxes on crypto? (opens in new tab)",
+      "name": "bunq | Do I have to pay taxes on crypto?",
       "market": "Eligible European markets \u2014 not UK direct alternative",
       "role": "Integrated-banking benchmark (EU)",
       "theme": "features-and-education",
       "url": "https://help.bunq.com/articles/do-i-have-to-pay-taxes-on-crypto",
-      "status": "unchanged",
-      "changed": false,
+      "status": "changed",
+      "changed": true,
       "provider": "direct",
-      "snapshot_at": "2026-10-26 09:58 UTC"
+      "snapshot_at": "2026-11-02 10:19 UTC"
     },
     {
-      "name": "bunq | What risks are involved in investing in crypto? (opens in new tab)",
+      "name": "bunq | What risks are involved in investing in crypto?",
       "market": "Eligible European markets \u2014 not UK direct alternative",
       "role": "Integrated-banking benchmark (EU)",
       "theme": "risks",
       "url": "https://help.bunq.com/articles/what-risks-are-involved-in-investing-in-crypto",
-      "status": "unchanged",
-      "changed": false,
+      "status": "changed",
+      "changed": true,
       "provider": "direct",
-      "snapshot_at": "2026-10-26 09:58 UTC"
+      "snapshot_at": "2026-11-02 10:19 UTC"
     },
     {
       "name": "bunq | See Crypto Terms and Conditions",
@@ -445,7 +428,7 @@
       "status": "unchanged",
       "changed": false,
       "provider": "direct",
-      "snapshot_at": "2026-10-26 09:58 UTC"
+      "snapshot_at": "2026-11-02 10:19 UTC"
     },
     {
       "name": "bunq | Learn more",
@@ -453,10 +436,10 @@
       "role": "Integrated-banking benchmark (EU)",
       "theme": "risks",
       "url": "https://help.bunq.com/articles/extra-protection-for-your-crypto-with-safety-shield",
-      "status": "unchanged",
-      "changed": false,
+      "status": "changed",
+      "changed": true,
       "provider": "direct",
-      "snapshot_at": "2026-10-26 09:58 UTC"
+      "snapshot_at": "2026-11-02 10:19 UTC"
     },
     {
       "name": "bunq | Investing 2 minute read Why Ethereum Matters Beyond Crypto for Finance Ethereum is not only a cryptocurrency, it powers apps and contracts. ",
@@ -464,10 +447,10 @@
       "role": "Integrated-banking benchmark (EU)",
       "theme": "features-and-education",
       "url": "https://www.bunq.com/blog/not-just-crypto-why-ethereum-could-power-the-future-of-finance",
-      "status": "unchanged",
-      "changed": false,
+      "status": "changed",
+      "changed": true,
       "provider": "direct",
-      "snapshot_at": "2026-10-26 09:58 UTC"
+      "snapshot_at": "2026-11-02 10:19 UTC"
     },
     {
       "name": "bunq | Investing 3 minute read How do I star t investing in crypto? Thinking about crypto? See how buying Bitcoin and Ethereum works in the bunq ap",
@@ -475,43 +458,43 @@
       "role": "Integrated-banking benchmark (EU)",
       "theme": "onboarding",
       "url": "https://www.bunq.com/blog/how-do-i-start-investing-in-crypto",
-      "status": "unchanged",
-      "changed": false,
+      "status": "changed",
+      "changed": true,
       "provider": "direct",
-      "snapshot_at": "2026-10-26 09:58 UTC"
+      "snapshot_at": "2026-11-02 10:19 UTC"
     },
     {
-      "name": "bunq | Delisted Crypto (opens in new tab)",
+      "name": "bunq | Delisted Crypto",
       "market": "Eligible European markets \u2014 not UK direct alternative",
       "role": "Integrated-banking benchmark (EU)",
       "theme": "features-and-education",
       "url": "https://help.bunq.com/articles/delisted-crypto",
-      "status": "unchanged",
-      "changed": false,
+      "status": "changed",
+      "changed": true,
       "provider": "direct",
-      "snapshot_at": "2026-10-26 09:58 UTC"
+      "snapshot_at": "2026-11-02 10:19 UTC"
     },
     {
-      "name": "bunq | What is a rate guarantee when I buy Crypto? (opens in new tab)",
+      "name": "bunq | What is a rate guarantee when I buy Crypto?",
       "market": "Eligible European markets \u2014 not UK direct alternative",
       "role": "Integrated-banking benchmark (EU)",
       "theme": "onboarding",
       "url": "https://help.bunq.com/articles/what-is-a-rate-guarantee-when-i-buy-crypto",
-      "status": "unchanged",
-      "changed": false,
+      "status": "changed",
+      "changed": true,
       "provider": "direct",
-      "snapshot_at": "2026-10-26 09:58 UTC"
+      "snapshot_at": "2026-11-02 10:19 UTC"
     },
     {
-      "name": "bunq | Business account activities related to Cryptocurrency (opens in new tab)",
+      "name": "bunq | Business account activities related to Cryptocurrency",
       "market": "Eligible European markets \u2014 not UK direct alternative",
       "role": "Integrated-banking benchmark (EU)",
       "theme": "features-and-education",
       "url": "https://help.bunq.com/articles/business-account-activities-related-to-cryptocurrency",
-      "status": "unchanged",
-      "changed": false,
+      "status": "changed",
+      "changed": true,
       "provider": "direct",
-      "snapshot_at": "2026-10-26 09:58 UTC"
+      "snapshot_at": "2026-11-02 10:19 UTC"
     },
     {
       "name": "N26 | Features / onboarding",
@@ -519,10 +502,10 @@
       "role": "Integrated-banking benchmark (EU)",
       "theme": "features-and-education",
       "url": "https://support.n26.com/en-eu/app-and-features/app/how-n26-crypto-works",
-      "status": "unchanged",
-      "changed": false,
+      "status": "changed",
+      "changed": true,
       "provider": "direct",
-      "snapshot_at": "2026-10-26 09:58 UTC"
+      "snapshot_at": "2026-11-02 10:19 UTC"
     }
   ]
 }

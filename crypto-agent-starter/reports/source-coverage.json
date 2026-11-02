@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-26T09:59:24.787083+00:00",
-  "monitor_run_at": "2026-10-26 09:58 UTC",
+  "generated_at": "2026-11-02T10:20:18.589752+00:00",
+  "monitor_run_at": "2026-11-02 10:19 UTC",
   "scope": "Revolut Crypto main app, UK; Revolut X is separate-product context",
   "discovery": {
     "revolut_failed_indexes": 9,
@@ -41,22 +41,52 @@
       ]
     },
     "PayPal": {
-      "candidate_urls": 12,
-      "attempted": 12,
-      "read_successfully": 10,
+      "candidate_urls": 11,
+      "attempted": 11,
+      "read_successfully": 3,
       "cached_snapshots": 0,
       "deferred": 0,
-      "failed": 2,
+      "failed": 8,
       "not_attempted": 0,
-      "changed": 1,
+      "changed": 0,
       "failed_examples": [
+        {
+          "name": "PayPal | Onboarding",
+          "url": "https://www.paypal.com/uk/cshelp/article/how-do-i-buy-cryptocurrency-on-paypal-help567",
+          "status": "fetch failed: HTTPError"
+        },
+        {
+          "name": "PayPal | Capabilities",
+          "url": "https://www.paypal.com/uk/cshelp/article/what-can-i-do-with-crypto-on-paypal-help893",
+          "status": "fetch failed: HTTPError"
+        },
+        {
+          "name": "PayPal | Availability",
+          "url": "https://www.paypal.com/uk/cshelp/article/why-is-my-cryptocurrency-sale-on-hold%E2%80%AF-help886",
+          "status": "fetch failed: HTTPError"
+        },
+        {
+          "name": "PayPal | Risks",
+          "url": "https://www.paypal.com/uk/cshelp/article/what-to-know-before-buying-crypto-help1292",
+          "status": "fetch failed: HTTPError"
+        },
+        {
+          "name": "PayPal | Education",
+          "url": "https://www.paypal.com/uk/cshelp/article/paypals-guide-to-cryptocurrency-in-the-uk-help1293",
+          "status": "fetch failed: HTTPError"
+        },
         {
           "name": "PayPal | Terms",
           "url": "https://www.paypal.com/uk/legalhub/paypal/cryptocurrencies-tnc",
           "status": "fetch failed: ValueError"
         },
         {
-          "name": "PayPal | Legal",
+          "name": "PayPal | Price & protection",
+          "url": "https://www.paypal.com/uk/cshelp/article/crypto-on-paypal-buying-and-purchase-protection-faqs-help573",
+          "status": "fetch failed: HTTPError"
+        },
+        {
+          "name": "PayPal | exchange rate margin",
           "url": "https://www.paypal.com/uk/webapps/mpp/ua/cryptocurrencies-tnc",
           "status": "fetch failed: ValueError"
         }
@@ -70,7 +100,7 @@
       "deferred": 0,
       "failed": 0,
       "not_attempted": 0,
-      "changed": 0,
+      "changed": 15,
       "failed_examples": []
     },
     "N26": {
@@ -81,7 +111,7 @@
       "deferred": 0,
       "failed": 0,
       "not_attempted": 0,
-      "changed": 0,
+      "changed": 1,
       "failed_examples": []
     },
     "Coinbase": {

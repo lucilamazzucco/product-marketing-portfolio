@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-26T09:58:17.933041+00:00",
+  "collected_at": "2026-11-02T10:19:21.594586+00:00",
   "method": "curated official pages + scoped link discovery; discovery is not proof of accessible pages",
   "companies": {
     "PayPal": {
@@ -66,22 +66,40 @@
           "theme": "onboarding"
         },
         {
-          "title": "Legal",
+          "title": "exchange rate margin",
           "url": "https://www.paypal.com/uk/webapps/mpp/ua/cryptocurrencies-tnc",
           "origin": "discovered link — verify relevance",
-          "theme": "terms"
-        },
-        {
-          "title": "United Kingdom",
-          "url": "https://www.paypal.com/uk/cshelp/article/crypto-on-paypal-purchase-and-paypal-buyer-protection-faqs-help573",
-          "origin": "discovered link — verify relevance",
-          "theme": "onboarding"
+          "theme": "features-and-education"
         }
       ],
       "failed_discovery_fetches": [
         {
+          "url": "https://www.paypal.com/uk/cshelp/article/how-do-i-buy-cryptocurrency-on-paypal-help567",
+          "error": "HTTPError: HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.paypal.com/uk/cshelp/article/what-can-i-do-with-crypto-on-paypal-help893",
+          "error": "HTTPError: HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.paypal.com/uk/cshelp/article/why-is-my-cryptocurrency-sale-on-hold%E2%80%AF-help886",
+          "error": "HTTPError: HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.paypal.com/uk/cshelp/article/what-to-know-before-buying-crypto-help1292",
+          "error": "HTTPError: HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.paypal.com/uk/cshelp/article/paypals-guide-to-cryptocurrency-in-the-uk-help1293",
+          "error": "HTTPError: HTTP Error 403: Forbidden"
+        },
+        {
           "url": "https://www.paypal.com/uk/legalhub/paypal/cryptocurrencies-tnc",
           "error": "ValueError: Page larger than 1MB"
+        },
+        {
+          "url": "https://www.paypal.com/uk/cshelp/article/crypto-on-paypal-buying-and-purchase-protection-faqs-help573",
+          "error": "HTTPError: HTTP Error 403: Forbidden"
         },
         {
           "url": "https://www.paypal.com/uk/webapps/mpp/ua/cryptocurrencies-tnc",
@@ -135,13 +153,13 @@
           "theme": "features-and-education"
         },
         {
-          "title": "Do I have to pay taxes on crypto? (opens in new tab)",
+          "title": "Do I have to pay taxes on crypto?",
           "url": "https://help.bunq.com/articles/do-i-have-to-pay-taxes-on-crypto",
           "origin": "discovered link — verify relevance",
           "theme": "features-and-education"
         },
         {
-          "title": "What risks are involved in investing in crypto? (opens in new tab)",
+          "title": "What risks are involved in investing in crypto?",
           "url": "https://help.bunq.com/articles/what-risks-are-involved-in-investing-in-crypto",
           "origin": "discovered link — verify relevance",
           "theme": "risks"
@@ -171,19 +189,19 @@
           "theme": "onboarding"
         },
         {
-          "title": "Delisted Crypto (opens in new tab)",
+          "title": "Delisted Crypto",
           "url": "https://help.bunq.com/articles/delisted-crypto",
           "origin": "discovered link — verify relevance",
           "theme": "features-and-education"
         },
         {
-          "title": "What is a rate guarantee when I buy Crypto? (opens in new tab)",
+          "title": "What is a rate guarantee when I buy Crypto?",
           "url": "https://help.bunq.com/articles/what-is-a-rate-guarantee-when-i-buy-crypto",
           "origin": "discovered link — verify relevance",
           "theme": "onboarding"
         },
         {
-          "title": "Business account activities related to Cryptocurrency (opens in new tab)",
+          "title": "Business account activities related to Cryptocurrency",
           "url": "https://help.bunq.com/articles/business-account-activities-related-to-cryptocurrency",
           "origin": "discovered link — verify relevance",
           "theme": "features-and-education"

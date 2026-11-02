@@ -212,18 +212,11 @@
     "url": "https://www.paypal.com/uk/digital-wallet"
   },
   {
-    "name": "PayPal | Legal",
+    "name": "PayPal | exchange rate margin",
     "market": "United Kingdom — verify buying restrictions",
     "role": "Integrated-finance benchmark (UK)",
-    "theme": "terms",
+    "theme": "features-and-education",
     "url": "https://www.paypal.com/uk/webapps/mpp/ua/cryptocurrencies-tnc"
-  },
-  {
-    "name": "PayPal | United Kingdom",
-    "market": "United Kingdom — verify buying restrictions",
-    "role": "Integrated-finance benchmark (UK)",
-    "theme": "onboarding",
-    "url": "https://www.paypal.com/uk/cshelp/article/crypto-on-paypal-purchase-and-paypal-buyer-protection-faqs-help573"
   },
   {
     "name": "bunq | Overview",
@@ -275,14 +268,14 @@
     "url": "https://help.bunq.com/topics/crypto"
   },
   {
-    "name": "bunq | Do I have to pay taxes on crypto? (opens in new tab)",
+    "name": "bunq | Do I have to pay taxes on crypto?",
     "market": "Eligible European markets — not UK direct alternative",
     "role": "Integrated-banking benchmark (EU)",
     "theme": "features-and-education",
     "url": "https://help.bunq.com/articles/do-i-have-to-pay-taxes-on-crypto"
   },
   {
-    "name": "bunq | What risks are involved in investing in crypto? (opens in new tab)",
+    "name": "bunq | What risks are involved in investing in crypto?",
     "market": "Eligible European markets — not UK direct alternative",
     "role": "Integrated-banking benchmark (EU)",
     "theme": "risks",
@@ -317,21 +310,21 @@
     "url": "https://www.bunq.com/blog/how-do-i-start-investing-in-crypto"
   },
   {
-    "name": "bunq | Delisted Crypto (opens in new tab)",
+    "name": "bunq | Delisted Crypto",
     "market": "Eligible European markets — not UK direct alternative",
     "role": "Integrated-banking benchmark (EU)",
     "theme": "features-and-education",
     "url": "https://help.bunq.com/articles/delisted-crypto"
   },
   {
-    "name": "bunq | What is a rate guarantee when I buy Crypto? (opens in new tab)",
+    "name": "bunq | What is a rate guarantee when I buy Crypto?",
     "market": "Eligible European markets — not UK direct alternative",
     "role": "Integrated-banking benchmark (EU)",
     "theme": "onboarding",
     "url": "https://help.bunq.com/articles/what-is-a-rate-guarantee-when-i-buy-crypto"
   },
   {
-    "name": "bunq | Business account activities related to Cryptocurrency (opens in new tab)",
+    "name": "bunq | Business account activities related to Cryptocurrency",
     "market": "Eligible European markets — not UK direct alternative",
     "role": "Integrated-banking benchmark (EU)",
     "theme": "features-and-education",
