@@ -212,11 +212,18 @@
     "url": "https://www.paypal.com/uk/digital-wallet"
   },
   {
-    "name": "PayPal | exchange rate margin",
+    "name": "PayPal | Legal",
     "market": "United Kingdom — verify buying restrictions",
     "role": "Integrated-finance benchmark (UK)",
-    "theme": "features-and-education",
+    "theme": "terms",
     "url": "https://www.paypal.com/uk/webapps/mpp/ua/cryptocurrencies-tnc"
+  },
+  {
+    "name": "PayPal | United Kingdom",
+    "market": "United Kingdom — verify buying restrictions",
+    "role": "Integrated-finance benchmark (UK)",
+    "theme": "onboarding",
+    "url": "https://www.paypal.com/uk/cshelp/article/crypto-on-paypal-purchase-and-paypal-buyer-protection-faqs-help573"
   },
   {
     "name": "bunq | Overview",

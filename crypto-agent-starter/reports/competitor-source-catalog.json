@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-02T10:19:21.594586+00:00",
+  "collected_at": "2026-11-09T10:12:13.840278+00:00",
   "method": "curated official pages + scoped link discovery; discovery is not proof of accessible pages",
   "companies": {
     "PayPal": {
@@ -66,40 +66,22 @@
           "theme": "onboarding"
         },
         {
-          "title": "exchange rate margin",
+          "title": "Legal",
           "url": "https://www.paypal.com/uk/webapps/mpp/ua/cryptocurrencies-tnc",
           "origin": "discovered link — verify relevance",
-          "theme": "features-and-education"
+          "theme": "terms"
+        },
+        {
+          "title": "United Kingdom",
+          "url": "https://www.paypal.com/uk/cshelp/article/crypto-on-paypal-purchase-and-paypal-buyer-protection-faqs-help573",
+          "origin": "discovered link — verify relevance",
+          "theme": "onboarding"
         }
       ],
       "failed_discovery_fetches": [
         {
-          "url": "https://www.paypal.com/uk/cshelp/article/how-do-i-buy-cryptocurrency-on-paypal-help567",
-          "error": "HTTPError: HTTP Error 403: Forbidden"
-        },
-        {
-          "url": "https://www.paypal.com/uk/cshelp/article/what-can-i-do-with-crypto-on-paypal-help893",
-          "error": "HTTPError: HTTP Error 403: Forbidden"
-        },
-        {
-          "url": "https://www.paypal.com/uk/cshelp/article/why-is-my-cryptocurrency-sale-on-hold%E2%80%AF-help886",
-          "error": "HTTPError: HTTP Error 403: Forbidden"
-        },
-        {
-          "url": "https://www.paypal.com/uk/cshelp/article/what-to-know-before-buying-crypto-help1292",
-          "error": "HTTPError: HTTP Error 403: Forbidden"
-        },
-        {
-          "url": "https://www.paypal.com/uk/cshelp/article/paypals-guide-to-cryptocurrency-in-the-uk-help1293",
-          "error": "HTTPError: HTTP Error 403: Forbidden"
-        },
-        {
           "url": "https://www.paypal.com/uk/legalhub/paypal/cryptocurrencies-tnc",
           "error": "ValueError: Page larger than 1MB"
-        },
-        {
-          "url": "https://www.paypal.com/uk/cshelp/article/crypto-on-paypal-buying-and-purchase-protection-faqs-help573",
-          "error": "HTTPError: HTTP Error 403: Forbidden"
         },
         {
           "url": "https://www.paypal.com/uk/webapps/mpp/ua/cryptocurrencies-tnc",

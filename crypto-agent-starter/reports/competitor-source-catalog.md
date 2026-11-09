@@ -1,10 +1,10 @@
 # Competitor crypto research source catalog
 
-Collected: 2026-11-02T10:19:21.594586+00:00
+Collected: 2026-11-09T10:12:13.840278+00:00
 
 Sources are *candidates*, not confirmation they can all be fetched or are current. Links discovered on-page require human relevance review.
 
-## PayPal — 11 candidate pages
+## PayPal — 12 candidate pages
 
 Market: United Kingdom — verify buying restrictions
 
@@ -18,9 +18,10 @@ Market: United Kingdom — verify buying restrictions
 - **terms** · [Terms](https://www.paypal.com/uk/legalhub/paypal/cryptocurrencies-tnc) — curated official seed
 - **fees** · [Price & protection](https://www.paypal.com/uk/cshelp/article/crypto-on-paypal-buying-and-purchase-protection-faqs-help573) — curated official seed
 - **onboarding** · [purchase crypto including PYUSD in the PayPal app](https://www.paypal.com/uk/digital-wallet) — discovered link — verify relevance
-- **features-and-education** · [exchange rate margin](https://www.paypal.com/uk/webapps/mpp/ua/cryptocurrencies-tnc) — discovered link — verify relevance
+- **terms** · [Legal](https://www.paypal.com/uk/webapps/mpp/ua/cryptocurrencies-tnc) — discovered link — verify relevance
+- **onboarding** · [United Kingdom](https://www.paypal.com/uk/cshelp/article/crypto-on-paypal-purchase-and-paypal-buyer-protection-faqs-help573) — discovered link — verify relevance
 
-Discovery failures: 8 (see JSON catalog)
+Discovery failures: 2 (see JSON catalog)
 
 ## bunq — 16 candidate pages
 
