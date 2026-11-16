@@ -1,12 +1,21 @@
 {
-  "checked_at": "2026-11-09T10:12:33.115410+00:00",
+  "checked_at": "2026-11-16T10:47:12.391087+00:00",
   "window_days": 30,
   "method": "Public third-party Google News RSS; not an official Revolut API",
   "verified_official_articles": 0,
-  "candidate_count": 1,
-  "new_candidate_count": 0,
+  "candidate_count": 2,
+  "new_candidate_count": 1,
   "advanced_context_count": 0,
   "items": [
+    {
+      "title": "Revolut Secures Landmark New Zealand Banking Licence, Fueling Global Expansion and Market Disruption - Revolut",
+      "indexed_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNcXNZYXFZeVoyQ1AtMVkzSEkyai0weWFWZXVpaWgxbDVRSXE0WGQ5cDFDU0p6VWJxRHFZV05uNGlBLVgxM2d0Vkg4M2EzQXFfSFoyaFhCWHFZaEp4TURkTmdLVFJqdzhXNXNLa000VXg5Q25rV1Z5WXYtTC1IXzZNbmJaQ2pxVmIxRmlsRGpXdWIxMlBOY3RycThJYW92aFY2U25xanpoZmdQSkRRYmtyZVB5a1lzUWxNUmR6ZzY2alFQYllwbXdjeA?oc=5",
+      "published": "2026-11-03T08:00:00+00:00",
+      "topic": "Regulatory & availability",
+      "journey_scope": "Revolut Crypto: candidate",
+      "verification": "UNVERIFIED: index headline only; official article not fetched",
+      "is_new": true
+    },
     {
       "title": "Revolut receives crypto licence authorisation in Gibraltar, fueling further expansion - Revolut",
       "indexed_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOemU5MnlNejQxcGVWQ2Jsc1VldWQxemVMeHNrOXRzai00QzRocERzMGNoSUduakxUajVvWFY4WlphWGxXUjMtaFdIZHR3R3JaZ29fcUpUbUp3V3o5OEFkeDMxcG5jSU1TUFpBMDNOZkVxeFpVZjZ0VlJ6bUdLczVoWWRScUlwbWIzZGpsdE9oblRleW1MSnBrWlhHTUxVLWhKSkQzSE01WkVLbEhWdEZjcnlvaWE?oc=5",
